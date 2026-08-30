@@ -1,6 +1,8 @@
 node_modules/
 .env
+.env.*
+!.env.example
 .DS_Store
 *.log
-# raw CUAD download is large; the vendored subset in cases/ is what ships
+# the raw CUAD download is 100MB; the vendored subset in cases/ is what ships
 data/raw/
