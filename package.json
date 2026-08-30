@@ -1,0 +1,23 @@
+{
+  "name": "hedgehog",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Finds a contract clause, then looks for the language elsewhere that overrides it.",
+  "engines": { "node": ">=22.0.0 <23" },
+  "scripts": {
+    "prepare-data": "tsx src/cli.ts prepare-data",
+    "baseline": "tsx src/cli.ts baseline",
+    "agent": "tsx src/cli.ts agent",
+    "score": "tsx src/cli.ts score",
+    "report": "tsx src/cli.ts report"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.122.0"
+  },
+  "devDependencies": {
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "@types/node": "22.18.9"
+  }
+}

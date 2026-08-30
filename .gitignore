@@ -1,0 +1,6 @@
+node_modules/
+.env
+.DS_Store
+*.log
+# raw CUAD download is large; the vendored subset in cases/ is what ships
+data/raw/
