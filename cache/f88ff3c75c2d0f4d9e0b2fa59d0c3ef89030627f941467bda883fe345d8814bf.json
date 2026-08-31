@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"ABSOLUTE\",\n  \"quote\": \"Licensor may terminate this Agreement by providing prior written notice to Licensee upon the occurrence of a Change of Control.\",\n  \"overrideQuote\": null,\n  \"note\": \"Section 6.4 grants Licensor an unqualified right to terminate the Agreement by providing written notice to Licensee upon the occurrence of a Change of Control.\"\n}\n```",
+            "thoughtSignature": "EvsJCvgJARFNMg+4mVkily15JKQFzEy51tr7V4RFTZXE3R7IktQ0Pfbd7x2H0/V69afmCrrmCr6jiiF8WUiYkXK4rL9F2vTLSE57l0ietoe6sopB8OAO4/cOVzoKQX/poLhGJFNRGkSj3Evy/M8GLUzK9wQNTesLQUTLWa4hafOmiiLaiHvo5qSt19pghUGU49lhuLpKFkoh7erWZbKlsVh89cQvn+Y3uODz4J35/J26hy89LrBCT4KLGIaoSOozkoIEZrU2l9XhVW6B0Z1bp080fpM3EqdzAzh0zXC/eRLQmKEVGuDZ8ZSlT5p3mMHrjTpwgjwK8Los1yovZNuKa3Qp6pJoQcf7n+IEDXIvPNJA/ClrEaz9NZCpBJbT+T3yA2mNIj2FeM1YQffdnmBIozjeti3sqpPPWdMI+991vFnLUR13fBjfEO9G6Uu6CTCzLDNW5e1GOoE4NnfdtvLrKyhNihWNQLZnb3HfoaNB2Y5itOFbWfzhIxfV6TiKTje2Zx2b7PSZNcXH3M74qppKZU3AOMMACtGBGpvmeQALMvDWiLV1ida7JCeAYYU/rqOINokyLQ/2SywsXnnS6bMSgw7OXJUtylIK1qVUqGniTq3oDBfZC9EGwqkHf8ZuWT0AsYKA/41E3r/Hn66pygwQY+g1i2BZfkRN4Rtg5hIgDXc3wLIJ0Dm8cj2y0EN8piAiezd6GgRP+FoLzbb20JNewX+jerjag7GS/lbZ3QwG8SSQtFr657iDVxqslypK59zb2EeQvjC7JDpHyHPrPQOqgFKGAkvQqrb/IAc2pLTsgfV9FZGqx0zm3chsUJfL9flULdecmTRR6k8tOYhRIsAClqHC+8M57W6TfYSY7TNGN6W5eGYwnJcd91+Zv/lLw7ApQsdztcOYTTLHFsdr30lU+BiMPiP6yReetJG5sujF4C1SbzgdShJhD3bQUYd4VEks1PZ+vUasz5m+NkSIRpTDjrq089/8p6SGx3pvRqu8sEm8yKp+6vgtx3ryh+7jaJmvXOcsBZdq4a+EhcDP9ZnYuNi3XlQssrcZqQOiqB828rHOUUygBgojb0WftddvKq93ih90qfONf6ygtu7eaCCXcAu2L+EgCerv8p1qsTEQ5xitmjUrwzGYc6RnOh33tSNlAiqRvjMDON2jcRzCzhK6hXr8sTwxwFRY/1H/iSneddiGX4dvEgCHqdiA96RWOHp6ZzmRRoeqo/gMl7dLf1WIw8nvYdkUrqif+rScwkGDcdc6Uj/Nv+NYzoA54262dMci1aVr4SSRcJbSxM9/KWwos1lDcA23e0ccjDrWuhzOmFb47nTvftnzyOdFsvHgZC5Cx+3+h75qrN9o4WdKqVZ2wtYqjy4sZHeFZIVHpVYLa4AReyYq1sgueL9WSsVeXC/Sicb1cQ0ttggW6Lph11mDmZuHi1/AOuhCwNdxpE/olXHKNeJ8ZBdoyFj0BMl+cRNKIyG+Np1QCxLJarQRWQLTJXVq2RKFLB83kSp2vhtEKupW4aCnDT3sA3zU6kI7JQ6Za1K3YXJiV3PXNA17DEG55eEAhs6v+oIKybVGfoqDGEEG0qMnMLg3gposnewuNlraQQVGnduG0lHWJWHPVjXk1gikjJDOOP/uv5zyTpCS95GT+a3vSqSbo+ORSGQnUsHSSAHyxMqQdodsBUe7KZ0CO6f8v0j0CgJ9RTR9IV2r"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 10950,
+    "candidatesTokenCount": 93,
+    "totalTokenCount": 11306,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 10950
+      }
+    ],
+    "thoughtsTokenCount": 263,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "_SaVaqSSIv7Dg8UPyNH3wAE"
+}

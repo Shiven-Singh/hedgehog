@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"ABSOLUTE\",\n  \"quote\": \"At the election of either party, in writing, if: (i) all or substantially all of the assets of the non-terminating party are transferred, sold or liquidated; (ii) the non-terminating party is dissolved; (iii) the non-terminating party is adjudged a bankrupt or becomes insolvent; (iv) the non-terminating party enters into an assignment or other arrangement for the benefit of its creditors; or (v) the ownership or operations of the non-terminating party have materially changed;\",\n  \"overrideQuote\": null,\n  \"note\": \"Section 7.2(a) allows either party to terminate the agreement if the other party undergoes a material change in ownership or operations, or if substantially all of its assets are transferred, sold, or liquidated.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 56,
+            "endIndex": 525,
+            "uri": "https://www.reviewwave.com/referral-program/",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 9589,
+    "candidatesTokenCount": 189,
+    "totalTokenCount": 10535,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 9589
+      }
+    ],
+    "thoughtsTokenCount": 757,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "-SaVapigDvGvg8UPrdvNEQ"
+}

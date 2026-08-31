@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Neither Newegg nor Allied shall have the right or power to assign or transfer any part of its rights or obligations under this Agreement without the prior consent in writing of the other Party.\",\n  \"overrideQuote\": \"The parties acknowledge that the transfer of this Agreement to a successor entity in connection with a merger, consolidation, or the sale of all or substantially all of the assets or equity of a party constitutes a continuation of the existing contractual relationship and not an assignment, transfer or delegation for the purposes of this Agreement. The consent requirements set out in this Agreement have no application to any such transaction, and no notice to the other party is required in respect of it.\",\n  \"note\": \"While Section 15.4 prohibits assignment or transfer without prior written consent, the Corporate Reorganisations clause explicitly exempts transfers to successor entities via merger, consolidation, or sale of substantially all assets/equity from the consent and notice requirements.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 8253,
+    "candidatesTokenCount": 211,
+    "totalTokenCount": 9038,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 8253
+      }
+    ],
+    "thoughtsTokenCount": 574,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "qSeVaoiyFI_Gg8UPq_G9iAc"
+}

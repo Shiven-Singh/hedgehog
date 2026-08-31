@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"NOT_FOUND\",\n  \"quote\": null,\n  \"overrideQuote\": null,\n  \"note\": \"The contract does not contain an exclusivity clause; intellectual property licenses granted under the agreement are expressly non-exclusive.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 6831,
+    "candidatesTokenCount": 62,
+    "totalTokenCount": 7394,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 6831
+      }
+    ],
+    "thoughtsTokenCount": 501,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "qSeVavF4j8aDxQ_Z0rKAAQ"
+}

@@ -51,7 +51,7 @@ export async function runBaseline(): Promise<void> {
   const byId = new Map(contracts.map((c) => [c.id, c]));
   const texts = new Map(contracts.map((c) => [c.id, fs.readFileSync(c.path, 'utf8')]));
 
-  const results = await mapLimit(cases, 3, async (cs): Promise<RunResult> => {
+  const results = await mapLimit(cases, 6, async (cs): Promise<RunResult> => {
     const text = texts.get(cs.contractId)!;
     const r = await call('baseline', {
       system: SYSTEM,

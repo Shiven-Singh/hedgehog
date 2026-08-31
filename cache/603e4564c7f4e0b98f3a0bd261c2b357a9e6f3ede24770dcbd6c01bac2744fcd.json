@@ -1,0 +1,54 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Except as otherwise provided herein, a Party shall not have the right to assign any of its rights or obligations under this Agreement (whether through a merger, sale of stock, or otherwise) without the prior written consent of the other Party;\",\n  \"overrideQuote\": \"except that, either Party shall be permitted, without any need for the other Party's consent, to assign this Agreement (a) in whole or in part to an Affiliate (provided, however, that once such Person is no longer an Affiliate of the assigning Party, such former Affiliate shall assign this Agreement back to the assigning Party), provided that the assigning Party provides the other Party notice of any such assignment provided further that failure to provide such notice of such assignment shall not render such assignment void; or (b) to a Third Party in connection with sale or transfer of all or substantially all of the assigning Party's business or assets relating to the subject matter of this Agreement, whether by Change of Control, merger, sale of assets or otherwise; provided, however, that, with respect to clause (b), (i) any assignment of this Agreement shall be void and have no effect unless and until the assignee assumes the obligations of the assigning Party in a written instrument, a copy of which is provided to the other Party; and (ii) any assignment of this Agreement must be accompanied by a simultaneous assignment of the Other Agreements to the same assignee, and the assigning Party's interest in the Purchased Assets to the same assignee unless otherwise agreed by Conformis in advance, which agreement shall not be unreasonably withheld.\",\n  \"note\": \"Assignment generally requires prior written consent, but either party may assign without consent to an Affiliate or in connection with a sale or transfer of substantially all of its business or assets related to the subject matter of the agreement, subject to specified conditions.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 57,
+            "endIndex": 306,
+            "uri": "https://contracts.justia.com/companies/conformis-inc-2710/contract/79953/",
+            "license": ""
+          },
+          {
+            "startIndex": 336,
+            "endIndex": 1025,
+            "uri": "",
+            "license": ""
+          },
+          {
+            "startIndex": 917,
+            "endIndex": 1699,
+            "uri": "",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 14055,
+    "candidatesTokenCount": 394,
+    "totalTokenCount": 15287,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14055
+      }
+    ],
+    "thoughtsTokenCount": 838,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "sCeVapWzMu__4-EPnq-ruA0"
+}

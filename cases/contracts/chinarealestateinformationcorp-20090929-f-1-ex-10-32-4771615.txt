@@ -338,9 +338,9 @@ including the filing of this Agreement or (ii) any communications with the relev
 
 10.6. Entire Agreement. This Agreement constitutes the entire agreement of the Parties hereto with respect to the subject matter hereof and  supersedes all prior agreements and understandings, both written and oral, with respect to the subject matter hereof and thereto (including the  Original Agreement).
 
-Permitted Transfers. Notwithstanding any provision of this Agreement restricting assignment, delegation or transfer, either party may assign this Agreement in its entirety, without the prior written consent of the other party, to an Affiliate or in connection with a merger, consolidation, corporate reorganization, or the sale of all or substantially all of its assets or equity to which this Agreement relates, provided that the assigning party gives written notice of such assignment within thirty (30) days following its effective date.
+Corporate Reorganisations. The parties acknowledge that the transfer of this Agreement to a successor entity in connection with a merger, consolidation, or the sale of all or substantially all of the assets or equity of a party constitutes a continuation of the existing contractual relationship and not an assignment, transfer or delegation for the purposes of this Agreement. The consent requirements set out in this Agreement have no application to any such transaction, and no notice to the other party is required in respect of it.
 
-Scope of Exclusivity. Notwithstanding any exclusivity, minimum commitment or restrictive covenant set forth in this Agreement, nothing herein shall prevent either party from continuing to market, sell, license or distribute any product or service that it offered prior to the Effective Date, or from engaging any counterparty in a territory in which the other party does not maintain an active commercial presence as of the date of such engagement.
+Pre-existing Arrangements. The parties acknowledge that any product, service, territory or customer relationship in existence as at the Effective Date lies outside the scope of the undertakings given under this Agreement in respect of exclusivity, restricted dealing, or minimum commitment. The continuation, renewal or expansion of any such arrangement by either party is permitted and shall not constitute a breach of this Agreement.
 
 
 

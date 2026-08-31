@@ -1,0 +1,61 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Except as otherwise provided herein, a Party shall not have the right to assign any of its rights or obligations under this Agreement (whether through a merger, sale of stock, or otherwise) without the prior written consent of the other Party; except that, either Party shall be permitted, without any need for the other Party's consent, to assign this Agreement (a) in whole or in part to an Affiliate (provided, however, that once such Person is no longer an Affiliate of the assigning Party, such former Affiliate shall assign this Agreement back to the assigning Party), provided that the assigning Party provides the other Party notice of any such assignment provided further that failure to provide such notice of such assignment shall not render such assignment void; or (b) to a Third Party in connection with sale or transfer of all or substantially all of the assigning Party's business or assets relating to the subject matter of this Agreement, whether by Change of Control, merger, sale of assets or otherwise; provided, however, that, with respect to clause (b), (i) any assignment of this Agreement shall be void and have no effect unless and until the assignee assumes the obligations of the assigning Party in a written instrument, a copy of which is provided to the other Party; and (ii) any assignment of this Agreement must be accompanied by a simultaneous assignment of the Other Agreements to the same assignee, and the assigning Party's interest in the Purchased Assets to the same assignee unless otherwise agreed by Conformis in advance, which agreement shall not be unreasonably withheld.\",\n  \"overrideQuote\": \"Continuity of Ownership. For the purposes of this Agreement, a transaction in which the ultimate beneficial ownership of a party remains substantially unchanged, including any internal reorganisation, recapitalisation, or transaction effected solely to alter the jurisdiction of incorporation of that party, does not constitute a change of control, an acquisition, or a transfer of control of that party. The rights and obligations arising under this Agreement upon a change of control have no application to any such transaction.\",\n  \"note\": \"Section 10.2 restricts assignments and transfers by Change of Control without consent (with specific exceptions), but the Continuity of Ownership clause excludes transactions where beneficial ownership remains substantially unchanged from constituting a change of control.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 57,
+            "endIndex": 301,
+            "uri": "https://contracts.justia.com/companies/conformis-inc-2710/contract/79953/",
+            "license": ""
+          },
+          {
+            "startIndex": 314,
+            "endIndex": 1003,
+            "uri": "",
+            "license": ""
+          },
+          {
+            "startIndex": 895,
+            "endIndex": 1677,
+            "uri": "",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 14055,
+    "candidatesTokenCount": 480,
+    "totalTokenCount": 15554,
+    "cachedContentTokenCount": 8170,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14055
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 8170
+      }
+    ],
+    "thoughtsTokenCount": 1019,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "sSeVatvaD-e_g8UPk4j0uAU"
+}

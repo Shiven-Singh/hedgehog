@@ -1,46 +1,52 @@
 import type { ClauseType } from './types.js';
 
 /**
- * Synthetic override language, one per clause type.
+ * Override language inserted into real CUAD contracts, because CUAD labels where
+ * a clause sits and says nothing about whether a later passage undoes it.
  *
- * These are INJECTED into real CUAD contracts to create ground truth for the
- * override-detection task. CUAD labels where a clause is, but not whether some
- * other passage silently qualifies it, so that half of the ground truth does
- * not exist and has to be manufactured. See README for the honest caveat: an
- * injected carve-out is probably easier to find than one that grew naturally.
+ * These are deliberately written without signal words. An earlier version opened
+ * every one of them with "Notwithstanding any provision of this Agreement", and a
+ * single prompt with the whole contract in context found all nine out of nine, so
+ * the task measured nothing. See CHANGELOG.md.
+ *
+ * These work by redefinition instead. Nothing says "except" or "notwithstanding".
+ * Each one narrows what the operative clause covers by asserting that some class
+ * of transaction was never within its scope in the first place, which is how a
+ * competent drafter would actually bury an exception.
  */
 export const CARVE_OUTS: Record<ClauseType, { heading: string; text: string }> = {
   'Anti-Assignment': {
-    heading: 'Permitted Transfers.',
+    heading: 'Corporate Reorganisations.',
     text:
-      'Notwithstanding any provision of this Agreement restricting assignment, delegation or transfer, ' +
-      'either party may assign this Agreement in its entirety, without the prior written consent of the other party, ' +
-      'to an Affiliate or in connection with a merger, consolidation, corporate reorganization, or the sale of all or ' +
-      'substantially all of its assets or equity to which this Agreement relates, provided that the assigning party ' +
-      'gives written notice of such assignment within thirty (30) days following its effective date.',
+      'The parties acknowledge that the transfer of this Agreement to a successor entity in connection with ' +
+      'a merger, consolidation, or the sale of all or substantially all of the assets or equity of a party ' +
+      'constitutes a continuation of the existing contractual relationship and not an assignment, transfer or ' +
+      'delegation for the purposes of this Agreement. The consent requirements set out in this Agreement have ' +
+      'no application to any such transaction, and no notice to the other party is required in respect of it.',
   },
   'Change Of Control': {
-    heading: 'Change of Control Exception.',
+    heading: 'Continuity of Ownership.',
     text:
-      'Notwithstanding any provision of this Agreement granting a right of termination or requiring consent upon a ' +
-      'change of control, no such right or consent requirement shall arise where the surviving or acquiring entity was ' +
-      'an Affiliate of the transferring party immediately prior to the transaction, or where the transaction is effected ' +
-      'solely to change the jurisdiction of incorporation of the transferring party.',
+      'For the purposes of this Agreement, a transaction in which the ultimate beneficial ownership of a party ' +
+      'remains substantially unchanged, including any internal reorganisation, recapitalisation, or transaction ' +
+      'effected solely to alter the jurisdiction of incorporation of that party, does not constitute a change of ' +
+      'control, an acquisition, or a transfer of control of that party. The rights and obligations arising under ' +
+      'this Agreement upon a change of control have no application to any such transaction.',
   },
   Exclusivity: {
-    heading: 'Scope of Exclusivity.',
+    heading: 'Pre-existing Arrangements.',
     text:
-      'Notwithstanding any exclusivity, minimum commitment or restrictive covenant set forth in this Agreement, nothing ' +
-      'herein shall prevent either party from continuing to market, sell, license or distribute any product or service ' +
-      'that it offered prior to the Effective Date, or from engaging any counterparty in a territory in which the other ' +
-      'party does not maintain an active commercial presence as of the date of such engagement.',
+      'The parties acknowledge that any product, service, territory or customer relationship in existence as at ' +
+      'the Effective Date lies outside the scope of the undertakings given under this Agreement in respect of ' +
+      'exclusivity, restricted dealing, or minimum commitment. The continuation, renewal or expansion of any such ' +
+      'arrangement by either party is permitted and shall not constitute a breach of this Agreement.',
   },
 };
 
 /**
- * Insert the override at a paragraph boundary in the final third of the document,
- * deterministically. Real carve-outs are scattered; ours sit late, which is a
- * documented limitation rather than a hidden one.
+ * Insert the override at a paragraph boundary in the final third of the document.
+ * Real exceptions are scattered; ours sit late, which is a documented limitation
+ * rather than a hidden one.
  */
 export function injectCarveOut(text: string, clause: ClauseType): { text: string; inserted: string } {
   const { heading, text: body } = CARVE_OUTS[clause];

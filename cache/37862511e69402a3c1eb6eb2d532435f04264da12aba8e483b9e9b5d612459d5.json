@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"ABSOLUTE\",\n  \"quote\": \"At the election of either party, in writing, if: (i) all or substantially all of the assets of the non-terminating party are transferred, sold or liquidated; (ii) the non-terminating party is dissolved; (iii) the non-terminating party is adjudged a bankrupt or becomes insolvent; (iv) the non-terminating party enters into an assignment or other arrangement for the benefit of its creditors; or (v) the ownership or operations of the non-terminating party have materially changed;\",\n  \"overrideQuote\": null,\n  \"note\": \"Section 7.2(a) gives either party the right to terminate the agreement in writing upon a transfer of substantially all assets or a material change in ownership or operations of the other party.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 56,
+            "endIndex": 525,
+            "uri": "https://www.reviewwave.com/referral-program/",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 9584,
+    "candidatesTokenCount": 184,
+    "totalTokenCount": 10883,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 9584
+      }
+    ],
+    "thoughtsTokenCount": 1115,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "rCeVaouBEt3bqfkPstSl8QE"
+}

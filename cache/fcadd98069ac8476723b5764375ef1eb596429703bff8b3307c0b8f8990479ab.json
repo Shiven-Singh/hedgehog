@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Except as expressly provided for herein, neither party may assign or otherwise transfer any of its rights or obligations under this Agreement without the other party's prior written approval and any such assignment or transfer shall be void.\",\n  \"overrideQuote\": \"Corporate Reorganisations. The parties acknowledge that the transfer of this Agreement to a successor entity in connection with a merger, consolidation, or the sale of all or substantially all of the assets or equity of a party constitutes a continuation of the existing contractual relationship and not an assignment, transfer or delegation for the purposes of this Agreement. The consent requirements set out in this Agreement have no application to any such transaction, and no notice to the other party is required in respect of it.\",\n  \"note\": \"Section 8.5 prohibits assignment or transfer without prior written approval, but the Corporate Reorganisations clause expressly exempts transfers to a successor entity via merger, consolidation, or asset/equity sale from these consent requirements.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 9584,
+    "candidatesTokenCount": 218,
+    "totalTokenCount": 10455,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 9584
+      }
+    ],
+    "thoughtsTokenCount": 653,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "rCeVaubLCvaIg8UPoP_M-QE"
+}

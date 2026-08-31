@@ -1,0 +1,48 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"This Agreement and any rights or authority granted hereunder shall not be assigned or transferred by either Party, including by operation of law, merger or otherwise, without the express written consent of the other Party, provided that Licensor may assign this Agreement without consent to any of its Affiliates and Licensee may assign this Agreement without consent to SINA Leju or an Affiliate of Licensee that is controlled by SINA Leju.\",\n  \"overrideQuote\": \"The parties acknowledge that the transfer of this Agreement to a successor entity in connection with a merger, consolidation, or the sale of all or substantially all of the assets or equity of a party constitutes a continuation of the existing contractual relationship and not an assignment, transfer or delegation for the purposes of this Agreement. The consent requirements set out in this Agreement have no application to any such transaction, and no notice to the other party is required in respect of it.\",\n  \"note\": \"Section 10.7 restricts assignment without prior written consent (with built-in affiliate exceptions), but the Corporate Reorganisations clause explicitly exempts transfers in connection with mergers, consolidations, or sales of substantially all assets/equity from consent requirements.\"\n}\n```",
+            "thoughtSignature": "Eq8eCqweARFNMg/sqDbbkxYwPcbqh3PSBl0dclErw6UxNNiqk2Y4mPg7XlzZ8gvvWPhfKcboagKD3IljhRlUf2RLDdC/RSnYLWAAspUYj6vrnI0SJFXI8QQpWZsZrWrqTX6W1QFiWh8kfTXuXO2ILJcApEAzsasjQDwQ8zHTLqNf8eWnubua6VDEgx9qcW3TCIE6jy/+jiSm+2cpsd/49auNWsNj62HK9Rb/2GQisId8izV6fM7L7KcIj6zErKmzBjvaHXud6vd09ZCtOleqjCm/j6eFtlr7D2vRzueyWBb0uBjggpeNRBXJe4VDyLDmVB0zHdHjtXy0ixtZZochUEPqj+4cTaSGgxZU98R0tEKhbHHqUF5X1ziIijuYzLc/22Se8uTSYpY5yHPx8nFIHfnZTcFnLOFsqaiHakwNb+dr5c/08Z5GoJi6UaB36KqJn+ieLMhgcuj+h2k7N72zCKm3hqfq19RzhMNOi1e7hxOe6LJQft+RGjoVKRw5HmOwm/ArDRr6nJLRb/rWtiStR1w3u3oSNPy7SInTich67WlHXA736YRqE8XZ20KKw9NzAxagC42BjC4/focMxVPnxKCJvARMHf8LsPBeYdMnMkUezrXMvAugrxMOMnSqtexRYU2FwHf2ICMtgCJPb2Gj/VdO4FHUXwjuHAQFwh3rF2l6RSo+K8E/vEA4rwuaj4QOJnooLs9fs8A0ddSgqBDdfvv8xJ6EzC7wGvS9vWLWUFkCxdziG+RZHxzl6FQ+0Mm29u+xRCSMkETFL9dEPvuYpivmC9gZGbKOW1nc+1P8Lzh9rhv61/ZE1c+ii8J7UeO1BxxTdFiZDTkkvD7lF1KZb/14dqLm5ZksmabRHHEWhfq1i6EaHiK2TmY9G1HULrhi9jMjnAasLjXXJ9AiZV4nop3S9dKbs5/7UrsZzntXiGfG1TedhaTsikjDkqpfpyDc9wfKl8j17uv/4FAIa+kGMxLVKXkXrLsItg/zM7eDZ03CHKTR1cUMYMQ2jlquiYUZzSDw3vFPyrG3fBlN5BSui5GYiksvHyL5fAhrphLSfebCM74lfu2qVG7bBDdEJnJ2cDPSgx+pzO74zorgSOVUpdhOu9NppePaiEH3kBrEdZMyTSy1Oom9DLDME08Kt2KZ3sFSwCnFpczlMeZvEGflAmeARCO2vmcVcQ0qPHeOCSz5A9inJePQ9f8InCCSiUf67qJAQ6Nyw/NbQ3sjqbkoUyZkkMaXAYp6GcYTcpMaZ8iBbRyiIc1aEh6waqc+FEFIuLK33J+GteJ5soeL02RsD0Se4Dksce3XGQ9/KXcXXL5D2gIDcwFjRzKZ0yyLnzPMJyhdITRIHMYl1vkY3yduH9jBegkk05DTm78q3PLTZV5KVFn7dIKhvVlIefP1YXVn6Aza+noAkrDnkPKSdDp32JefZBD6eVD1eL0x3NWRjzxH0H83pVvxbRdV/Cs2hSU60juS53h5cs+2wzn9EqTqpUA9cp0H5n9FLpfAguNtXFe6Zd8YXieTuxjPi1o+OmlDmA0zuAPuSYwQXPbnBWCw/4TEac4EddvA4YoehPXjh9Ncgaxh6TCOJXMHMMqUmZEJ52CoJzwcfXFhAyztSM7o8D0usI5EWfvwSVHoMKZ7ubR43XoCudNLBi/Q5Z5Awl8rydbbOS3TPpbiASYKdIMrzm6EbFXK+eyoI+ToMFmwNWG+ykN8rpgGE2x3lEz6nBaxbCqKZ8bxSE61AhnBSTfe+yZa5gdE65SGgmYgExbtk+KFEunbC9FlUAxYoWKMPqMkL4suLdncNb4DqbD+jodVIM+2a1BzYilkBeoGTxdy1Gph/JP0ZEJI+IY+AnKQMgXRGs0x9Otav/AZ1eiJoi+hu/dBruCkJF+VJSyh80Qu37EULj3ZNHbu3eDbryspUH+5zk0e0onMubGv5ypJ0XWNFD3VFbPHyBt64refS0q4L1AExHbnnQJVvv68QJqvhdpsRt5oO7ZCrSvZiBAMVpHMe4sb9A7QpTYF1kOkgHo/0rkVAJZGKmMbo3BQD69hINhVz1sJVs2hzkl272xh8oMmmbQ79dimC2+qB2IFnRw3NPCM96lKjSR6SZGckQbL/RAGeBvQHRH6tUT7GDfLmdEe0YEkXndj4hyU7AHTOb0eVN/yGeBIaaUa6+f03CuDcVKa7aAvECUqOPnjC8VDLvTvwqdI2OhqXaUYSiBtLaom2S0MqTTepdVAvIjaEKGBdUXsFP1PQWZX4RS4v9yOBo0fBlb3THPug/6VCMptpU5s9NYxolsz5pQha3cnOg3S8bvx45ad52yxN1jY7dhlQB8Vkm7BqH1UVFsPx+Q9To9PHLL2a7AYGbwvax3UvQCFrnSWMPa4HIvQvi+joy7EE7jg/HXd0/QZ71rVq/gwWVGCpHPiIbVmp+2gLIlg5Q+USaXdiu14V4favGX5Fb6PfE4gssfgT+4xVjYgswkSDip+6CKYsyv2MN2iihECT69g+KkiAk59VbaGh9rFuzf7+cAH3jDfxsyNRCYEIx5oLLaDBVB0Q9L2BN25edU23seLcm+4sCT1q2MRVqVJBS3sbjQJ7zfW/zrkNBG9xfZYoHASjm6RtLsUFiAm+dSpXJ9vjYHnjyKhDQ9IX8ckl723uz8BMd8BAmBU8mMp5kZT3sI+g98t8DwEhHcOcSMBW2yfN6J5qDRI9AL9JMUaisBg/ptcL+OVVJtq6iGWkr09SjM0OhZ+M6wMs04Ya7Lcg/MnExU5mn8TNVvnq4lu2jRW/uTxP9oFPohdvanLMuTiOyY02I+cXnQJu4H59Q2o4wb+Wl9glPCCD9IFPLhXlJkNw/n+pbFJwW2Zi/hUx6xlSa1Qj8I8oCQb45mSnBtB0w8lf099GkfNswgEctgeX0QEPx5QAepIi7quA2A5LLAeqsOIdC0lZQczqB8ifBDiGOVLls4hsG1lTkebhGrDIWVXu/r18XAUguWnGEr0UDJL6v47MT16oNpttrc6o84K8iwTRPP+PfszGydzbSvZ1U1rlSPTosIP92ADlAqdKf24lpYJnirzAsUwkNi75YcUnX1wAGeR5vyg9Z1+CWbV/1kjAwC+nBa35lj/+XF1vydVG+C46gzmH8dmdntU9KRY/7ZxSrYipDx7cSxiR6koT5KU9uDm6lp16T+tOMeZ+9qCgSPuanEmPx8eNs/hZImAy/yXmAr7jFqkaYjjOU4tODe0Zze0N0f1/8m+MQxJsc1Wab3yh7e4AmiKf39Sg+MKM1Qwr5zRsIWE3JlWZ2JcgeWSRBAQJtneoZbWAaLFeaiHkBm/VL1CM5uOfArZ4JLSNAx+4gN80BD0YPP9Xz7WKilREGhR9TGXIivpOat4nbJZJc+fz7+TBLC/HaUqnSQEn674xzId+rws/FtLYw11Fk/v5CDtr6rFQyIfc2sTn3RalVgboPAE5QPx+F7dkDH+Mz0W18XZRzX6KDMNtGGbt1sMrgKYHrmOdHFNRbJudHyD3wJIUw0LVmls4/5LBtCazRJlUL5/Ggip6z1MIyiPorvZ0l8QTowsRJYH2v4lXKDTVjw0zIr9n51KV3wezxOOXJf5V0ICt4gQKy4A01JE4zBmJa16Vl3wH8wyEij7zsLX6Q6XMVzDT8QpYsqwmQEBe6PzzBJ7D5Gxz8JQ3ba1SMAUILGyER3erak3XLTOg9AMLm0pYHxKdkJ1jZ0vgQYpKwfH6x/yfexWoPZosacGii+KvOxuejdCDXIAcIw9fwVo3wyc+d2+JDpTDCgdv5yvYC3y1CuAPYq2QvHFB7vp8wOByrREyWNmaa9AOf7Ggo5EFvKptsBhEvR8wYgO1iIqlFgIZn5aCApgjUEN059vVRtehqb2oXfX0W7qdaSCgHz1U8y3r+2+JFKV8+HyDwgGHMLbEHVjz1B2rozW7sNfRlmZ++YJt5zZzm8q+7CwgaT/Dw+n9psI2bWM5QsSdSfv2c5HGc/m8rfDab6Et3YkcAaALjdEBeEwykU65oTq8rZwLwDpPumAMGeCY3TxmhyMpilrGuUT5xtmGrBd/XbWYEAhjDGUQprYfId6xwtYIozGRiXE/HOLKbQQjnLFRXBL1H0gy+xEUnHGrgrY/geT1oZIPskL8Qzf4QTZcyVmnh8xtT3yCofz7gQdfqifMGCcztWizJpyjsvYajWto93XZnPSvx3s893mUZjU1qDKMGqzO4ErN2chdap31k3nWRM2qS4+fRQPL62139ciVN9WKjaffsNQD3eAyVK+klSr7NCcq39miChFA/9HNC3UbRzI2iDjXJlo34nexbywbvz6GZ3ecnwu6H926hdQAcwVqo0C3BJNeRUgbI2tyf1Nl1bTEMnsCYOckQJP20apDO+1UwrOO/KcH6LFTWj0pNBx5wNUsqOvg0o2aW4EyoBK0jF72tC/koS1CLp/KWcjsDgSrQgFBIDbvjed9FHmS3+u+cUqekUi2CYv424zHcsj1jS11d0sPnU7oSUsSL+PG8AIUNJBepSBRaUCbcGQ0ulfYzaUfKP/K/OVHvrdzh4HDw/YTS/0k3OfV4Qy28B2Ava1/9DHVC3hRybOKOpIHoI/j/Apn+ZCYN4416YgjW6ltAqkKjGP7gRUvnYba3Nuxjx0BHoEE6fhSBk+6yMo+Bq+bHjNFGbD8+by+nvHBHKFvCxDZatLGx9jKtmuZ2R3IKVCUAS6JlU4L+x3u+sIwWJ2rpLJJR3yuVP2gTiDjtXK66HO3ssRCjOs+gIUdoTqH7/jNEmXgFEU5sEV9HZD/5QiYT1fq8TWP22Pb0cvA7UncqM+Wq3Y30VWHDNtAykYOk0J/40V3StycrT1w9I7H8OxvQyIkmk2ntevWHp5RJT2/WM1v5jKomlhIDdbvQkLhMCkV5WeIYGuC3HuRfZGfFctecD95zLt8Ra0httP7QP4XNGK8DuQ+HKk84/8TSa21J+S4FMv5IxaDacauPP0Sz553tliXt7obEDuJkavCgSaJMufhbRwFBPwdK2SFfakl1skROGywC1Ql+b9eKT1POdfD1QSOFbmpxTeCzfvY14p6jC+2vLhI4mFaEKsforVkWjn+1tHJTZe5iYtwPyjgkcDXQVy1ZKnbhIsGn73x+NUvu8W6LnLOQwaSYyj0y8pP0mP9rF68PWDkqFOZyeOq+JmVkyVhbH5nNhrhZtgJyocJtq7ZSqXFnuI/DM="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 57,
+            "endIndex": 278,
+            "uri": "https://www.sec.gov/Archives/edgar/data/1596856/000104746914002226/a2218693zex-10_26.htm",
+            "license": ""
+          },
+          {
+            "startIndex": 289,
+            "endIndex": 494,
+            "uri": "https://www.sec.gov/Archives/edgar/data/1596856/000104746914002226/a2218693zex-10_26.htm",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 10945,
+    "candidatesTokenCount": 263,
+    "totalTokenCount": 11978,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 10945
+      }
+    ],
+    "thoughtsTokenCount": 770,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "ryeVapLcCY_Gg8UP2dKygAE"
+}

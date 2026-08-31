@@ -1,0 +1,48 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Auriemma will not enter into any arrangement or agreement, which enables any Berkshire Competitor to be endorsed by Auriemma (whether by using the Auriemma Identification, Auriemma providing services similar to the Endorsement Services, or otherwise) during the Contract Period within the Contract Territory.\",\n  \"overrideQuote\": \"Notwithstanding the foregoing, it is understood that Auriemma has no control or influence over any decisions by the University of Connecticut to enter into any arrangement or agreement with any Berkshire Competitor.\",\n  \"note\": \"Section 3(b) prohibits Auriemma from entering into endorsement agreements with Berkshire's competitors, but qualifies this restriction by clarifying that Auriemma cannot control or influence decisions made independently by the University of Connecticut to partner with competitors.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 57,
+            "endIndex": 360,
+            "uri": "https://www.contractscounsel.com/t/us/endorsement-agreement",
+            "license": ""
+          },
+          {
+            "startIndex": 388,
+            "endIndex": 609,
+            "uri": "https://www.contractscounsel.com/t/us/endorsement-agreement",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 6733,
+    "candidatesTokenCount": 181,
+    "totalTokenCount": 7651,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 6733
+      }
+    ],
+    "thoughtsTokenCount": 737,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "_CaVapqJD-a2g8UPpqy0oQ0"
+}

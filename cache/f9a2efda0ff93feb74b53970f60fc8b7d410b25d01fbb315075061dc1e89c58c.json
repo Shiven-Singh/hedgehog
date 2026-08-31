@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor, an exclusive, non-transferable (except as set forth in Section 10.7) and non-sublicensable (except as provided in Section 2.1(c)) license to use the Licensed Domain Names in connection with the Business during the Term.\",\n  \"overrideQuote\": \"Notwithstanding any exclusivity, minimum commitment or restrictive covenant set forth in this Agreement, nothing herein shall prevent either party from continuing to market, sell, license or distribute any product or service that it offered prior to the Effective Date, or from engaging any counterparty in a territory in which the other party does not maintain an active commercial presence as of the date of such engagement.\",\n  \"note\": \"The grant of exclusive license rights under the agreement is qualified by the 'Scope of Exclusivity' clause, which permits either party to continue offering pre-existing products/services and to engage counterparties in territories where the other party lacks an active commercial presence.\"\n}\n```",
+            "thoughtSignature": "Et4SCtsSARFNMg+a+FqGk26AcxFvmzYX3WNQh9qjNIWzxhv6HiTltE2EQDa4eDboZfdJkjpnyPr7J4oIxkyL9xXpXZl9gZiHb6MH7QIC1Hq87b25EbgdtpKfgggpli/gf9ChxH7snGaRYbBf3Pvq6Ae1GowlFpxKDlbym1hP3WFVxg439ZSj2JnRwtkCKgfvryIWnsoC3A/3ZUcyKvRfOQ5k+9iiDSaUWsVd75n0IoUJ6R6Mul/xA1ZmsKd6MMrW0iUExbyDfMBAilj1MjFrvFVc4bKEZoQltuGkUMuBmT8ohCTmzA2ND+fBa89XoVDQlq9Hb+kjm07BUpuQTeqOmgM1TsPwmq6K8rsEHPJwbNr13/y9n0lwSVjMhcZeMaxfOAaS2dHq6Iy9BNR8XvHoY8QNPKRwKIRl4hFU0Sm60e5W2X4a3iBaSlUyO1KabIAIbk4sc3IS4DURcOgEUvXJnPFEEsWDwYQYCfwE5t9uhBlnJoX1g87QePJYoVOTkgpLFjoDYAge32aFNJABh6j5LEvhGKuTiV5J+MtByGI5wFXBJTXNTaRVhRxccbQQKaR/Og18RRVy3r4Yf1YQ0HHhhqsexBdkZixEPIkp56FVlixFJ296LAUvmp3DEsLRON5NZHcmfTp84vRgg8ObgHc5vFoiY3wavfeK5w6qrrrhASArUPIbPzIgaihghgjM/NnZf1dVh726D9+bR4qSfLql79IxcEBKp1FnpTJVX2+U+RbHmXdnlCesHsnlWVdGOBfpABLE3rrbhgKq8EaJIjsfPozVf709dB0ostUMY62dfvev/BYRzNj7R27jIlsFo7PqxgbhHREJ9GHqEjdIvgYLn73dHlZo8fw2FwuW2qSpKaTC21VOPaBYiziFgl5HeNkIfESajJM3vVCZB6UmtCOpITUTPfCwuEYw4Bq2h6pGzoTyYXA5QnUBpEAW7ODtCZ7q2UHyr7uo1KDH6I7u2rrj3YINAZE26f/FAL9BfXVSX5hlGWi8fT6XxKhUBkFvvdXsZUjB5rlaVUfwh64q3yghPDV7k420xgQkvjRjQaiNRt7yh/un6Z09/RKTvzvGe+kpqUJX8E5FVT7hugfDjhvbd5UZUtcXgSP5X4e9cNuu4USzm+cdtolrgOYb1quQQaczThDOmFJfxODqqFXBARPvqtS9R+oTx2K8U1brzoZe597O50roJW3gdyQLpqvyUfePb5Bya7WznW5iquJBRW2Wajjd7uoA93DcxndjzLniT+Bq7h/BQ1YjvDYDKbuIKrKTKajqAcPFUVNMa/95jcUWIF4o4Hy+IU8sq05BlqRiFyYj0IZex2wnE+ni8V4FduT2PXjoRfymUfOTFChOgqNMp1NRjh+7EUyeG/vps6Qz6uWbgRk8+D5CXEQ2vQxBTZwLgSH830Ov6HsCVpY+jBBQNlSpW/eHOXJSkX4pndMbR2xATWKLWot7JyJzWB4GFHiwKz6vXRrQjbVr7uOuHU1e2Ex7izonmfMIVA8hA7UOOFGqUwoITEozSyCyY7ZKy7Lb3gsP0nu+ShZQaBAuOMnt4s9VOutDK9WYphi6WUAwGgJndbjxkMliOQO/O3do2d64TVJBarEteUnR718XKT0+lvUnHf/8KLbYite33y2BH4MZ/A0b6nGvhge+fSNLcuvygnkm2bHqt66GFTDI62r+v2rovPxl7G9BeaVRItrmy20NLP49RmbQZpp6wDnbguclHvt8N7oGQFuzYSdfEkBwIfF3LKbkupRTmEJkGM5zNtGi+zKUspBwBpZvZO/iC1yBiI0Erl2/veWRabTV//3tzfd/UMIf8DaCeN5Gr7KSsKL+07brTP6b4z5xFggBMm8GfU+aQcRmhgm5CJMswVZq60rGNvJPEqQovq8RNORPAmyTQrfj0/heqVRInFr9bIS0HIKLC6bIcIiX2rvci7lVe4h6Z9OhljT0AHV9U69eSuvDqgajeEfnVpK5aAwB9Jhzwgslgir9Walgvc+BHFTjhcpJuqrKz2deUBvdKBuXW5/emHNhhBAiBMngAzZnGfCfpFEkfx+/YHyJKMLq/vqePcdpvg80NXeBcACUkCu/sFNqfTGmzI5PyGCuHbKIFtckjsPj0p58ncyz3oyo9twFrr+4UFOemBAuI9BSUhPF0M6MB3pvQ/lFMNaZClgrKu+1hqfaAzB3D1/qeFEFgsoaUpLd4saY0mR8vab8jNWmPdmFmjgAo4mA1hHwHBQ2Pv+uP1zkfYr1yuvOZvVF43NkPiRtlTrJbAdVa9nXoYum9bBkLfy3SYb/f5+avWtc7ubpS3DhggLZL8GB6LoxYZGdQ7tSd8/Dfj5JdLyKh+IjSiw6BEEdPrlkjOyQrjwRlnjaWuiXg/SfXEBXo0ULMchkx/pwhdyLr3ATyI7amtvC6VJE+lJa8zYIusKkM65tk2UxVCM2rRYxDh7mEbcfiLwLxGkHu9Hid2tvmxBMcmciqHr+JxPk/sK3BNG84+8M3E/SJNFkq3zpr879y+uNPpfA52qmozlOU59wQ0xbe/3/zg0Zbayc9n0EeoS4lOeXETAYLiSc9Y/tilPmFes81Hvc53n3RyxdP3NyxbsDPmCWsn4pvVkZVqFQ40XmHHHPFKpg2VMEVacsiRPk0R9EhLUA5n6ar4WCXmkEhd1lzvKp1xPfyMPS+lXpwNEAeomZ0xMvAlEhdk3y2+oicYaMv3R0ithFyaKkueOhWP8+rpz8LilaHkZhC/cToUBQvV7hf1icOkj9k+vchduDi9T50GP6jvMNVXQlkp30nOXY1yQ72IVjWxdAAdD2GMC2O9BL1EtC71a8EYbYKLwIrtnlHG7BhCiA4IPABjnr3Mb/BEWZwF78iLw8i9hKXQJDBUw4NkDhJxcySQ6HaZfzZZ9Vf0BUknOgQ4hmQdbgwYG2ArUoXPXL7aX7qUS+9QvEgD/R4+m8cQiOOnpju8NvIZXOAmHiTZu3w+XYOlhq9dmlJWIqEwX/VLkfd9h9atBbTpHdLuhDwxQhusfI4BnclKcQIJBp/4hZiXe1hm8b6P/ePbNPXxV8xgmdNw3RKnV1+5ImyS4uKR3A0PPz8m9tOAPJpqawcvNklFuXxrfocelW3CAH6g+AYN8Ix7tBR5kOOxrg6BOMHnhCe527/71ghShsA+XU4u/ryq0+g8REfuJ72SI3szF+0t+VFgX+v4w9THMmZqBANQ=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 72,
+            "endIndex": 405,
+            "uri": "https://www.sec.gov/Archives/edgar/data/1596856/000104746914002226/a2218693zex-10_26.htm",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 10950,
+    "candidatesTokenCount": 244,
+    "totalTokenCount": 11717,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 10950
+      }
+    ],
+    "thoughtsTokenCount": 523,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "_SaVarynLse3g8UP9beYgQo"
+}

@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Pursuant to the terms and conditions set forth in this Agreement, Aura appoints Zanotti as its exclusive supplier of the Products within the Territory and Field of Use and Zanotti hereby accepts such appointment.\",\n  \"overrideQuote\": \"Notwithstanding any exclusivity, minimum commitment or restrictive covenant set forth in this Agreement, nothing herein shall prevent either party from continuing to market, sell, license or distribute any product or service that it offered prior to the Effective Date, or from engaging any counterparty in a territory in which the other party does not maintain an active commercial presence as of the date of such engagement.\",\n  \"note\": \"Aura appoints Zanotti as its exclusive supplier of the Products in the Territory and Field of Use, but the Scope of Exclusivity clause expressly preserves each party's right to continue offering pre-existing products/services and to engage counterparties in territories where the other party lacks an active commercial presence.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 57,
+            "endIndex": 268,
+            "uri": "https://contracts.justia.com/companies/aura-systems-inc-7302/contract/723229/",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 9589,
+    "candidatesTokenCount": 209,
+    "totalTokenCount": 10340,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 9589
+      }
+    ],
+    "thoughtsTokenCount": 542,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "-SaVaoi8GvD_4-EPu6XVoQc"
+}

@@ -1,0 +1,54 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Except as otherwise provided herein, a Party shall not have the right to assign any of its rights or obligations under this Agreement (whether through a merger, sale of stock, or otherwise) without the prior written consent of the other Party;\",\n  \"overrideQuote\": \"except that, either Party shall be permitted, without any need for the other Party's consent, to assign this Agreement (a) in whole or in part to an Affiliate (provided, however, that once such Person is no longer an Affiliate of the assigning Party, such former Affiliate shall assign this Agreement back to the assigning Party), provided that the assigning Party provides the other Party notice of any such assignment provided further that failure to provide such notice of such assignment shall not render such assignment void; or (b) to a Third Party in connection with sale or transfer of all or substantially all of the assigning Party's business or assets relating to the subject matter of this Agreement, whether by Change of Control, merger, sale of assets or otherwise; provided, however, that, with respect to clause (b), (i) any assignment of this Agreement shall be void and have no effect unless and until the assignee assumes the obligations of the assigning Party in a written instrument, a copy of which is provided to the other Party; and (ii) any assignment of this Agreement must be accompanied by a simultaneous assignment of the Other Agreements to the same assignee, and the assigning Party's interest in the Purchased Assets to the same assignee unless otherwise agreed by Conformis in advance, which agreement shall not be unreasonably withheld.\",\n  \"note\": \"The restriction on assignment without consent is qualified by express exceptions allowing assignment to Affiliates or in connection with a sale/transfer of substantially all assets or business relating to the agreement.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 57,
+            "endIndex": 306,
+            "uri": "https://contracts.justia.com/companies/conformis-inc-2710/contract/79953/",
+            "license": ""
+          },
+          {
+            "startIndex": 336,
+            "endIndex": 1025,
+            "uri": "",
+            "license": ""
+          },
+          {
+            "startIndex": 917,
+            "endIndex": 1699,
+            "uri": "",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 14033,
+    "candidatesTokenCount": 383,
+    "totalTokenCount": 15303,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14033
+      }
+    ],
+    "thoughtsTokenCount": 887,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "_iaVasDvCO_g4-EPqLff8AY"
+}

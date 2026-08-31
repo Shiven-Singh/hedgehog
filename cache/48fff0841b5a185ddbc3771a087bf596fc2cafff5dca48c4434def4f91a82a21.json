@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor, an exclusive, non-transferable (except as set forth in Section 10.7) and non-sublicensable (except as provided in Section 2.1(c)) license to use the Licensed Domain Names in connection with the Business during the Term.\",\n  \"overrideQuote\": \"The parties acknowledge that any product, service, territory or customer relationship in existence as at the Effective Date lies outside the scope of the undertakings given under this Agreement in respect of exclusivity, restricted dealing, or minimum commitment. The continuation, renewal or expansion of any such arrangement by either party is permitted and shall not constitute a breach of this Agreement.\",\n  \"note\": \"While Licensor grants exclusive licenses under Section 2.1, the Pre-existing Arrangements clause excludes any pre-existing products, services, territories, or customer relationships from the scope of exclusivity undertakings.\"\n}\n```",
+            "thoughtSignature": "Es0gCsogARFNMg9/SWjUDwRQ0pxWNbImoLzWNZ4mi5xt7WlayOgwU23AdqLFCgGs/cIE6acfB44XEl18QbEHDJKnEaRWAciVBZ9r0MIjeaiwpl1Qx3fAGqY1KVtz5kJoAzHP7D6UOLR+ohoYMg56BRA+X6WHeIdOOqpAq1vJrwbtHCjqfYHKP/3889+QdHDbJr0g74tYtE38aFKXetFI39sZE1xub5ePogMtRoUES4V2ViwoQfKf9dKKVxkRiDwWkBdcO6RVeMxq8OW5U6dN1Xpu7rdHquiSqz2I8dNqDMfbgXvrTk67BWBFXjoqYubUQ7AdDn3+TM14z9iKsGxOB76iP7y8cnyJWy/IAE8sPPdmF9Qlaepg+cvP/0oHQFpCqMeYj991eKFW8iHQbeoej+HhAwTHlAElKxog9fAQdx4OhmfTScpCMtGUla9zpreFiZiN2k9C5YuMHzJJGSVSm0xCBg9mX9pQvU+4TtcSiwqY1sWxWVkwFa5Q24H7nbM8gnFwOOnp9Zc4SJtN+PcMjUtqfdGa82Bsf4IA8kBly72CCdsGyXOjbI7UBILTLe8A8gXbq5PMvUJpUqTzn9bHfqvRuC3E6RJM6k+5Gc99YV82IoUbb2p63z1QAJmk65q5AuXJEtN9RLTM2894jv4rDNus+dN0J6l9Y3f/e7XKfbCBbmvvJNXLPSxBFR98ZM6mxiIMkrg46WCbCa/EHCt4IIeds7SwGQK5/6MVXtKf8MJY+CG9VDls4WMmFa72RRZmHD2ysgnbt4W8Aos18jPhpvblkAkYoctpGzgmGkLRL7oWpoNk1qZXUKs6u5AUAWy4RVblXMgYMsj7nCLZFZzShBVi8SDE8L7kXX97PAxXoL1llGsiZ6LK4AfWW6DsJFRrAKumabinZHQdiB+PVpBAJo8d+MWCnWO+hyyd+ivuABDM8/j45H/IDUiDWgZw0V5gNubs1T66mNc9idjLPPqjhDOP4qOn/SYp0q266PPMTp3rLDsJb1h8Hn5TIjmg7/YVq/Cq0MFFunTSLBmXT5fsIhwyzLp+Q6wvLHiuVUPZh0XuOfOFfClHC1K/NX/NIYDjj/H6zgb/fsm5B3N/bwIngNWmEpUkJ8A6UBwvnfnF9zo+DqqWsQOJyGA/Wc8sjkAiJ80ySHR3nXWj13LP7+98tN4v/dcJ1HjgreW+ms+7A2OegZ7DNX6LCwasj8dtFWFQlBTWakg2++skHqbwYbV2fg4Oo4sXaw41liayzjIARbbN5GQvZTF43gNMHdou7H9WH3YyMLJP8xGs+4XeRVnnCvBqCI7V/5g0RjC6xjAgK9Wq3ln8yl5rxqMqgqftmpybvlC05xJ1B9cZaSDyvVaApzcfj/B081RnSKsbJeXa5fCMwPhjx/HuPfWUPzHSeHvNR/BjD48fVlApdx0e/mLIYQ6Vr13DleqJF/S96y/h46Ss+BZlGHIu5yTC3glofaQQ3LuUcucJJM9qghTleH2544qBtvN0LhBl2V7nDbtbWxS25yoa7xOjVLDUJ3NAYUY6lVI/rzn+zbWRbYgFYn0g5eH3Tx15pQgRVt07xY0GeQyaURZ546WAtBOb/zKi0107P74WNjsgre7CSjJewYpjIKSWerCarR85UNImkhf8JHFxmf0LJ0SlVXLxoHSUenv3n5KgQ6H94noeMNnP0M8XOZPl6g7VinrCGAtU/9PnNplVXrtCj2yHVnFemTaoYo+7cdZDp7xuAuYMhdwu0ccn6KuuAxOn2HhjPGEaMrleYsATLXFHeh44ZKzX4MyUoCkIJkXJ7GXhZhRu0i84U+lUI0g8Yqd1ko4QU8j9OPSIbZ5E3dsXYzr+0tEVEi/jB2wZn2OJbaNnt7mnrBLape1rvC+1hIJNfrk5mWkQCxMHBYpC3PiMwT13snJexD6cwog2VS77FpSCqWrb0wwKeJNBLtO7VQKmKAMoVOH4/ERpwOQ0yNkQ6/CqhUuGTp/KdQiEyq6ePFcVDtax/wIwNNdCt8tn4JnAOHq4sXm8FuswqA8mTA1lXaCfGEEZZHAO9QDCgZWS9Rhyo1Hj2P6EfXKORZeNJ51BAVFtYSowiDxgTF4WtgTrND0tNYvewfANoDkxi2PoWS+cSxAsT0Zh//88mtM6t+LHDmcKdlfzbcw2ywZ0ki1o0lK3e4KvgZVCC12wmyTZRvEwUTXcYpl5UnuGlfG3PjLPXiwKv+Tu7W5Uruz6FNg0l7XcJJkuZhmxV2XPtm7gQP6046Bm2MhHQInu7CqvQwuMeyQgNiCsi5kry/Leke3llHfcB/3Ffd1dP3HWWplnfP9gmNqSaK8DB2spPh4A2QU5d/Vn1vcoffRXMubx/1iz0fsf/jpiNmI9vzwZ4vQU+Z4CTVCYqiHDJ0jfC6iKVQVfqdnl6L/LyCUDto7JR1T5O6CccpI15QvCaJZUey6mMfjd4M/D8i50Cr+9eG7L7pj572a2Kr/bbkwhjIjA5gdGHcdMgMhp/oGm3DlkbAm2oUE9M6/oQckoulZd6NMGQPRAAnLfEXoHFPpKsgcimUj2poLfufulE6qZyLGNdjdgh/KzahpyfO+g2i0t0/d9yB7Na1oTVyuIdc7/rr0hDOISk5mKroBvJl6fcmyijd1jXoQ3vxCD6Er1uGIdvmhbq6cExBKAtn2JvqTuwDZ590jH4H75K0Vs4KZMK8FGuaxBJOgvuHNU5fyUMVqPiFR3pMm4AZHhTtBYbSAt/VcseEcesSHkXXdMwypoBGJ83DGXD87bAR2LrxBY4tfUBZ1+/BhZchn0I4I+3G2WFkxymYPS2UzCZqcjD95YBU6M6PB1nTzlMPdpcJI5kfqPoIy88REnP+zkRW11JNKFriUddlFJHgpRAyZa6TMG0VW05n0F2/xuk5QeAuUndEFy5z9VrnaA/n8FPk9OULm2hmUPUGZEzodAxDwuoH7rRqyi8VQmDtKDa8CeRaI/YEm4cEj+iudnhsUJQVaxwoMSeyPC8cNGPt9cYr5371DYUl7+SbIkJaIcgeH2Pv+KC/NYH2KHhLJkC3Ymr2Q1O8+OFv5uufsRm8AWKkeG8qV297eaZcwWrcKj15YmXueuH4tw5hAvknv73FlEKkHwN7u59VKJ5kuwapA1pMW7oqlKiW2KUNFm0zcei1KwTWhn+l0pFMAI2VGi1iWP7h02pGt+z7r7OGB//H7oCbCcU+VHgiskDMpbzJcM1ZIoKVwiftK38FemRL8fELDqAeJawRWIVNFzh24jrFI4vjvojGuOBCxrqvr0cmGBE8jFgrAPIu0Np6Y7KvkgPT4BiI+u8kie5FKEiNvQlxiHpmbwRY7nozbwKlpUmseMx4kl+UGjfwzjgepZW9CEzegBgPhTo/XUtuqnSO9FKDpx3MfQB5xIZNuwE+e71T6jgFDPzvsHg0gOrT+xATIbcIz8ZEUsBL+eOhlSmQjzokf5iIhEeBwLmIcj4DC/f0KgjhGYvQoGu3+pPaaWm93A0PjpZeaTgn3K3akV7dTjjeEu7UU8BcniZyK5KRRKlA8BVoU78VSX9sdNWh4Bwklmb2iN7J9W83VG03kMpMtpg0fIGyGgZWNGSaOg4PdWds/sUwPQN3JfxS0e820QRS1yO+lhQ4J3tU9BBSV4xnWrXAjnNGlA21/zNficBMEUi62RoD0nW/eLE3dVQ/cCUkka2kongLwUpWGxdQuBnGZczDkbiTTcOTGrVRvrWHn+PqP8BKQmq9ad4BAFiAySUAiFH8kuOFJXcv2yQvmRhBfcvTCsJv/rC8rC1XRml8w8KsKc+DgsCnz8urOon1qmIqaeXnZE9tmvsNKnVaulNnqJYZTKiCmvbHDIVCaW6e+wknkC7cbdS5eZ36xBJpT92aDZadPMAha1hBt36FJkenC7oMAgbpQcOVM3aTzKPzeZJ9U/NbtTXLH/IN+Jb7xcBUTQGar5rO5QANimQ1+bV9rOtEjRXNRI0zxzeTI6VrYTH0+zD95H8mxz6E5cCNO6bLrkHN2tsHwCI58NW0MX1t3aaF6RJNTEYLWffiMlI7/28/7p7xObjygX3No0O5xU5tPFbGcVPA6aXayAqDvbjV5Ya9qGWssmGX73uMLmnZtFOgYRWIHnRHg6i5wlfQpyuqsTT8ssQEIk1CzHBg9YHixGHInYnTycOsUYQ1L6bX56vmnLMibicSk1JQspDAWpYICeTyBVokQ5I6W7+n3Dz8agzt83Gm/Xlo1X7oulgOq1YLaPYMrNr/K95rPEOgRpSiDHhM9MPEUKYP4Q1n5XmdoQDJn6KhGHLcUL45YwJHijirrSL2r3d+frjUPqOB6kTx1X8ujnidrmZR7KSa/16244NuQovsAUmZr8Vw4yVqhdvZSqwjDo5ktcgh6PYklW0FKEl8xSLElfCCWotpoTZsfzd350xR16n2YRl9fVrNuJzC5253dHFMtbL6D6jPUSi4/COWCr5RDc7BN36bmIQjWLMNRXn0WAJWbpE7oS+RH6UiqFBj9448Bc1qXTDniZqGmhy4xdggE3fzc/y0Blu45nCL/o6uCdWJTNrDRJoEIVFWhUfZkLCfno4QtI26VGJBJf+1v71heo09VdJQV/HyVqopUsNk+RIyA/1RsOuYrnQwxJvDC+UHyNmEXD+BZBOLG0a23DIySwlZZ7SEjb+uiJBniIexxgs2SRKVW1mdB4GXVkAzt4Y0qF981TzDMmQlebn2bLWtIufFpETQNbjL4KUymmwX6P2v0GF8RXDwl0WfPeiY2ajDPQpCK3tMP+4nW04K1esprf0KUOCRPrsaLVn980Qve2UKWtZN+hRWIP7bH4+Oa875V0aFYUxm64fDh7FjhnpKv28VW2OPQkwecbG+9W75otEMClERKO3sNyez926J0Y99cWihwQFDtz8ID/0LagIiFQ3hO5s/6IZefQHRDEN42oow+klAepIbHx+USGIFagM9p4VBBAttnuCe51Rs+QIpgq92Ufna6InWYOJ6CLqDzIlBRZB6J2ElUU5crUW2u5WJHeDVyxpCFfl72v/WMKmM5wV8azYEYUNvldpRBe19/cd/WxrdrYg3JNEdiPkjIp88zs2EmtmSazC40oI8i9AdWN/h9JtCB3I8cINk3KleW8IOjbarKzMCj9uvqTTNsXfBcPUC0sixEUrR8hWEXmCeTYKurU7B3WWD1H1p+ZTTS69xBUvbnYYEADnlEgDPOVgnVj1UD4RNE9123DnzUZqa1+EAt4MKiNymZKJvn8v6m5Kvhq5lfpsvFWZkx9KRjGkPbAnJIcZ9GgB6VZvrvF1Igeka4tgfhn7XEHdZ00VHId0NR2a1e0JwRnHgEmYhB5dHp81uExI2qp0ko5/dlEiw7jWzLmBji3ZHahncc6nQfCPhbfygVbOkm+TTFDq3HV8inCtxX9ABT4QMepWPJXY+WVFUZ6Dy0WkIyVtyniX0vpEwxGbqXiuoEBIa45URjPS1dnJeZyILl9LLjZatmtE0Dnmr3EnytZlCPNcXZF6nsg9hMDnp9cP72IB/iGFPN+/4JFU7JK8FFD2BS28yFU7Rcj6upv8i9cKuEusHE6fUtI6q5UUvIE"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 72,
+            "endIndex": 405,
+            "uri": "https://www.sec.gov/Archives/edgar/data/1596856/000104746914002226/a2218693zex-10_26.htm",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 10945,
+    "candidatesTokenCount": 228,
+    "totalTokenCount": 12041,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 10945
+      }
+    ],
+    "thoughtsTokenCount": 868,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "sCeVapWfBZzeg8UPj5ergA4"
+}

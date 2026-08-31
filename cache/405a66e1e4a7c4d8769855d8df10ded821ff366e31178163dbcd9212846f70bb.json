@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"ABSOLUTE\",\n  \"quote\": \"Licensor may terminate this Agreement by providing prior written notice to Licensee upon the occurrence of a Change of Control.\",\n  \"overrideQuote\": null,\n  \"note\": \"Section 6.4 provides Licensor with an unqualified right to terminate the agreement upon written notice following a Change of Control (as defined in Article I).\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 10945,
+    "candidatesTokenCount": 93,
+    "totalTokenCount": 11512,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 10945
+      }
+    ],
+    "thoughtsTokenCount": 474,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "ryeVasumON3bqfkPstSl8QE"
+}

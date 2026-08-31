@@ -4,7 +4,7 @@
       "id": "2themartcominc-19990826-10-12g-ex-10-10-6700288-ex-10-10-co-",
       "title": "2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement",
       "path": "cases/contracts/2themartcominc-19990826-10-12g-ex-10-10-6700288-ex-10-10-co-.txt",
-      "chars": 29997
+      "chars": 29993
     },
     {
       "id": "adianutrition-inc-04-01-2005-ex-10-d2-reseller-agreement",
@@ -16,7 +16,7 @@
       "id": "alliedesportsentertainmentinc-20190815-8-k-ex-10-34-11788308",
       "title": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.34_11788308_EX-10.34_Sponsorship Agreement",
       "path": "cases/contracts/alliedesportsentertainmentinc-20190815-8-k-ex-10-34-11788308.txt",
-      "chars": 38790
+      "chars": 38773
     },
     {
       "id": "ambassadoreyeweargroupinc-11-17-1997-ex-10-28-endorsement-ag",
@@ -28,25 +28,25 @@
       "id": "aurasystemsinc-06-16-2010-ex-10-25-strategic-alliance-agreem",
       "title": "AURASYSTEMSINC_06_16_2010-EX-10.25-STRATEGIC ALLIANCE AGREEMENT",
       "path": "cases/contracts/aurasystemsinc-06-16-2010-ex-10-25-strategic-alliance-agreem.txt",
-      "chars": 46027
+      "chars": 46010
     },
     {
       "id": "berkshirehillsbancorpinc-20120809-10-q-ex-10-16-7708169-ex-1",
       "title": "BerkshireHillsBancorpInc_20120809_10-Q_EX-10.16_7708169_EX-10.16_Endorsement Agreement",
       "path": "cases/contracts/berkshirehillsbancorpinc-20120809-10-q-ex-10-16-7708169-ex-1.txt",
-      "chars": 30072
+      "chars": 30162
     },
     {
       "id": "chinarealestateinformationcorp-20090929-f-1-ex-10-32-4771615",
       "title": "ChinaRealEstateInformationCorp_20090929_F-1_EX-10.32_4771615_EX-10.32_Content License Agreement",
       "path": "cases/contracts/chinarealestateinformationcorp-20090929-f-1-ex-10-32-4771615.txt",
-      "chars": 50185
+      "chars": 50168
     },
     {
       "id": "conformisinc-20191101-10-q-ex-10-6-11861402-ex-10-6-developm",
       "title": "ConformisInc_20191101_10-Q_EX-10.6_11861402_EX-10.6_Development Agreement",
       "path": "cases/contracts/conformisinc-20191101-10-q-ex-10-6-11861402-ex-10-6-developm.txt",
-      "chars": 63660
+      "chars": 63750
     }
   ],
   "cases": [
@@ -61,7 +61,7 @@
         ],
         "carveOut": {
           "sectionRef": "injected",
-          "text": "Permitted Transfers. Notwithstanding any provision of this Agreement restricting assignment, delegation or transfer, either party may assign this Agreement in its entirety, without the prior written consent of the other party, to an Affiliate or in connection with a merger, consolidation, corporate reorganization, or the sale of all or substantially all of its assets or equity to which this Agreement relates, provided that the assigning party gives written notice of such assignment within thirty (30) days following its effective date."
+          "text": "Corporate Reorganisations. The parties acknowledge that the transfer of this Agreement to a successor entity in connection with a merger, consolidation, or the sale of all or substantially all of the assets or equity of a party constitutes a continuation of the existing contractual relationship and not an assignment, transfer or delegation for the purposes of this Agreement. The consent requirements set out in this Agreement have no application to any such transaction, and no notice to the other party is required in respect of it."
         },
         "expected": "QUALIFIED"
       }
@@ -132,7 +132,7 @@
         ],
         "carveOut": {
           "sectionRef": "injected",
-          "text": "Permitted Transfers. Notwithstanding any provision of this Agreement restricting assignment, delegation or transfer, either party may assign this Agreement in its entirety, without the prior written consent of the other party, to an Affiliate or in connection with a merger, consolidation, corporate reorganization, or the sale of all or substantially all of its assets or equity to which this Agreement relates, provided that the assigning party gives written notice of such assignment within thirty (30) days following its effective date."
+          "text": "Corporate Reorganisations. The parties acknowledge that the transfer of this Agreement to a successor entity in connection with a merger, consolidation, or the sale of all or substantially all of the assets or equity of a party constitutes a continuation of the existing contractual relationship and not an assignment, transfer or delegation for the purposes of this Agreement. The consent requirements set out in this Agreement have no application to any such transaction, and no notice to the other party is required in respect of it."
         },
         "expected": "QUALIFIED"
       }
@@ -159,7 +159,7 @@
         ],
         "carveOut": {
           "sectionRef": "injected",
-          "text": "Scope of Exclusivity. Notwithstanding any exclusivity, minimum commitment or restrictive covenant set forth in this Agreement, nothing herein shall prevent either party from continuing to market, sell, license or distribute any product or service that it offered prior to the Effective Date, or from engaging any counterparty in a territory in which the other party does not maintain an active commercial presence as of the date of such engagement."
+          "text": "Pre-existing Arrangements. The parties acknowledge that any product, service, territory or customer relationship in existence as at the Effective Date lies outside the scope of the undertakings given under this Agreement in respect of exclusivity, restricted dealing, or minimum commitment. The continuation, renewal or expansion of any such arrangement by either party is permitted and shall not constitute a breach of this Agreement."
         },
         "expected": "QUALIFIED"
       }
@@ -210,7 +210,7 @@
         ],
         "carveOut": {
           "sectionRef": "injected",
-          "text": "Permitted Transfers. Notwithstanding any provision of this Agreement restricting assignment, delegation or transfer, either party may assign this Agreement in its entirety, without the prior written consent of the other party, to an Affiliate or in connection with a merger, consolidation, corporate reorganization, or the sale of all or substantially all of its assets or equity to which this Agreement relates, provided that the assigning party gives written notice of such assignment within thirty (30) days following its effective date."
+          "text": "Corporate Reorganisations. The parties acknowledge that the transfer of this Agreement to a successor entity in connection with a merger, consolidation, or the sale of all or substantially all of the assets or equity of a party constitutes a continuation of the existing contractual relationship and not an assignment, transfer or delegation for the purposes of this Agreement. The consent requirements set out in this Agreement have no application to any such transaction, and no notice to the other party is required in respect of it."
         },
         "expected": "QUALIFIED"
       }
@@ -241,7 +241,7 @@
         ],
         "carveOut": {
           "sectionRef": "injected",
-          "text": "Scope of Exclusivity. Notwithstanding any exclusivity, minimum commitment or restrictive covenant set forth in this Agreement, nothing herein shall prevent either party from continuing to market, sell, license or distribute any product or service that it offered prior to the Effective Date, or from engaging any counterparty in a territory in which the other party does not maintain an active commercial presence as of the date of such engagement."
+          "text": "Pre-existing Arrangements. The parties acknowledge that any product, service, territory or customer relationship in existence as at the Effective Date lies outside the scope of the undertakings given under this Agreement in respect of exclusivity, restricted dealing, or minimum commitment. The continuation, renewal or expansion of any such arrangement by either party is permitted and shall not constitute a breach of this Agreement."
         },
         "expected": "QUALIFIED"
       }
@@ -268,7 +268,7 @@
         ],
         "carveOut": {
           "sectionRef": "injected",
-          "text": "Change of Control Exception. Notwithstanding any provision of this Agreement granting a right of termination or requiring consent upon a change of control, no such right or consent requirement shall arise where the surviving or acquiring entity was an Affiliate of the transferring party immediately prior to the transaction, or where the transaction is effected solely to change the jurisdiction of incorporation of the transferring party."
+          "text": "Continuity of Ownership. For the purposes of this Agreement, a transaction in which the ultimate beneficial ownership of a party remains substantially unchanged, including any internal reorganisation, recapitalisation, or transaction effected solely to alter the jurisdiction of incorporation of that party, does not constitute a change of control, an acquisition, or a transfer of control of that party. The rights and obligations arising under this Agreement upon a change of control have no application to any such transaction."
         },
         "expected": "QUALIFIED"
       }
@@ -298,7 +298,7 @@
         ],
         "carveOut": {
           "sectionRef": "injected",
-          "text": "Permitted Transfers. Notwithstanding any provision of this Agreement restricting assignment, delegation or transfer, either party may assign this Agreement in its entirety, without the prior written consent of the other party, to an Affiliate or in connection with a merger, consolidation, corporate reorganization, or the sale of all or substantially all of its assets or equity to which this Agreement relates, provided that the assigning party gives written notice of such assignment within thirty (30) days following its effective date."
+          "text": "Corporate Reorganisations. The parties acknowledge that the transfer of this Agreement to a successor entity in connection with a merger, consolidation, or the sale of all or substantially all of the assets or equity of a party constitutes a continuation of the existing contractual relationship and not an assignment, transfer or delegation for the purposes of this Agreement. The consent requirements set out in this Agreement have no application to any such transaction, and no notice to the other party is required in respect of it."
         },
         "expected": "QUALIFIED"
       }
@@ -327,7 +327,7 @@
         ],
         "carveOut": {
           "sectionRef": "injected",
-          "text": "Scope of Exclusivity. Notwithstanding any exclusivity, minimum commitment or restrictive covenant set forth in this Agreement, nothing herein shall prevent either party from continuing to market, sell, license or distribute any product or service that it offered prior to the Effective Date, or from engaging any counterparty in a territory in which the other party does not maintain an active commercial presence as of the date of such engagement."
+          "text": "Pre-existing Arrangements. The parties acknowledge that any product, service, territory or customer relationship in existence as at the Effective Date lies outside the scope of the undertakings given under this Agreement in respect of exclusivity, restricted dealing, or minimum commitment. The continuation, renewal or expansion of any such arrangement by either party is permitted and shall not constitute a breach of this Agreement."
         },
         "expected": "QUALIFIED"
       }
@@ -358,7 +358,7 @@
         ],
         "carveOut": {
           "sectionRef": "injected",
-          "text": "Change of Control Exception. Notwithstanding any provision of this Agreement granting a right of termination or requiring consent upon a change of control, no such right or consent requirement shall arise where the surviving or acquiring entity was an Affiliate of the transferring party immediately prior to the transaction, or where the transaction is effected solely to change the jurisdiction of incorporation of the transferring party."
+          "text": "Continuity of Ownership. For the purposes of this Agreement, a transaction in which the ultimate beneficial ownership of a party remains substantially unchanged, including any internal reorganisation, recapitalisation, or transaction effected solely to alter the jurisdiction of incorporation of that party, does not constitute a change of control, an acquisition, or a transfer of control of that party. The rights and obligations arising under this Agreement upon a change of control have no application to any such transaction."
         },
         "expected": "QUALIFIED"
       }

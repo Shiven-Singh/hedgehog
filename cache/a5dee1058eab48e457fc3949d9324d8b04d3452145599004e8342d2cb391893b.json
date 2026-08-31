@@ -1,0 +1,48 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"This Agreement and any rights or authority granted hereunder shall not be assigned or transferred by either Party, including by operation of law, merger or otherwise, without the express written consent of the other Party, provided that Licensor may assign this Agreement without consent to any of its Affiliates and Licensee may assign this Agreement without consent to SINA Leju or an Affiliate of Licensee that is controlled by SINA Leju.\",\n  \"overrideQuote\": \"Notwithstanding any provision of this Agreement restricting assignment, delegation or transfer, either party may assign this Agreement in its entirety, without the prior written consent of the other party, to an Affiliate or in connection with a merger, consolidation, corporate reorganization, or the sale of all or substantially all of its assets or equity to which this Agreement relates, provided that the assigning party gives written notice of such assignment within thirty (30) days following its effective date.\",\n  \"note\": \"The restriction on assignment without consent is qualified by internal carve-outs permitting assignments to specified affiliates and by an express Permitted Transfers clause allowing assignment in connection with mergers, reorganizations, or asset/equity sales.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 57,
+            "endIndex": 278,
+            "uri": "https://www.sec.gov/Archives/edgar/data/1596856/000104746914002226/a2218693zex-10_26.htm",
+            "license": ""
+          },
+          {
+            "startIndex": 289,
+            "endIndex": 494,
+            "uri": "https://www.sec.gov/Archives/edgar/data/1596856/000104746914002226/a2218693zex-10_26.htm",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 10950,
+    "candidatesTokenCount": 254,
+    "totalTokenCount": 11808,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 10950
+      }
+    ],
+    "thoughtsTokenCount": 604,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "_CaVapDNGe__4-EPnq-ruA0"
+}

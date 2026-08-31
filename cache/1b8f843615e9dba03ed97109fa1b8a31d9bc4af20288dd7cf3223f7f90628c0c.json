@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Except as specifically provided in the Distribution Agreement, Conformis shall be prohibited from developing or assisting another in developing, or causing another to develop, Patient-Specific Instrumentation for Off-The-Shelf Knee Implants for any Third Party in the field of orthopedics until January 1, 2032 (or earlier, to the extent set forth in Section 2.3.3.4 or Section 2.3.5 of the Distribution Agreement), with the exception that Conformis (including any entity involved in a Change of Control of Conformis, any such entity an \\\"Acquirer\\\"), may develop Patient-Specific Instrumentation for any Off-The-Shelf Implants of Conformis, an Acquirer or any of their Affiliates.\",\n  \"overrideQuote\": \"with the exception that Conformis (including any entity involved in a Change of Control of Conformis, any such entity an \\\"Acquirer\\\"), may develop Patient-Specific Instrumentation for any Off-The-Shelf Implants of Conformis, an Acquirer or any of their Affiliates.\",\n  \"note\": \"The exclusivity covenant restricts Conformis from developing patient-specific instrumentation for off-the-shelf knee implants for third parties until 2032, subject to express carve-outs for products developed for Conformis, its acquirer, or their affiliates, as well as terms in the Distribution Agreement.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 14055,
+    "candidatesTokenCount": 309,
+    "totalTokenCount": 15042,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14055
+      }
+    ],
+    "thoughtsTokenCount": 678,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "sSeVaoqTKd-ng8UPpZSTwQc"
+}
