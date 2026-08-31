@@ -1,0 +1,9 @@
+# Everything below is produced by the code in src/, not written by hand. Marking it
+# keeps GitHub's language breakdown describing the source rather than the output.
+results/**            linguist-generated=true
+cache/**              linguist-generated=true
+trajectories/*.jsonl  linguist-generated=true
+
+# Redistributed from CUAD, with synthetic overrides inserted. See README.
+cases/contracts/*.txt linguist-vendored=true
+cases/cases.json      linguist-generated=true
