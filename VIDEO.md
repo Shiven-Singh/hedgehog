@@ -128,10 +128,21 @@ on localhost, show the summary chart, click into the Conformis agreement.
 
 ---
 
-## 4:45 to 5:00 — Close
+## 4:45 to 5:15 — Close, and the name
 
-**On screen:** `REPRODUCE.md`, the offline section.
+**On screen:** the summary page, then `REPRODUCE.md` on the offline section.
 
+> It is called Hedgehog because of the old line from Archilochus: the fox knows many things,
+> but the hedgehog knows one big thing.
+>
+> The fox is in this repository. It is the agent I built with a search tool and a read tool,
+> free to go and find whatever it needed. It searched for "Agreement". It searched for
+> "Section". It cost two and a half times the baseline and ran out of turns on seven cases
+> out of twenty four without answering at all.
+>
+> What actually worked knows one thing and does it every time. Before any quotation is
+> printed, look for it in the contract. If it is not there, do not print it.
+>
 > Every model response is cached and committed, so you can clone this, run the scorer with no
 > API key and no spend, and get the same numbers I did.
 >
@@ -143,7 +154,8 @@ on localhost, show the summary chart, click into the Conformis agreement.
 
 ## Recording notes
 
-- Around 800 words. Read unhurried, that lands near five minutes. If you overrun, cut the
+- Around 900 words. Read unhurried, that lands close to five minutes; the hard cap is five,
+  so if you are running long, cut the middle paragraph of the close rather than the fox. If you overrun, cut the
   second paragraph of 3:10 rather than anything in 3:55, which is the strongest section.
 - Warm the cache first with `npm run solution` so the live run is quick, and say on the
   recording that it is cached rather than letting it look faster than it is.

@@ -3,6 +3,12 @@
 Clause review for due diligence, where every finding is quoted from the contract and
 located by section, and anything the tool cannot verify is withheld rather than printed.
 
+The fox knows many things, but the hedgehog knows one big thing. The fox is in here too:
+an agent with a search tool and a read tool, free to go and find whatever it needed, which
+cost two and a half times the baseline and ran out of turns on seven cases in twenty four
+without answering. What worked knows one thing and does it every time. Look for the quote
+in the contract before printing it, and if it is not there, do not print it.
+
 Built for the micro1 Agentic Workflows Hackathon, August 2026.
 
 ## Who it is for

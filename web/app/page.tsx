@@ -13,7 +13,7 @@ export default function Page() {
   const withheld = review.contracts.flatMap((c) => c.findings).filter((f) => f.citationWithheld).length;
 
   return (
-    <main className="mx-auto max-w-4xl px-6 py-20 md:py-28">
+    <main className="max-w-4xl px-8 py-20 md:px-16 md:py-24">
       <header className="border-b border-rule-strong pb-8">
         <p className="label">Due diligence</p>
         <h1 className="mt-3 text-4xl font-semibold tracking-tight md:text-5xl">Clause review</h1>

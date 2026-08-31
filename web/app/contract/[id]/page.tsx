@@ -62,7 +62,7 @@ export default async function Page({ params }: { params: Promise<{ id: string }>
   const withheldClauses = ordered.filter((f) => f.citationWithheld);
 
   return (
-    <main className="mx-auto max-w-3xl px-6 py-20 md:py-28">
+    <main className="max-w-3xl px-8 py-20 md:px-16 md:py-24">
       <Link
         href="/"
         className="label no-print underline decoration-rule underline-offset-4 hover:decoration-ink"
