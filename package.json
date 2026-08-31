@@ -10,6 +10,7 @@
   "scripts": {
     "prepare-data": "tsx src/cli.ts prepare-data",
     "baseline": "tsx src/cli.ts baseline",
+    "solution": "tsx src/cli.ts solution",
     "agent": "tsx src/cli.ts agent",
     "score": "tsx src/cli.ts score",
     "report": "tsx src/cli.ts report"

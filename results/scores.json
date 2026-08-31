@@ -16,7 +16,9 @@
       "n": 0,
       "of": 20
     },
-    "unverifiedQuote": {
+    "quotesAttempted": 21,
+    "quotesSuppressed": 0,
+    "unverifiedShown": {
       "n": 3,
       "of": 21
     },
@@ -40,7 +42,9 @@
       "n": 0,
       "of": 20
     },
-    "unverifiedQuote": {
+    "quotesAttempted": 21,
+    "quotesSuppressed": 0,
+    "unverifiedShown": {
       "n": 1,
       "of": 21
     },
@@ -64,7 +68,9 @@
       "n": 0,
       "of": 20
     },
-    "unverifiedQuote": {
+    "quotesAttempted": 21,
+    "quotesSuppressed": 2,
+    "unverifiedShown": {
       "n": 0,
       "of": 19
     },

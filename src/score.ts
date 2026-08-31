@@ -13,7 +13,9 @@ export interface Scores {
   falseAbsolute: { n: number; of: number };
   inventedClause: { n: number; of: number };
   missedClause: { n: number; of: number };
-  unverifiedQuote: { n: number; of: number };
+  quotesAttempted: number;
+  quotesSuppressed: number;
+  unverifiedShown: { n: number; of: number };
   promptTokens: number;
   outputTokens: number;
 }
@@ -30,6 +32,7 @@ export function scoreRun(manifest: RunManifest, cases: Case[]): Scores {
   let present = 0;
   let unverified = 0;
   let quoted = 0;
+  let suppressed = 0;
 
   for (const r of manifest.results) {
     const expected = truth.get(r.caseId)!;
@@ -54,6 +57,9 @@ export function scoreRun(manifest: RunManifest, cases: Case[]): Scores {
       quoted++;
       if (!r.quoteVerified) unverified++;
     }
+    // A quote the model produced, that could not be found in the contract, and
+    // was therefore withheld from the reader rather than printed.
+    if (/withheld/.test(r.finding.note)) suppressed++;
   }
 
   return {
@@ -64,7 +70,9 @@ export function scoreRun(manifest: RunManifest, cases: Case[]): Scores {
     falseAbsolute: { n: falseAbsolute, of: qualified },
     inventedClause: { n: invented, of: absent },
     missedClause: { n: missed, of: present },
-    unverifiedQuote: { n: unverified, of: quoted },
+    quotesAttempted: quoted + suppressed,
+    quotesSuppressed: suppressed,
+    unverifiedShown: { n: unverified, of: quoted },
     promptTokens: manifest.totals.promptTokens,
     outputTokens: manifest.totals.outputTokens,
   };
@@ -89,18 +97,20 @@ export function scoreAll(): void {
   const scored = runs.map((r) => scoreRun(r, cases));
 
   console.log();
-  console.log('| Run | Characterisation accuracy | False absolute | Invented clause | Missed clause | Unverified quote |');
-  console.log('|---|---|---|---|---|---|');
+  console.log('| Run | Accuracy | False absolute | Invented clause | Quotes attempted | Withheld as unlocatable | Unlocatable but shown |');
+  console.log('|---|---|---|---|---|---|---|');
   for (const s of scored) {
     console.log(
       `| ${s.label} | ${(s.accuracy * 100).toFixed(0)}% | ${pct(s.falseAbsolute.n, s.falseAbsolute.of)} ` +
-        `| ${pct(s.inventedClause.n, s.inventedClause.of)} | ${pct(s.missedClause.n, s.missedClause.of)} ` +
-        `| ${pct(s.unverifiedQuote.n, s.unverifiedQuote.of)} |`,
+        `| ${pct(s.inventedClause.n, s.inventedClause.of)} | ${s.quotesAttempted} | ${s.quotesSuppressed} ` +
+        `| ${pct(s.unverifiedShown.n, s.unverifiedShown.of)} |`,
     );
   }
   console.log();
-  console.log('False absolute is the headline: a clause reported as unconditional when the');
-  console.log('contract overrides it elsewhere. Lower is better on every column.');
+  console.log('The last column is the one that matters to a reviewer: a citation printed in');
+  console.log('the memo that cannot be found in the contract. Note that the model produces');
+  console.log('unlocatable quotes at much the same rate either way; what changes is whether');
+  console.log('they reach the page.');
   console.log();
 
   fs.writeFileSync('results/scores.json', JSON.stringify(scored, null, 2));

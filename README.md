@@ -1,72 +1,104 @@
 # Hedgehog
 
-A contract will tell you in clause 8 that neither party may assign the agreement
-without written consent. Twelve pages later it will tell you that, notwithstanding
-clause 8, assignment to an affiliate in connection with a merger requires no consent
-at all. Both sentences are in the document. Only the second one is the answer.
+Clause review for due diligence, where every finding is quoted from the contract and
+located by section, and anything the tool cannot verify is withheld rather than printed.
 
-Hedgehog finds the clause you asked about and then goes looking for whatever qualifies
-it. Each clause comes back as absolute, qualified or absent, with both passages quoted
-so that the reviewer can check the work rather than take it on trust.
+Built for the micro1 Agentic Workflows Hackathon, August 2026.
 
 ## Who it is for
 
 A junior associate running due diligence on an acquisition. Forty agreements arrive and
-the same handful of questions has to be answered about each one. Is assignment restricted.
-Does a change of control trigger anything. Is there an exclusivity undertaking. At present
-that means reading every contract from end to end and building the summary chart by hand.
+the same handful of questions has to be answered about each one. Is assignment
+restricted. Does a change of control trigger anything. Is there an exclusivity
+undertaking. At present that means reading every contract from end to end and building
+the summary chart by hand.
 
-The mistake that costs money is rarely a clause that was missed altogether. It is a clause
-reported without the exception that guts it, because the reviewer then prices the deal on
-a restriction which does not actually bind.
+## What we set out to prove, and why it was wrong
 
-## Why not simply extract the clause
+The premise was that a contract will restrict something in clause 8 and then permit it
+in clause 22, and that a model would find the first and miss the second. Hedgehog would
+catch the exception the reviewer would otherwise price the deal without.
 
-Extraction is close to solved, and it is the wrong target. A system that finds clause 8 and
-stops has answered correctly and uselessly. The interesting failure is the one where the
-answer looks right, and it is also the failure that published benchmarks do not measure,
-since they label where a clause sits and not whether something further on undoes it.
+It turns out models do not miss them. We hid nine exceptions across eight real contracts
+and a single plain prompt found all nine and quoted the right passage every time. So we
+rewrote every one of them to strip out the signal words, narrowing the operative clause
+by asserting the transaction was never within its scope rather than announcing an
+exception. Nine out of nine again.
 
-The headline metric here is therefore the false absolute rate: how often a clause is
-reported as unconditional when an override exists elsewhere in the same document.
+Override detection inside a contract that fits in the model's context is solved, and no
+amount of engineering on top of it was going to show an improvement.
 
-## The evaluation
+## What is actually broken
 
-Eight contracts, three clause types, twenty four cases. The set was frozen before any of
-the reasoning code was written and has not been touched since. It breaks down as eleven
-absolute, nine qualified and four genuine absences, and those four matter, because they
-are what catches a system inventing a clause that is not there.
+Quoting. Three passages in twenty one could not be found in the source document. Not
+invented outright, but tidied, spliced together, lightly reworded. For a memo whose
+entire purpose is that a reviewer can go and check it, a citation that cannot be located
+is worse than no citation at all, because it reads as diligence.
 
-Both the baseline and the agent are given the same cases, the same model and the same
-output schema. The baseline is a single direct prompt with the whole contract in context
-and no verification of any kind, which is what most people would build first and is a fair
-thing to be measured against.
+So that became the problem worth solving, and the two numbers this project moves are:
 
-## Reproducing the result
+| | Baseline | Hedgehog |
+|---|---|---|
+| Unlocatable citations printed in the memo | 3 of 21 | **0 of 19** |
+| Prompt tokens per question | 8,800 | **2,950** |
 
-Every model response is cached to disk by a hash of the request, and the cache is committed
-to this repository. Current Claude models no longer accept a temperature parameter, so a
-recorded transcript is the only means of making the evaluation deterministic. The practical
-effect is that anyone can clone this repository, run the scorer offline without an API key,
-and arrive at the same numbers.
+The model does not misquote less. It produced two unlocatable quotes out of twenty one
+against the baseline's three, which is the same rate on a sample this size. What changed
+is that they no longer reach the page, which is why the denominator moves from 21 to 19
+and why both figures are printed rather than one.
 
-Exact commands, versions, runtimes and costs are in `REPRODUCE.md`.
+`CHANGELOG.md` has the full sequence, including the three things that did not work.
+
+## How it works
+
+Two changes from the baseline, and nothing else.
+
+**One call per contract.** The baseline sends the same forty pages three times over to
+answer three questions about it. Asking all three together costs a third as much.
+
+**Every quote is checked against the source.** A quoted passage is looked for in the
+contract, and if it is not there, character for character, it is withheld and the memo
+says so. That check is a string comparison. It always terminates, it cannot be argued
+with, and it does not ask the model to assess its own work.
+
+The memo ends with a section headed "Requires a reader" listing what the review could
+not establish. A tool that admits its gaps is more useful to a lawyer than one that
+fills them in.
+
+## Running it
+
+`REPRODUCE.md` has the commands. The short version is that every model response is
+cached and committed, so `npm ci && npm run score` reproduces every number in the
+changelog offline, with no API key and no cost.
+
+## Tools used
+
+Written with Claude Code as the coding agent, calling Gemini 3.7 Flash through the
+Generative Language REST API at runtime. Agent transcripts are under `trajectories/`,
+one JSON line per exchange, with the full request and response for every call.
 
 ## Data and licence
 
 The evaluation uses the Contract Understanding Atticus Dataset (CUAD) v1, created by
-The Atticus Project and released under CC BY 4.0. The source is at
+The Atticus Project and released under CC BY 4.0, from
 <https://zenodo.org/records/4595826>.
 
-The eight contracts under `cases/contracts/` are redistributed from CUAD under that licence
-and **they have been modified**. Synthetic override clauses were inserted into some of them
-in order to create ground truth for the override detection task, which CUAD does not label.
-Every insertion is recorded in `cases/cases.json` and the templates sit in `src/carveouts.ts`.
-These copies are consequently fit for reproducing this evaluation and for nothing else.
+The eight contracts under `cases/contracts/` are redistributed under that licence and
+**they have been modified**: synthetic override clauses were inserted into some of them
+to create ground truth for a task CUAD does not label. Every insertion is recorded in
+`cases/cases.json` and the templates are in `src/carveouts.ts`. These copies are fit for
+reproducing this evaluation and nothing else.
 
-An injected carve out is in all likelihood easier to spot than one which grew naturally over
-several rounds of drafting, so the figures here should be read as an upper bound.
+An inserted carve out is in all likelihood easier to spot than one that grew naturally
+over several rounds of drafting, so those figures should be read as an upper bound.
 
-## Status
+## What the evaluation does not establish
 
-Work in progress. The improvement log is in `CHANGELOG.md`.
+The characterisation accuracy column is not trustworthy and no decision here rests on
+it. The case set assumes a contract with no inserted override has none, which is untrue
+of real commercial agreements: the Conformis, Berkshire Hills and Ambassador Eyewear
+contracts each contain genuine carve outs that CUAD does not label. The model found them
+and the scorer marked it wrong for doing so.
+
+The two headline measures avoid this. Whether a quoted passage appears in the source is
+a string comparison, and token count is arithmetic. Neither depends on the labelling.

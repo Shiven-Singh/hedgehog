@@ -3,6 +3,7 @@ import { runBaseline } from './baseline.js';
 import { scoreAll } from './score.js';
 import { runAgent } from './agent.js';
 import { runSolution } from './solution.js';
+import { buildReport } from './report.js';
 
 const cmd = process.argv[2];
 
@@ -19,6 +20,9 @@ const main = async () => {
       break;
     case 'solution':
       await runSolution(process.argv[3] ?? 'solution');
+      break;
+    case 'report':
+      buildReport(process.argv[3] ?? 'solution');
       break;
     case 'score':
       scoreAll();
