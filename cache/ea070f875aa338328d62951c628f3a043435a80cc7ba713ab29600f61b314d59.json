@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "name": "search_contract",
+              "args": {
+                "query": "merger"
+              },
+              "id": "call_3874455"
+            },
+            "thoughtSignature": "EvQBCvEBARFNMg9/UBBequlN1jxVU5kSQwsDHPDQcQ+7lB0yEBn5uWDt6GDOFlzOg8OTJktVS2akkNiLRYVvDmoQshjFGJOceS7qdCMf08ishKnImSFOq39wJUikNUtZGcTtd0u4LqazKKto0FPZmaVdOcAOnZ2E/U6xdG3W8Sh9qyNJO6JUHx2O32rWX928hQO1yWqUP9tTtsy5RVI/zT/KUradxYBpp+8EdLVxwuc3Ihntaoi+H4Tqk4n0+v2Af2qc5u9hRuBdlloUdW+C0vG53hL2mTqKq/grUsoEw/CZCyG2bXeyu/ZuazfzsCleB8DUMh+jmw=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "finishMessage": "Model generated function call(s)."
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3269,
+    "candidatesTokenCount": 17,
+    "totalTokenCount": 3314,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3269
+      }
+    ],
+    "thoughtsTokenCount": 28,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "TymVavOwHafeg8UPrPbFwQE"
+}

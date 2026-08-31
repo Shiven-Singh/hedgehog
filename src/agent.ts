@@ -137,7 +137,9 @@ export async function runAgent(label: string): Promise<void> {
   };
   const texts = new Map(contracts.map((c) => [c.id, fs.readFileSync(c.path, 'utf8')]));
 
-  const results = await mapLimit(cases, 3, (cs) => solveCase(label, cs, texts.get(cs.contractId)!));
+  const limit = Number(process.env.HEDGEHOG_LIMIT ?? 0);
+  const selected = limit > 0 ? cases.slice(0, limit) : cases;
+  const results = await mapLimit(selected, 6, (cs) => solveCase(label, cs, texts.get(cs.contractId)!));
   process.stdout.write('\n');
 
   const manifest: RunManifest = {

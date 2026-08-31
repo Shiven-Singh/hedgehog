@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "name": "search_contract",
+              "args": {
+                "query": "escrow"
+              },
+              "id": "call_2560145"
+            },
+            "thoughtSignature": "EvkCCvYCARFNMg9CTXhgwNPYLwUx+eBHAd74GVpGZ95qAkWXvKEBybNHQAKpoOlfJYAu8jRQy3HA1A55YJvxQ1zVCusufobwxDc2G14rN45IKw5Vp73zYpByYt8OU9UtwHHURK2T88EVFJbTiKsHOLVzvKpWUjVwGdfvFcZSdwpK9MFi/f1bWvrp3o5X0/QIH/I4/GXA6sJwxRaaP4d12ccUyeY7WAgrJnHPC4t7OW8FNIxXOaGQz16Z+gVcalqxabxUjjYc1aT7s+D1/0Mvxo1d69+WSuzfszHQv63K7IklXE00pNnghernCUkAlWQMX011qFR9JB59JafGwvRPds5JhKig4tScWcUrcfbk9YToVTfTZeNizc2DT82QQ2cWQFT5o2b+3xI+HmOantAzyjsxWYfrokUVqZMONrvRxEpbCrqvB+c+73otMvXKGru0A1rXkTq5Xpb4lipInDSXaiO0pv3jA9bsL7E2QP/G9YOKHU6pwA18w3uTXac="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "finishMessage": "Model generated function call(s)."
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2416,
+    "candidatesTokenCount": 17,
+    "totalTokenCount": 2568,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2416
+      }
+    ],
+    "thoughtsTokenCount": 135,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "OCmVatHdEuuHjuMP_tmKkAM"
+}

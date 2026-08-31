@@ -2,6 +2,7 @@ import { prepareData } from './data.js';
 import { runBaseline } from './baseline.js';
 import { scoreAll } from './score.js';
 import { runAgent } from './agent.js';
+import { runSolution } from './solution.js';
 
 const cmd = process.argv[2];
 
@@ -15,6 +16,9 @@ const main = async () => {
       break;
     case 'agent':
       await runAgent(process.argv[3] ?? 'agent');
+      break;
+    case 'solution':
+      await runSolution(process.argv[3] ?? 'solution');
       break;
     case 'score':
       scoreAll();

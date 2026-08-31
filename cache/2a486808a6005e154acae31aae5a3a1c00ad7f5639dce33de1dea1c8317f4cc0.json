@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"findings\": [\n    {\n      \"clauseType\": \"Anti-Assignment\",\n      \"characterization\": \"ABSOLUTE\",\n      \"quote\": \"Detto may not assign any of its rights or delegate any of its obligations hereunder, whether by operation of law or otherwise, without PivX's prior written consent.\",\n      \"overrideQuote\": null,\n      \"note\": \"Detto is prohibited from assigning rights or delegating obligations without PivX's prior written consent, with no carve-outs or exceptions.\"\n    },\n    {\n      \"clauseType\": \"Change Of Control\",\n      \"characterization\": \"NOT_FOUND\",\n      \"quote\": null,\n      \"overrideQuote\": null,\n      \"note\": \"The agreement does not contain a change of control clause.\"\n    },\n    {\n      \"clauseType\": \"Exclusivity\",\n      \"characterization\": \"ABSOLUTE\",\n      \"quote\": \"Subject to the terms and conditions of this Agreement, PivX hereby grants to Detto a non-transferable, exclusive license to distribute PivX's Qwik-Fix Pro and any documentation supporting Qwik-Fix Pro provided from time to time by PivX (the \\\"Documentation\\\") within North America, solely to third parties to whom Detto licenses Qwik-Fix Pro (\\\"Third Parties\\\"), and as governed by the terms set forth in Exhibit A (PivX/Detto Reseller Agreement Addendum).\",\n      \"overrideQuote\": null,\n      \"note\": \"PivX grants Detto an exclusive distribution license within North America (distribution outside North America is granted on a non-exclusive basis).\"\n    }\n  ]\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 797,
+            "endIndex": 1245,
+            "uri": "https://www.lawinsider.com/contracts/7qwAmokh8ub",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 5819,
+    "candidatesTokenCount": 368,
+    "totalTokenCount": 7123,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 5819
+      }
+    ],
+    "thoughtsTokenCount": 936,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "1imVatzuK4bVqfkPg6Wh0QE"
+}
