@@ -86,6 +86,17 @@ it needs no key and no server of its own.
 cached and committed, so `npm ci && npm run score` reproduces every number in the
 changelog offline, with no API key and no cost.
 
+## What is new, and what is not
+
+Every line of this repository was written during the competition window, starting from an
+empty directory. Nothing was carried in from earlier work. The git history runs from the
+first commit to the last within the submission period.
+
+Two things pre-date it and are not mine. The CUAD dataset, which is credited below. And
+the model, which is called over its public API. Everything else, the case construction,
+the inserted overrides, the baseline, the solution, the scorer, the memo and the front
+end, was built here.
+
 ## Tools used
 
 Written with Claude Code as the coding agent, calling Gemini 3.7 Flash through the
