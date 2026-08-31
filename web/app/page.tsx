@@ -8,6 +8,22 @@ export const dynamic = 'force-dynamic';
 
 export default function Page() {
   const review = getReview();
+
+  if (!review) {
+    return (
+      <main className="max-w-3xl px-8 py-20 md:px-16 md:py-24">
+        <p className="eyebrow label">Due diligence</p>
+        <h1 className="mt-3 text-4xl font-semibold tracking-tight md:text-5xl">Clause review</h1>
+        <p className="mt-5 max-w-2xl text-[1.0625rem] leading-relaxed text-ink-soft">
+          Eight commercial agreements are waiting. Three questions will be put to each of them: is
+          assignment restricted, does a change of control trigger anything, and is there an
+          exclusivity undertaking. Nothing has been reviewed yet.
+        </p>
+        <RunButton first />
+      </main>
+    );
+  }
+
   const total = review.contracts.length;
   const qualified = review.contracts.flatMap((c) => c.findings).filter((f) => f.verdict === 'QUALIFIED').length;
   const withheld = review.contracts.flatMap((c) => c.findings).filter((f) => f.citationWithheld).length;
@@ -79,6 +95,13 @@ export default function Page() {
         </p>
 
         <RunButton />
+
+        <p className="no-print mt-10 text-[0.875rem] text-ink-faint">
+          Every version that was tried, and the two claims that turned out to be wrong, are in the{' '}
+          <Link href="/changelog/" className="underline decoration-rule underline-offset-4 hover:decoration-ink">
+            improvement changelog
+          </Link>.
+        </p>
         </div>
 
         <aside className="lg:sticky lg:top-12 lg:self-start">

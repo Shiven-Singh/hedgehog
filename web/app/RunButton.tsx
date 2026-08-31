@@ -9,7 +9,7 @@ type State =
   | { kind: 'done'; seconds: number; output: string }
   | { kind: 'failed'; message: string };
 
-export default function RunButton() {
+export default function RunButton({ first = false }: { first?: boolean }) {
   const router = useRouter();
   const [state, setState] = useState<State>({ kind: 'idle' });
 
@@ -36,13 +36,18 @@ export default function RunButton() {
         disabled={state.kind === 'running'}
         className="cursor-pointer border-b border-ink pb-0.5 text-[0.9375rem] transition-opacity hover:opacity-60 disabled:cursor-wait disabled:opacity-40"
       >
-        {state.kind === 'running' ? 'Reviewing the eight agreements…' : 'Run the review again'}
+        {state.kind === 'running'
+          ? 'Reviewing the eight agreements…'
+          : first
+            ? 'Review the eight agreements'
+            : 'Run the review again'}
       </button>
 
       {state.kind === 'idle' && (
         <p className="mt-3 max-w-2xl text-[0.875rem] leading-relaxed text-ink-faint">
-          This calls the model afresh and rewrites the review. It needs an API key and costs a few
-          pence. Reading the review as recorded needs neither.
+          {first
+            ? 'This reads all eight contracts, puts the three questions to each, and checks every quotation against the source before printing it. It needs an API key and costs a few pence.'
+            : 'This calls the model afresh and rewrites the review. It needs an API key and costs a few pence. Reading the review as recorded needs neither.'}
         </p>
       )}
 

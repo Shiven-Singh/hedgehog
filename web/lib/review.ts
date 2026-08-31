@@ -32,8 +32,20 @@ export interface Review {
   contracts: Contract[];
 }
 
-export function getReview(): Review {
-  return JSON.parse(fs.readFileSync(path.join(ROOT, 'results/solution/report.json'), 'utf8'));
+/** Null when no review has been run yet, so the page can show an empty state. */
+export function getReview(): Review | null {
+  try {
+    const raw = fs.readFileSync(path.join(ROOT, 'results/solution/report.json'), 'utf8');
+    const parsed = JSON.parse(raw) as Review;
+    return parsed.contracts?.length ? parsed : null;
+  } catch {
+    return null;
+  }
+}
+
+/** The improvement changelog, read straight off disk. */
+export function getChangelog(): string {
+  return fs.readFileSync(path.join(ROOT, 'CHANGELOG.md'), 'utf8');
 }
 
 export const CLAUSE_ORDER = ['Anti-Assignment', 'Change Of Control', 'Exclusivity'];

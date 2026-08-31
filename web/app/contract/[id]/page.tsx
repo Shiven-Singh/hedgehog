@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { getReview, CLAUSE_ORDER, type Finding } from '@/lib/review';
 
 export function generateStaticParams() {
-  return getReview().contracts.map((c) => ({ id: c.id }));
+  return (getReview()?.contracts ?? []).map((c) => ({ id: c.id }));
 }
 
 function Citation({ at }: { at: string | null }) {
@@ -52,8 +52,8 @@ function Clause({ finding }: { finding: Finding }) {
 export default async function Page({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const review = getReview();
-  const contract = review.contracts.find((c) => c.id === id);
-  if (!contract) notFound();
+  const contract = review?.contracts.find((c) => c.id === id);
+  if (!review || !contract) notFound();
 
   const ordered = CLAUSE_ORDER.map((c) => contract.findings.find((f) => f.clauseType === c)).filter(
     (f): f is Finding => Boolean(f),
