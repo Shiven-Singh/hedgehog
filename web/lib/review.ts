@@ -56,3 +56,33 @@ export const SHORT: Record<Verdict, string> = {
   QUALIFIED: 'Qualified',
   NOT_FOUND: 'Not found',
 };
+
+/** CUAD titles are EDGAR filenames; the same tidy-up the CLI applies. */
+function readable(raw: string): string {
+  const titleCase = (w: string) =>
+    /^[A-Z0-9,.&-]+$/.test(w) && w.length > 3 ? w.charAt(0) + w.slice(1).toLowerCase() : w;
+  const parts = raw.split('_').filter(Boolean);
+  const company = (parts[0] ?? raw)
+    .replace(/,/g, ' ')
+    .replace(/([a-z0-9])([A-Z])/g, '$1 $2')
+    .split(/\s+/)
+    .map(titleCase)
+    .join(' ')
+    .trim();
+  const kind = parts
+    .filter((p) => /agreement|licen[cs]e/i.test(p))
+    .map((p) =>
+      p.replace(/[-.]/g, ' ').replace(/\b(ex|10|8|k|q|f|s|sb|a|drs|on)\b/gi, ' ').replace(/\b\d+\b/g, ' ').replace(/\s+/g, ' ').trim(),
+    )
+    .filter(Boolean)
+    .pop();
+  const pretty = kind ? kind.split(' ').map((w) => titleCase(w.charAt(0).toUpperCase() + w.slice(1))).join(' ') : '';
+  return pretty ? `${company}: ${pretty}` : company;
+}
+
+/** The contracts queued for review, readable before anything has been run. */
+export function getPendingContracts(): { id: string; title: string; chars: number }[] {
+  const raw = fs.readFileSync(path.join(ROOT, 'cases/cases.json'), 'utf8');
+  const parsed = JSON.parse(raw) as { contracts: { id: string; title: string; chars: number }[] };
+  return parsed.contracts.map((c) => ({ ...c, title: readable(c.title) }));
+}

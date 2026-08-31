@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import RunButton from './RunButton';
-import { getReview, CLAUSE_ORDER, SHORT, type Verdict } from '@/lib/review';
+import { getReview, getPendingContracts, CLAUSE_ORDER, SHORT, type Verdict } from '@/lib/review';
 
 // Read from disk on every request, so the page reflects a re-run rather than a
 // snapshot taken when the server started.
@@ -10,6 +10,7 @@ export default function Page() {
   const review = getReview();
 
   if (!review) {
+    const pending = getPendingContracts();
     return (
       <main className="max-w-3xl px-8 py-20 md:px-16 md:py-24">
         <p className="eyebrow label">Due diligence</p>
@@ -19,6 +20,23 @@ export default function Page() {
           assignment restricted, does a change of control trigger anything, and is there an
           exclusivity undertaking. Nothing has been reviewed yet.
         </p>
+
+        <h2 className="label mt-12">Awaiting review</h2>
+        <ol className="mt-4">
+          {pending.map((c, i) => (
+            <li
+              key={c.id}
+              className="flex items-baseline justify-between gap-6 border-b border-rule py-3 text-[0.9375rem]"
+            >
+              <span>
+                <span className="label mr-3">{String(i + 1).padStart(2, '0')}</span>
+                {c.title}
+              </span>
+              <span className="label whitespace-nowrap">{c.chars.toLocaleString('en-GB')} chars</span>
+            </li>
+          ))}
+        </ol>
+
         <RunButton first />
       </main>
     );
