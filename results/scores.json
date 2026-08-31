@@ -133,9 +133,9 @@
     "label": "solution",
     "model": "gemini-3.7-flash",
     "cases": 24,
-    "accuracy": 0.7083333333333334,
+    "accuracy": 0.6666666666666666,
     "falseAbsolute": {
-      "n": 0,
+      "n": 1,
       "of": 9
     },
     "inventedClause": {
@@ -152,7 +152,7 @@
       "n": 0,
       "of": 20
     },
-    "promptTokens": 92835,
-    "outputTokens": 23799
+    "promptTokens": 78207,
+    "outputTokens": 19212
   }
 ]

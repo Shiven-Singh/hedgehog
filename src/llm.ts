@@ -115,7 +115,9 @@ export async function call(
   const key = crypto.createHash('sha256').update(JSON.stringify({ MODEL, body })).digest('hex');
   const file = path.join('cache', `${key}.json`);
 
-  if (fs.existsSync(file)) {
+  // HEDGEHOG_NO_CACHE=1 forces live calls. Used to measure how much these runs
+  // vary between themselves, which the cache otherwise hides completely.
+  if (fs.existsSync(file) && process.env.HEDGEHOG_NO_CACHE !== '1') {
     const cached: ApiResponse = JSON.parse(fs.readFileSync(file, 'utf8'));
     return { ...summarise(cached), wallMs: 0, cached: true };
   }

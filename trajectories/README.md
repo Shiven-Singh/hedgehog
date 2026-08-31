@@ -7,13 +7,11 @@ response, and the wall clock time in milliseconds. Nothing is summarised.
 | File | Run |
 |---|---|
 | `baseline.jsonl` | The baseline. One call per clause, whole contract in context. |
-| `solution.jsonl` | Hedgehog. One call per contract covering all three clause types. |
-| `experiment-strict-prompt.jsonl` | Abandoned. Sterner instruction about copying quotes exactly. |
-| `experiment-repair-loop.jsonl` | Abandoned. Unlocatable quotes sent back for correction, two rounds. The repair turns are visible here, and so is the fact that they corrected nothing. |
+| `solution.jsonl` | Hedgehog. One call per contract, then a repair turn for any quote that failed the check. The repair exchange is the one whose request has more than one entry in `contents`; it shows the offending quote being handed back and the corrected passage coming return. |
+| `experiment-retrieval.jsonl` | Abandoned. The retrieval agent, 170 exchanges across 24 cases, including the searches for "Agreement" and "Section" that show it flailing. |
+| `experiment-strict-prompt.jsonl` | Abandoned. The sterner instruction about copying quotes exactly. |
 
-The retrieval agent's transcript is not here: it predates the final case set, so its
-requests refer to contract text that has since been regenerated and replaying it would
-mislead. Its result is recorded in `CHANGELOG.md` and the code is in `src/agent.ts`.
-
-The `key` field on each line is the sha256 of the request. The corresponding response
-sits in `cache/<key>.json`, which is how the scorer replays a run without a network call.
+Runs that are absent from this list were served entirely from the cache and so made no new
+calls to record. Their results are under `results/` and their responses under `cache/`,
+keyed by the `key` field on each line here, which is the sha256 of the request. That is how
+the scorer replays a run without touching the network.

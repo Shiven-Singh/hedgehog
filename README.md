@@ -39,13 +39,19 @@ So that became the problem worth solving, and the two numbers this project moves
 
 | | Baseline | Hedgehog |
 |---|---|---|
-| Citations printed in the memo | 21 | 20 |
-| Of those, unlocatable in the contract | **3** | **0** |
-| Prompt tokens per question | 8,800 | **3,868** |
+| Citations printed in the memo | 21 | 20 to 21 |
+| Of those, unlocatable in the contract | **3** | **0, in all four runs** |
+| Prompt tokens per question | 8,800 | **3,259 to 3,870** |
 
 The model does not misquote less. It goes wrong at much the same rate either way. What
-changed is that the wrong ones are caught before they reach the page, and most of them are
-then recovered rather than simply dropped.
+changed is that the wrong ones are caught before they reach the page, and then recovered
+rather than simply dropped.
+
+Ranges rather than single figures, because these models take no temperature parameter and
+four runs of the identical configuration gave four different answers. Characterisation moved
+eight points between them. The citation count did not move at all, because it rests on a
+string comparison rather than on the model, and that is the whole argument for building it
+this way.
 
 `CHANGELOG.md` has the full sequence, including the three things that did not work.
 

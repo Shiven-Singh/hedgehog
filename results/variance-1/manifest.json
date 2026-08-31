@@ -1,7 +1,7 @@
 {
-  "label": "solution",
+  "label": "variance-1",
   "model": "gemini-3.7-flash",
-  "startedAt": "2026-08-31T13:01:15.227Z",
+  "startedAt": "2026-08-31T13:03:09.910Z",
   "results": [
     {
       "caseId": "2themartcominc-19990826-10-12g-ex-10-10-6700288-ex-10-10-co-::Anti-Assignment",
@@ -10,16 +10,16 @@
         "characterization": "QUALIFIED",
         "quote": "All rights (under any applicable intellectual property right) granted herein are not sublicenseable,\n\nSource: 2THEMART COM INC, 10-12G, 8/26/1999\n\n\n\n\n\ntransferable or assignable.",
         "overrideQuote": "Notwithstanding the foregoing, either party may use a third party web host, but all actions or failures to act of the web host that would be a breach of this Agreement, were the actions or failures to act taken by the applicable party, shall be deemed a breach of this Agreement.  In addition, 2TheMart may grant sublicenses to companies that 2TheMart has a business relationship with to the extent that 2TheMart Content is visible from such company's web-site through a link or other means.",
-        "note": "Section 6.5 prohibits the assignment, transfer, or sublicensing of intellectual property rights granted under the agreement, but permits third-party web hosting, specified sublicensing by 2TheMart, and reorganizations as detailed in the Corporate Reorganisations clause."
+        "note": "Section 6.5 restricts the sublicensing, transfer, or assignment of intellectual property rights granted under the agreement, but explicitly carves out exceptions allowing third-party web hosting and certain sublicenses by 2TheMart."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
-        "promptTokens": 4766,
-        "outputTokens": 418,
-        "thoughtTokens": 1274
+        "promptTokens": 4757,
+        "outputTokens": 414,
+        "thoughtTokens": 1366
       },
-      "wallMs": 5101,
+      "wallMs": 5166,
       "toolCalls": 1
     },
     {
@@ -29,35 +29,35 @@
         "characterization": "QUALIFIED",
         "quote": "If a majority of the equity securities of either 2TheMart or i-Escrow, Inc. (except that i-Escrow may sell all or a majority of its equity securities or voting interests to i-Escrow.com, and i-Escrow.com may sell all or a majority of its equity securities or voting interests to i-Escrow's existing shareholders, without triggering the foregoing) are acquired by another company during the term of this Agreement either company may terminate this Agreement, without liability, by giving a thirty (30) days written notice to the other party.",
         "overrideQuote": "except that i-Escrow may sell all or a majority of its equity securities or voting interests to i-Escrow.com, and i-Escrow.com may sell all or a majority of its equity securities or voting interests to i-Escrow's existing shareholders, without triggering the foregoing",
-        "note": "Section 8.3 grants either party the right to terminate upon an acquisition of a majority of equity securities by another company, with a specific carve-out for internal reorganizations involving i-Escrow.com and i-Escrow's existing shareholders."
+        "note": "Section 8.3 grants either party the right to terminate upon an acquisition of a majority of equity securities by another company, with an express exception for certain internal transfers involving i-Escrow.com and existing shareholders."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
-        "promptTokens": 4766,
-        "outputTokens": 418,
-        "thoughtTokens": 1274
+        "promptTokens": 4757,
+        "outputTokens": 414,
+        "thoughtTokens": 1366
       },
-      "wallMs": 5101,
+      "wallMs": 5166,
       "toolCalls": 1
     },
     {
       "caseId": "2themartcominc-19990826-10-12g-ex-10-10-6700288-ex-10-10-co-::Exclusivity",
       "finding": {
         "clauseType": "Exclusivity",
-        "characterization": "NOT_FOUND",
-        "quote": null,
+        "characterization": "ABSOLUTE",
+        "quote": "i-Escrow shall not run banner advertisements on the Co-Branded Site for any of 2TheMart's competitors.",
         "overrideQuote": null,
-        "note": "The contract does not include an exclusivity clause; the licenses granted are expressly non-exclusive, although Section 2.4 contains a limited restriction prohibiting i-Escrow from running banner advertisements for competitors of 2TheMart."
+        "note": "Section 2.4 contains an absolute restriction preventing i-Escrow from running banner advertisements for any of 2TheMart's competitors on the Co-Branded Site."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
-        "promptTokens": 4766,
-        "outputTokens": 418,
-        "thoughtTokens": 1274
+        "promptTokens": 4757,
+        "outputTokens": 414,
+        "thoughtTokens": 1366
       },
-      "wallMs": 5101,
+      "wallMs": 5166,
       "toolCalls": 1
     },
     {
@@ -67,16 +67,16 @@
         "characterization": "ABSOLUTE",
         "quote": "Detto may not assign any of its rights or delegate any of its obligations hereunder, whether by operation of law or otherwise, without PivX's prior written consent.",
         "overrideQuote": null,
-        "note": "Detto is prohibited from assigning its rights or delegating its obligations, whether by operation of law or otherwise, without PivX's prior written consent."
+        "note": "Detto is prohibited from assigning rights or delegating obligations without PivX's prior written consent, with no carve-outs or exceptions specified."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 1940,
-        "outputTokens": 125,
-        "thoughtTokens": 517
+        "outputTokens": 122,
+        "thoughtTokens": 361
       },
-      "wallMs": 2534,
+      "wallMs": 2315,
       "toolCalls": 0
     },
     {
@@ -86,16 +86,16 @@
         "characterization": "NOT_FOUND",
         "quote": null,
         "overrideQuote": null,
-        "note": "The agreement contains no express change of control provision."
+        "note": "The contract does not contain a change of control clause."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 1940,
-        "outputTokens": 125,
-        "thoughtTokens": 517
+        "outputTokens": 122,
+        "thoughtTokens": 361
       },
-      "wallMs": 2534,
+      "wallMs": 2315,
       "toolCalls": 0
     },
     {
@@ -105,16 +105,16 @@
         "characterization": "ABSOLUTE",
         "quote": "Subject to the terms and conditions of this Agreement, PivX hereby grants to Detto a non-transferable, exclusive license to distribute PivX's Qwik-Fix Pro and any documentation supporting Qwik-Fix Pro provided from time to time by PivX (the \"Documentation\") within North America, solely to third parties to whom Detto licenses Qwik-Fix Pro (\"Third Parties\"), and as governed by the terms set forth in Exhibit A (PivX/Detto Reseller Agreement Addendum).",
         "overrideQuote": null,
-        "note": "PivX grants Detto an exclusive license to distribute the software and documentation within North America, with no exceptions or carve-outs limiting that territorial exclusivity."
+        "note": "PivX grants Detto an exclusive distribution license for Qwik-Fix Pro and supporting Documentation within North America."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 1940,
-        "outputTokens": 125,
-        "thoughtTokens": 517
+        "outputTokens": 122,
+        "thoughtTokens": 361
       },
-      "wallMs": 2534,
+      "wallMs": 2315,
       "toolCalls": 0
     },
     {
@@ -124,16 +124,16 @@
         "characterization": "QUALIFIED",
         "quote": "Neither Newegg nor Allied shall have the right or power to assign or transfer any part of its rights or obligations under this Agreement without the prior consent in writing of the other Party.",
         "overrideQuote": "The parties acknowledge that the transfer of this Agreement to a successor entity in connection with a merger, consolidation, or the sale of all or substantially all of the assets or equity of a party constitutes a continuation of the existing contractual relationship and not an assignment, transfer or delegation for the purposes of this Agreement. The consent requirements set out in this Agreement have no application to any such transaction, and no notice to the other party is required in respect of it.",
-        "note": "Section 15.4 restricts assignment without prior written consent, but the Corporate Reorganisations clause exempts transfers in connection with mergers, consolidations, or sales of substantially all assets or equity."
+        "note": "Section 15.4 prohibits assignment or transfer without prior written consent, but the Corporate Reorganisations clause exempts transfers to successor entities in connection with mergers, consolidations, or sales of assets/equity."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 2767,
-        "outputTokens": 167,
-        "thoughtTokens": 422
+        "outputTokens": 159,
+        "thoughtTokens": 534
       },
-      "wallMs": 2422,
+      "wallMs": 2461,
       "toolCalls": 0
     },
     {
@@ -143,16 +143,16 @@
         "characterization": "NOT_FOUND",
         "quote": null,
         "overrideQuote": null,
-        "note": "The agreement does not contain a standalone change of control provision, although change of control is referenced parenthetically in the license grant under Section 6.1 and addressed regarding successor entities under Corporate Reorganisations."
+        "note": "The contract does not contain a change of control clause granting rights or remedies upon a change of control."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 2767,
-        "outputTokens": 167,
-        "thoughtTokens": 422
+        "outputTokens": 159,
+        "thoughtTokens": 534
       },
-      "wallMs": 2422,
+      "wallMs": 2461,
       "toolCalls": 0
     },
     {
@@ -162,16 +162,16 @@
         "characterization": "QUALIFIED",
         "quote": "Allied shall not endorse, or permit the marketing of any other company whose principal business is as an e-commerce provider at or in connection with the Arena.",
         "overrideQuote": "The parties acknowledge that any product, service, territory or customer relationship in existence as at the Effective Date lies outside the scope of the undertakings given under this Agreement in respect of exclusivity, restricted dealing, or minimum commitment. The continuation, renewal or expansion of any such arrangement by either party is permitted and shall not constitute a breach of this Agreement.",
-        "note": "Allied grants exclusivity regarding e-commerce providers under Section 7, but pre-existing arrangements in place as of the Effective Date are expressly excluded from the scope of exclusivity obligations."
+        "note": "Section 7 grants Newegg category exclusivity, but the Pre-existing Arrangements clause carves out any pre-existing relationships from the scope of exclusivity."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 2767,
-        "outputTokens": 167,
-        "thoughtTokens": 422
+        "outputTokens": 159,
+        "thoughtTokens": 534
       },
-      "wallMs": 2422,
+      "wallMs": 2461,
       "toolCalls": 0
     },
     {
@@ -181,16 +181,16 @@
         "characterization": "QUALIFIED",
         "quote": "This Agreement and all rights and duties hereunder are personal to Diplomat and shall not, without the written consent of KI, Inc., be assigned, mortgaged, sublicensed or otherwise encumbered by Diplomat or by operation of law.",
         "overrideQuote": "without the written consent of KI, Inc.",
-        "note": "Diplomat may not assign the agreement without KI, Inc.'s prior written consent, and KI, Inc. is permitted to assign its rights upon written notice."
+        "note": "Diplomat is prohibited from assigning or sublicensing the agreement without the written consent of KI, Inc., while KI, Inc. is permitted to assign its rights with written notice."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 2751,
-        "outputTokens": 113,
-        "thoughtTokens": 323
+        "outputTokens": 119,
+        "thoughtTokens": 417
       },
-      "wallMs": 2187,
+      "wallMs": 3293,
       "toolCalls": 0
     },
     {
@@ -206,10 +206,10 @@
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 2751,
-        "outputTokens": 113,
-        "thoughtTokens": 323
+        "outputTokens": 119,
+        "thoughtTokens": 417
       },
-      "wallMs": 2187,
+      "wallMs": 3293,
       "toolCalls": 0
     },
     {
@@ -218,17 +218,17 @@
         "clauseType": "Exclusivity",
         "characterization": "QUALIFIED",
         "quote": "The license hereby granted shall be exclusive as to the products described in subparagraphs 2.(a)(1) and (2) of this Agreement, but nonexclusive as to all other products covered by this Agreement.",
-        "overrideQuote": "but nonexclusive as to all other products covered by this Agreement.",
-        "note": "Exclusivity is limited specifically to certain defined optical products and frames, while remaining nonexclusive for all other covered optical accessories."
+        "overrideQuote": "but nonexclusive as to all other products covered by this Agreement",
+        "note": "Exclusivity is limited solely to the products specified in subparagraphs 2(a)(1) and (2), and the license is explicitly non-exclusive for all other products covered under the agreement."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 2751,
-        "outputTokens": 113,
-        "thoughtTokens": 323
+        "outputTokens": 119,
+        "thoughtTokens": 417
       },
-      "wallMs": 2187,
+      "wallMs": 3293,
       "toolCalls": 0
     },
     {
@@ -238,16 +238,16 @@
         "characterization": "QUALIFIED",
         "quote": "Except as expressly provided for herein, neither party may assign or otherwise transfer any of its rights or obligations under this Agreement without the other party's prior written approval and any such assignment or transfer shall be void.",
         "overrideQuote": "The parties acknowledge that the transfer of this Agreement to a successor entity in connection with a merger, consolidation, or the sale of all or substantially all of the assets or equity of a party constitutes a continuation of the existing contractual relationship and not an assignment, transfer or delegation for the purposes of this Agreement. The consent requirements set out in this Agreement have no application to any such transaction, and no notice to the other party is required in respect of it.",
-        "note": "The general prohibition against assignment without consent is qualified by the Corporate Reorganisations clause, which exempts transfers to successor entities pursuant to mergers, consolidations, or sales of substantially all assets or equity."
+        "note": "Section 8.5 generally prohibits assignment without prior written consent, but the Corporate Reorganisations clause carves out transfers to successor entities via merger, consolidation, or asset/equity sales from the consent and notice requirements."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 3211,
-        "outputTokens": 204,
-        "thoughtTokens": 660
+        "outputTokens": 213,
+        "thoughtTokens": 737
       },
-      "wallMs": 2708,
+      "wallMs": 3122,
       "toolCalls": 0
     },
     {
@@ -255,18 +255,18 @@
       "finding": {
         "clauseType": "Change Of Control",
         "characterization": "ABSOLUTE",
-        "quote": "At the election of either party, in writing, if: (i) all or substantially all of the assets of the non-terminating party are transferred, sold or liquidated; (ii) the non-terminating party is dissolved; (iii) the non-terminating party is adjudged a bankrupt or becomes insolvent; (iv) the non-terminating party enters into an assignment or other arrangement for the benefit of its creditors; or (v) the ownership or operations of the non-terminating party have materially changed;",
+        "quote": "(a) At the election of either party, in writing, if: (i) all or substantially all of the assets of the non-terminating party are transferred, sold or liquidated; (ii) the non-terminating party is dissolved; (iii) the non-terminating party is adjudged a bankrupt or becomes insolvent;  (iv) the non-terminating party enters into an assignment or other arrangement for the benefit of its creditors; or (v) the ownership or  operations of the non-terminating party have materially changed;",
         "overrideQuote": null,
-        "note": "Section 7.2(a) allows either party to terminate the agreement if the ownership or operations of the other party materially change or if substantially all of its assets are transferred."
+        "note": "Section 7.2(a) grants either party the right to terminate the agreement if the ownership or operations of the other party materially change or if substantially all assets are transferred, sold, or liquidated, with no contractual exceptions."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 3211,
-        "outputTokens": 204,
-        "thoughtTokens": 660
+        "outputTokens": 213,
+        "thoughtTokens": 737
       },
-      "wallMs": 2708,
+      "wallMs": 3122,
       "toolCalls": 0
     },
     {
@@ -274,18 +274,18 @@
       "finding": {
         "clauseType": "Exclusivity",
         "characterization": "QUALIFIED",
-        "quote": "Pursuant to the terms and conditions set forth in this Agreement, Aura appoints Zanotti as its exclusive supplier of the Products within the Territory and Field of Use and Zanotti hereby accepts such appointment.",
+        "quote": "Pursuant to the terms and conditions set forth in this Agreement, Aura appoints Zanotti as its exclusive supplier of the Products  within the Territory and Field of Use and Zanotti hereby accepts such appointment.",
         "overrideQuote": "The parties acknowledge that any product, service, territory or customer relationship in existence as at the Effective Date lies outside the scope of the undertakings given under this Agreement in respect of exclusivity, restricted dealing, or minimum commitment. The continuation, renewal or expansion of any such arrangement by either party is permitted and shall not constitute a breach of this Agreement.",
-        "note": "The exclusivity appointment is qualified by the Pre-existing Arrangements clause, which carves out pre-existing products, services, territories, and customer relationships from exclusivity restrictions."
+        "note": "The exclusive supplier grant in Section 2.1 is qualified by the Pre-existing Arrangements clause, which excludes pre-existing products, services, territories, and customer relationships from the scope of exclusivity."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 3211,
-        "outputTokens": 204,
-        "thoughtTokens": 660
+        "outputTokens": 213,
+        "thoughtTokens": 737
       },
-      "wallMs": 2708,
+      "wallMs": 3122,
       "toolCalls": 0
     },
     {
@@ -294,17 +294,17 @@
         "clauseType": "Anti-Assignment",
         "characterization": "QUALIFIED",
         "quote": "Berkshire may not assign this Agreement, in whole or in part, without Auriemma's written consent. In the case of reorganization, merger, consolidation, or sale of all or substantially all of its assets, any attempt to assign this Agreement other than as permitted above will be null and void.",
-        "overrideQuote": "The License Rights are exclusive to Berkshire and may not be assigned or in any way conveyed by Berkshire without Auriemma's express written consent, except in the event of a merger by Berkshire with another entity offering Banking Services.",
-        "note": "While Section 22 generally prohibits Berkshire from assigning the agreement without written consent, Section 2(c) creates an express exception permitting assignment/conveyance of the License Rights in the event of a merger with another entity offering Banking Services; additionally, Auriemma is permitted to assign monetary benefits."
+        "overrideQuote": "Nothing herein shall prevent Auriemma from assigning the monetary benefits (but not the obligations) of this Agreement, as he may so desire.",
+        "note": "Berkshire is restricted from assigning the agreement without consent, but Auriemma is expressly permitted to assign monetary benefits freely. In addition, Section 2(c) permits Berkshire to convey license rights in the event of a merger with another banking services entity."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 2268,
-        "outputTokens": 194,
-        "thoughtTokens": 560
+        "outputTokens": 178,
+        "thoughtTokens": 539
       },
-      "wallMs": 3170,
+      "wallMs": 3585,
       "toolCalls": 0
     },
     {
@@ -312,18 +312,18 @@
       "finding": {
         "clauseType": "Change Of Control",
         "characterization": "ABSOLUTE",
-        "quote": "For the purposes of this Agreement, a transaction in which the ultimate beneficial ownership of a party remains substantially unchanged, including any internal reorganisation, recapitalisation, or transaction effected solely to alter the jurisdiction of incorporation of that party, does not constitute a change of control, an acquisition, or a transfer of control of that party. The rights and obligations arising under this Agreement upon a change of control have no application to any such transaction.",
+        "quote": "Continuity of Ownership. For the purposes of this Agreement, a transaction in which the ultimate beneficial ownership of a party remains substantially unchanged, including any internal reorganisation, recapitalisation, or transaction effected solely to alter the jurisdiction of incorporation of that party, does not constitute a change of control, an acquisition, or a transfer of control of that party. The rights and obligations arising under this Agreement upon a change of control have no application to any such transaction.",
         "overrideQuote": null,
-        "note": "The clause defines and limits what constitutes a change of control under the agreement, specifically exempting internal reorganizations, recapitalizations, and changes in jurisdiction where beneficial ownership remains substantially unchanged."
+        "note": "The contract defines continuity of ownership exclusions regarding change of control without internal qualifications or exceptions."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 2268,
-        "outputTokens": 194,
-        "thoughtTokens": 560
+        "outputTokens": 178,
+        "thoughtTokens": 539
       },
-      "wallMs": 3170,
+      "wallMs": 3585,
       "toolCalls": 0
     },
     {
@@ -333,16 +333,16 @@
         "characterization": "QUALIFIED",
         "quote": "Auriemma will not enter into any arrangement or agreement, which enables any Berkshire Competitor to be endorsed by Auriemma (whether by using the Auriemma Identification, Auriemma providing services similar to the Endorsement Services, or otherwise) during the Contract Period within the Contract Territory.",
         "overrideQuote": "Notwithstanding the foregoing, it is understood that Auriemma has no control or influence over any decisions by the University of Connecticut to enter into any arrangement or agreement with any Berkshire Competitor.",
-        "note": "The exclusivity obligation restricting Auriemma from endorsing competitors is expressly qualified by the carve-out recognizing that Auriemma has no control over the University of Connecticut entering into agreements with Berkshire competitors."
+        "note": "Auriemma's exclusivity covenant is qualified by an express carve-out recognizing he has no control over decisions by the University of Connecticut to partner with Berkshire competitors."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 2268,
-        "outputTokens": 194,
-        "thoughtTokens": 560
+        "outputTokens": 178,
+        "thoughtTokens": 539
       },
-      "wallMs": 3170,
+      "wallMs": 3585,
       "toolCalls": 0
     },
     {
@@ -351,17 +351,17 @@
         "clauseType": "Anti-Assignment",
         "characterization": "QUALIFIED",
         "quote": "This Agreement and any rights or authority granted hereunder shall not be assigned or transferred by either Party, including by operation of law, merger or otherwise, without the express written consent of the other Party, provided that Licensor may assign this Agreement without consent to any of its Affiliates and Licensee may assign this Agreement without consent to SINA Leju or an Affiliate of Licensee that is controlled by SINA Leju.",
-        "overrideQuote": "The parties acknowledge that the transfer of this Agreement to a successor entity in connection with a merger, consolidation, or the sale of all or substantially all of the assets or equity of a party constitutes a continuation of the existing contractual relationship and not an assignment, transfer or delegation for the purposes of this Agreement. The consent requirements set out in this Agreement have no application to any such transaction, and no notice to the other party is required in respect of it.",
-        "note": "Section 10.7 permits assignments without consent to designated affiliates, and the Corporate Reorganisations clause exempts successor transfers via merger, consolidation, or sale of assets/equity from assignment restrictions and consent requirements."
+        "overrideQuote": "provided that Licensor may assign this Agreement without consent to any of its Affiliates and Licensee may assign this Agreement without consent to SINA Leju or an Affiliate of Licensee that is controlled by SINA Leju.",
+        "note": "The restriction on assignment without written consent is qualified by exceptions allowing Licensor to assign to its Affiliates and Licensee to assign to SINA Leju or its controlled Affiliates without consent, as well as separate provisions for corporate reorganisations."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 3665,
-        "outputTokens": 205,
-        "thoughtTokens": 425
+        "outputTokens": 189,
+        "thoughtTokens": 389
       },
-      "wallMs": 1897,
+      "wallMs": 1840,
       "toolCalls": 0
     },
     {
@@ -371,16 +371,16 @@
         "characterization": "ABSOLUTE",
         "quote": "Licensor may terminate this Agreement by providing prior written notice to Licensee upon the occurrence of a Change of Control.",
         "overrideQuote": null,
-        "note": "Section 6.4 gives Licensor an unqualified right to terminate the agreement upon written notice following a Change of Control."
+        "note": "Licensor has an unqualified right to terminate the Agreement upon written notice following a Change of Control."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 3665,
-        "outputTokens": 205,
-        "thoughtTokens": 425
+        "outputTokens": 189,
+        "thoughtTokens": 389
       },
-      "wallMs": 1897,
+      "wallMs": 1840,
       "toolCalls": 0
     },
     {
@@ -390,16 +390,16 @@
         "characterization": "QUALIFIED",
         "quote": "Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor, an exclusive, non-transferable (except as set forth in Section 10.7) and non-sublicensable (except as provided in Section 2.1(c)) license to use the Licensed Domain Names in connection with the Business during the Term.",
         "overrideQuote": "The parties acknowledge that any product, service, territory or customer relationship in existence as at the Effective Date lies outside the scope of the undertakings given under this Agreement in respect of exclusivity, restricted dealing, or minimum commitment. The continuation, renewal or expansion of any such arrangement by either party is permitted and shall not constitute a breach of this Agreement.",
-        "note": "The exclusive domain license granted in Section 2.1(a) is qualified by the Pre-existing Arrangements clause, which excludes pre-existing relationships, products, services, or territories from exclusivity undertakings."
+        "note": "The exclusive license grant is qualified by the Pre-existing Arrangements clause, which exempts pre-existing products, services, territories, or customer relationships from the scope of exclusivity undertakings."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
         "promptTokens": 3665,
-        "outputTokens": 205,
-        "thoughtTokens": 425
+        "outputTokens": 189,
+        "thoughtTokens": 389
       },
-      "wallMs": 1897,
+      "wallMs": 1840,
       "toolCalls": 0
     },
     {
@@ -407,63 +407,63 @@
       "finding": {
         "clauseType": "Anti-Assignment",
         "characterization": "QUALIFIED",
-        "quote": "Except as otherwise provided herein, a Party shall not have the right to assign any of its rights or obligations under this Agreement (whether through a merger, sale of stock, or otherwise) without the prior written consent of the other Party;",
-        "overrideQuote": "except that, either Party shall be permitted, without any need for the other Party's consent, to assign this Agreement (a) in whole or in part to an Affiliate (provided, however, that once such Person is no longer an Affiliate of the assigning Party, such former Affiliate shall assign this Agreement back to the assigning Party), provided that the assigning Party provides the other Party notice of any such assignment provided further that failure to provide such notice of such assignment shall not render such assignment void; or (b) to a Third Party in connection with sale or transfer of all or substantially all of the assigning Party's business or assets relating to the subject matter of this Agreement, whether by Change of Control, merger, sale of assets or otherwise;",
-        "note": "Assignment generally requires prior written consent, but allows assignment without consent to an Affiliate or in connection with a sale or transfer of substantially all relevant assets or business, subject to certain conditions."
+        "quote": "Except as otherwise provided herein, a Party shall not have the right to   assign any of its rights or obligations under this Agreement (whether through a merger, sale of stock, or otherwise) without the   prior written consent of the other Party;",
+        "overrideQuote": "except that, either Party shall be permitted, without any need for the other Party's   consent, to assign this Agreement (a) in whole or in part to an Affiliate (provided, however, that once such Person is no longer an   Affiliate of the assigning Party, such former Affiliate shall assign this Agreement back to the assigning Party), provided that the   assigning Party provides the other Party notice of any such assignment provided further that failure to provide such notice of such   assignment shall not render such assignment void; or (b) to a Third Party in connection with sale or transfer of all or substantially all   of the assigning Party's business or assets relating to the subject matter of this Agreement, whether by Change of Control, merger,   sale of assets or otherwise;",
+        "note": "Assignment is generally prohibited without prior written consent, but permitted without consent to an Affiliate or in connection with the sale/transfer of substantially all related business/assets."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
-        "promptTokens": 4701,
-        "outputTokens": 273,
-        "thoughtTokens": 524
+        "promptTokens": 9571,
+        "outputTokens": 602,
+        "thoughtTokens": 1430
       },
-      "wallMs": 2160,
-      "toolCalls": 0
+      "wallMs": 15290,
+      "toolCalls": 1
     },
     {
       "caseId": "conformisinc-20191101-10-q-ex-10-6-11861402-ex-10-6-developm::Change Of Control",
       "finding": {
         "clauseType": "Change Of Control",
         "characterization": "QUALIFIED",
-        "quote": "Except as otherwise provided herein, a Party shall not have the right to assign any of its rights or obligations under this Agreement (whether through a merger, sale of stock, or otherwise) without the prior written consent of the other Party;",
+        "quote": "Except as otherwise provided herein, a Party shall not have the right to   assign any of its rights or obligations under this Agreement (whether through a merger, sale of stock, or otherwise) without the   prior written consent of the other Party;",
         "overrideQuote": "For the purposes of this Agreement, a transaction in which the ultimate beneficial ownership of a party remains substantially unchanged, including any internal reorganisation, recapitalisation, or transaction effected solely to alter the jurisdiction of incorporation of that party, does not constitute a change of control, an acquisition, or a transfer of control of that party. The rights and obligations arising under this Agreement upon a change of control have no application to any such transaction.",
-        "note": "Mergers, stock sales, and changes of control are treated as assignments requiring consent or satisfying exception terms, but transactions maintaining beneficial ownership continuity are expressly carved out."
+        "note": "Change of control restrictions apply to assignments and transfers, but transactions where ultimate beneficial ownership remains substantially unchanged are exempted from constituting a change of control."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
-        "promptTokens": 4701,
-        "outputTokens": 273,
-        "thoughtTokens": 524
+        "promptTokens": 9571,
+        "outputTokens": 602,
+        "thoughtTokens": 1430
       },
-      "wallMs": 2160,
-      "toolCalls": 0
+      "wallMs": 15290,
+      "toolCalls": 1
     },
     {
       "caseId": "conformisinc-20191101-10-q-ex-10-6-11861402-ex-10-6-developm::Exclusivity",
       "finding": {
         "clauseType": "Exclusivity",
         "characterization": "QUALIFIED",
-        "quote": "Except as specifically provided in the Distribution Agreement, Conformis shall be prohibited from developing or assisting another in developing, or causing another to develop, Patient-Specific Instrumentation for Off-The-Shelf Knee Implants for any Third Party in the field of orthopedics until January 1, 2032 (or earlier, to the extent set forth in Section 2.3.3.4 or Section 2.3.5 of the Distribution Agreement)",
-        "overrideQuote": "with the exception that Conformis (including any entity involved in a Change of Control of Conformis, any such entity an \"Acquirer\"), may develop Patient-Specific Instrumentation for any Off-The- Shelf Implants of Conformis, an Acquirer or any of their Affiliates. For purposes of clarity, the foregoing does not prevent Conformis from granting any license, release, covenant not to sue or other immunity to any third party under any Patents, including any such immunity that would authorize manufacture, use or sale of Patient-Specific Instrumentation for Off-The-Shelf Knee Implants outside the Buyer Field.",
-        "note": "Conformis is restricted from developing patient-specific instrumentation for third-party off-the-shelf knee implants, but may do so for its own or its acquirer's implants and retains certain licensing rights outside the Buyer Field."
+        "quote": "Except as specifically provided in the Distribution Agreement, Conformis shall be prohibited from   developing or assisting another in developing, or causing another to develop, Patient-Specific Instrumentation for Off-The-Shelf   Knee Implants for any Third Party in the field of orthopedics until January 1, 2032 (or earlier, to the extent set forth in Section   2.3.3.4 or Section 2.3.5 of the Distribution Agreement)",
+        "overrideQuote": "with the exception that Conformis (including any entity involved in a   Change of Control of Conformis, any such entity an \"Acquirer\"), may develop Patient-Specific Instrumentation for any Off-The-   Shelf Implants of Conformis, an Acquirer or any of their Affiliates.",
+        "note": "Conformis is subject to an exclusivity covenant prohibiting development for third parties until 2032, subject to exceptions for its own, an Acquirer's, or its Affiliates' off-the-shelf implants and terms in the Distribution Agreement."
       },
       "quoteVerified": true,
       "overrideQuoteVerified": true,
       "usage": {
-        "promptTokens": 4701,
-        "outputTokens": 273,
-        "thoughtTokens": 524
+        "promptTokens": 9571,
+        "outputTokens": 602,
+        "thoughtTokens": 1430
       },
-      "wallMs": 2160,
-      "toolCalls": 0
+      "wallMs": 15290,
+      "toolCalls": 1
     }
   ],
   "totals": {
-    "promptTokens": 78207,
-    "outputTokens": 19212,
-    "wallMs": 5101,
+    "promptTokens": 92790,
+    "outputTokens": 23307,
+    "wallMs": 15290,
     "cases": 24
   }
 }
