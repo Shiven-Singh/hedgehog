@@ -1,10 +1,11 @@
 import type { NextConfig } from 'next';
 
-// Exported as static HTML. The review it renders is already committed to the
-// repository, so the site needs no server, no API key and no network access.
+// Runs as an ordinary local server rather than a static export, because the
+// review can be re-run from the page and that needs a route handler behind it.
+// Nothing is deployed anywhere; `npm run dev` is the whole story.
 const config: NextConfig = {
-  output: 'export',
   images: { unoptimized: true },
+  devIndicators: false,
   trailingSlash: true,
 };
 

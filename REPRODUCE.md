@@ -30,12 +30,20 @@ build time, so like everything else here it needs no key and makes no network ca
 ```bash
 cd web
 npm install
-npm run build     # static export into web/out
-npx serve out     # or any static server
+npm run dev       # http://localhost:3000
 ```
 
-`npm run dev` works too if you would rather poke at it. The root project has no dependency
-on `web/`, so you can ignore it entirely and every number still reproduces.
+The page also carries a button that re-runs the whole review and rewrites what you are
+looking at. That one does call the model, so it needs `GEMINI_API_KEY` either exported or
+sitting in `.env` at the root of the repository, and it costs a few pence. Everything else
+on the page reads the committed results and needs no key.
+
+The button shells out to `npm run solution`, the same command documented above, rather than
+reimplementing the pipeline behind a web form. What it does and what this guide describes
+are therefore the same thing by construction.
+
+The root project has no dependency on `web/`, so you can ignore the site entirely and every
+number still reproduces.
 
 ## Regenerating everything from the model
 

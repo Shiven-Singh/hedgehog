@@ -6,7 +6,7 @@
 
 **Present, subject to an exception**
 
-Section 6.5 prohibits the transfer, assignment, or sublicensing of rights granted under the agreement, but creates exceptions permitting third-party web hosting and certain sublicensing by 2TheMart to business partners.
+Section 6.5 restricts the assignment, transfer, and sublicensing of intellectual property rights granted under the agreement, subject to exceptions for third-party web hosting, sublicensing by 2TheMart to certain business partners, and corporate reorganisations under Section 12.3.
 
 > All rights (under any applicable intellectual property right) granted herein are not sublicenseable, Source: 2THEMART COM INC, 10-12G, 8/26/1999 transferable or assignable.
 
@@ -22,7 +22,7 @@ The following passage qualifies the clause above:
 
 **Present, subject to an exception**
 
-Section 8.3 allows either party to terminate upon a change of control of the other party, but carves out specific internal equity transfers by i-Escrow and i-Escrow.com.
+Section 8.3 permits termination upon an acquisition of a majority of equity securities, but carves out specific equity and voting interest transfers between i-Escrow, i-Escrow.com, and i-Escrow's existing shareholders.
 
 > If a majority of the equity securities of either 2TheMart or i-Escrow, Inc. (except that i-Escrow may sell all or a majority of its equity securities or voting interests to i-Escrow.com, and i-Escrow.com may sell all or a majority of its equity securities or voting interests to i-Escrow's existing shareholders, without triggering the foregoing) are acquired by another company during the term of this Agreement either company may terminate this Agreement, without liability, by giving a thirty (30) days written notice to the other party.
 
@@ -38,7 +38,7 @@ The following passage qualifies the clause above:
 
 **Not found**
 
-The contract does not contain an exclusivity clause; the licenses granted are expressly non-exclusive.
+The contract does not contain an exclusivity clause; all intellectual property and promotional rights granted under Sections 6.1 and 6.3 are non-exclusive.
 
 ### Requires a reader
 
@@ -50,7 +50,7 @@ The contract does not contain an exclusivity clause; the licenses granted are ex
 
 **Present, unqualified**
 
-Detto is prohibited from assigning rights or delegating obligations without PivX's prior written consent, with no carve-outs or exceptions.
+Detto cannot assign rights or delegate obligations without PivX's prior written consent, with no carve-outs or exceptions specified elsewhere in the agreement.
 
 > Detto may not assign any of its rights or delegate any of its obligations hereunder, whether by operation of law or otherwise, without PivX's prior written consent.
 
@@ -60,13 +60,13 @@ Detto is prohibited from assigning rights or delegating obligations without PivX
 
 **Not found**
 
-The agreement does not contain a change of control clause.
+The contract does not contain a change of control clause.
 
 ### Exclusivity
 
 **Present, unqualified**
 
-PivX grants Detto an exclusive distribution license within North America (distribution outside North America is granted on a non-exclusive basis).
+Detto is granted an exclusive license to distribute Qwik-Fix Pro and supporting Documentation within North America, subject to no contractual exceptions within that territory (distribution outside North America is expressly non-exclusive).
 
 > Subject to the terms and conditions of this Agreement, PivX hereby grants to Detto a non-transferable, exclusive license to distribute PivX's Qwik-Fix Pro and any documentation supporting Qwik-Fix Pro provided from time to time by PivX (the "Documentation") within North America, solely to third parties to whom Detto licenses Qwik-Fix Pro ("Third Parties"), and as governed by the terms set forth in Exhibit A (PivX/Detto Reseller Agreement Addendum).
 
@@ -82,7 +82,7 @@ PivX grants Detto an exclusive distribution license within North America (distri
 
 **Present, subject to an exception**
 
-Section 15.4 prohibits assignment or transfer without prior written consent, but the Corporate Reorganisations clause creates an express exception for transfers in connection with mergers, consolidations, or sales of substantially all assets or equity.
+Section 15.4 prohibits assignment or transfer without prior written consent, but the Corporate Reorganisations clause exempts transfers to successor entities in connection with mergers, consolidations, or sales of substantially all assets or equity.
 
 > Neither Newegg nor Allied shall have the right or power to assign or transfer any part of its rights or obligations under this Agreement without the prior consent in writing of the other Party.
 
@@ -98,13 +98,13 @@ The following passage qualifies the clause above:
 
 **Not found**
 
-The contract does not contain a standalone change of control provision.
+The contract does not contain a standard change of control provision triggering termination, notice, or consent requirements upon a change of control.
 
 ### Exclusivity
 
 **Present, subject to an exception**
 
-Section 7 grants Newegg category exclusivity, but the Pre-existing Arrangements clause exempts pre-existing relationships from exclusivity undertakings.
+The exclusivity restriction in Section 7.2 is qualified by both an incidental third-party endorsement exception and the Pre-existing Arrangements clause, which excludes pre-existing relationships from exclusivity undertakings.
 
 > Allied shall not endorse, or permit the marketing of any other company whose principal business is as an e-commerce provider at or in connection with the Arena.
 
@@ -126,7 +126,7 @@ The following passage qualifies the clause above:
 
 **Present, subject to an exception**
 
-Diplomat cannot assign or sublicense the agreement without the prior written consent of KI, Inc., whereas KI, Inc. may assign its rights with written notice.
+Diplomat cannot assign or sublicense without KI, Inc.'s prior written consent, but KI, Inc. may freely assign its rights subject only to providing written notice.
 
 > This Agreement and all rights and duties hereunder are personal to Diplomat and shall not, without the written consent of KI, Inc., be assigned, mortgaged, sublicensed or otherwise encumbered by Diplomat or by operation of law.
 
@@ -134,7 +134,7 @@ Diplomat cannot assign or sublicense the agreement without the prior written con
 
 The following passage qualifies the clause above:
 
-> without the written consent of KI, Inc.
+> KI, Inc. may assign its rights hereunder, but shall furnish written notice of such assignment to Diplomat.
 
 *Contract text, S019.*
 
@@ -148,7 +148,7 @@ The contract does not contain a change of control clause.
 
 **Present, subject to an exception**
 
-Exclusivity is limited to the specific categories of products enumerated in Sections 2(a)(1) and (2), and is expressly nonexclusive for other covered products and uses.
+Exclusivity is limited specifically to certain product categories (sunglasses, eyeglasses, readers, ophthalmic frames, and specified optical accessories sold in optical retailers) and is nonexclusive for all other products.
 
 > The license hereby granted shall be exclusive as to the products described in subparagraphs 2.(a)(1) and (2) of this Agreement, but nonexclusive as to all other products covered by this Agreement.
 
@@ -156,7 +156,7 @@ Exclusivity is limited to the specific categories of products enumerated in Sect
 
 The following passage qualifies the clause above:
 
-> but nonexclusive as to all other products covered by this Agreement. Nothing in this Agreement shall be construed to prevent KI, Inc. from granting any other licenses for the use of KI's name or likeness, or from utilizing KI's name and likeness in any manner whatsoever, except that KI, Inc. agrees that except as provided herein it will grant no other licenses for the territory to which this license extends for the use of KI's name and likeness in connection with the sale of the products described in subparagraphs 2.(a)(1) and (2) of this Agreement effective during the term of this Agreement.
+> Nothing in this Agreement shall be construed to prevent KI, Inc. from granting any other licenses for the use of KI's name or likeness, or from utilizing KI's name and likeness in any manner whatsoever, except that KI, Inc. agrees that except as provided herein it will grant no other licenses for the territory to which this license extends for the use of KI's name and likeness in connection with the sale of the products described in subparagraphs 2.(a)(1) and (2) of this Agreement effective during the term of this Agreement.
 
 *Contract text, S005.*
 
@@ -170,7 +170,7 @@ The following passage qualifies the clause above:
 
 **Present, subject to an exception**
 
-The restriction on assignment without written consent is qualified by an express exception for corporate reorganisations, mergers, consolidations, or sales of all or substantially all assets/equity.
+Section 8.5 prohibits assignment or transfer without prior written approval, but the Corporate Reorganisations clause creates an exception for transfers to successor entities in connection with mergers, consolidations, or sales of substantially all assets or equity.
 
 > Except as expressly provided for herein, neither party may assign or otherwise transfer any of its rights or obligations under this Agreement without the other party's prior written approval and any such assignment or transfer shall be void.
 
@@ -186,9 +186,9 @@ The following passage qualifies the clause above:
 
 **Present, unqualified**
 
-Section 7.2(a) grants either party an unqualified right to terminate if ownership or operations materially change or all/substantially all assets are transferred.
+Section 7.2(a) gives either party the right to terminate the agreement in writing if all or substantially all assets of the other party are transferred, sold, or liquidated, or if ownership or operations of the non-terminating party have materially changed.
 
-> At the election of either party, in writing, if: (i) all or substantially all of the assets of the non-terminating party are transferred, sold or liquidated; (ii) the non-terminating party is dissolved; (iii) the non-terminating party is adjudged a bankrupt or becomes insolvent; (iv) the non-terminating party enters into an assignment or other arrangement for the benefit of its creditors; or (v) the ownership or operations of the non-terminating party have materially changed;
+> (a) At the election of either party, in writing, if: (i) all or substantially all of the assets of the non-terminating party are transferred, sold or liquidated; (ii) the non-terminating party is dissolved; (iii) the non-terminating party is adjudged a bankrupt or becomes insolvent; (iv) the non-terminating party enters into an assignment or other arrangement for the benefit of its creditors; or (v) the ownership or operations of the non-terminating party have materially changed;
 
 *Contract text, S009.*
 
@@ -196,7 +196,7 @@ Section 7.2(a) grants either party an unqualified right to terminate if ownershi
 
 **Present, subject to an exception**
 
-The exclusive supplier appointment is subject to an exception for pre-existing product, service, territory, or customer arrangements in place as of the Effective Date.
+Section 2.1 establishes Zanotti as Aura's exclusive supplier, but the Pre-existing Arrangements clause carves out pre-existing products, services, territories, and customer relationships from the scope of exclusivity.
 
 > Pursuant to the terms and conditions set forth in this Agreement, Aura appoints Zanotti as its exclusive supplier of the Products within the Territory and Field of Use and Zanotti hereby accepts such appointment.
 
@@ -214,23 +214,23 @@ The following passage qualifies the clause above:
 
 **Present, subject to an exception**
 
-While Section 22 restricts Berkshire from assigning the agreement without written consent, Section 2(c) permits assignment of license rights without consent in the event of a merger with another entity offering banking services.
+While Berkshire cannot assign the agreement without written consent, Auriemma is expressly permitted to assign the monetary benefits of the agreement.
 
-> Berkshire may not assign this Agreement, in whole or in part, without Auriemma's written consent.
+> Berkshire may not assign this Agreement, in whole or in part, without Auriemma's written consent. In the case of reorganization, merger, consolidation, or sale of all or substantially all of its assets, any attempt to assign this Agreement other than as permitted above will be null and void.
 
 *Contract text, S009.*
 
 The following passage qualifies the clause above:
 
-> The License Rights are exclusive to Berkshire and may not be assigned or in any way conveyed by Berkshire without Auriemma's express written consent, except in the event of a merger by Berkshire with another entity offering Banking Services.
+> Nothing herein shall prevent Auriemma from assigning the monetary benefits (but not the obligations) of this Agreement, as he may so desire.
 
-*Contract text, S002.*
+*Contract text, S009.*
 
 ### Change Of Control
 
 **Present, subject to an exception**
 
-The agreement excludes transactions where ultimate beneficial ownership remains substantially unchanged (such as internal reorganizations or recapitalizations) from triggering change of control provisions.
+Change of control terms exclude internal reorganizations, recapitalizations, or jurisdiction changes where beneficial ownership remains substantially unchanged.
 
 > The rights and obligations arising under this Agreement upon a change of control have no application to any such transaction.
 
@@ -246,7 +246,7 @@ The following passage qualifies the clause above:
 
 **Present, subject to an exception**
 
-Auriemma agrees to endorsement exclusivity in favor of Berkshire, but the restriction is qualified by clarifying that Auriemma does not control or influence decisions by the University of Connecticut to contract with competitors.
+Auriemma's non-compete and exclusivity commitments carve out agreements or arrangements made independently by the University of Connecticut.
 
 > Auriemma will not enter into any arrangement or agreement, which enables any Berkshire Competitor to be endorsed by Auriemma (whether by using the Auriemma Identification, Auriemma providing services similar to the Endorsement Services, or otherwise) during the Contract Period within the Contract Territory.
 
@@ -264,7 +264,7 @@ The following passage qualifies the clause above:
 
 **Present, subject to an exception**
 
-Assignment requires express written consent, but exceptions permit Licensor to assign to its Affiliates and Licensee to assign to SINA Leju or controlled Affiliates without consent.
+The restriction on assignment is qualified both by internal affiliate assignment exceptions in Section 10.7 and by the Corporate Reorganisations clause exempting mergers, consolidations, and sales of substantially all assets/equity.
 
 > This Agreement and any rights or authority granted hereunder shall not be assigned or transferred by either Party, including by operation of law, merger or otherwise, without the express written consent of the other Party, provided that Licensor may assign this Agreement without consent to any of its Affiliates and Licensee may assign this Agreement without consent to SINA Leju or an Affiliate of Licensee that is controlled by SINA Leju.
 
@@ -272,15 +272,15 @@ Assignment requires express written consent, but exceptions permit Licensor to a
 
 The following passage qualifies the clause above:
 
-> provided that Licensor may assign this Agreement without consent to any of its Affiliates and Licensee may assign this Agreement without consent to SINA Leju or an Affiliate of Licensee that is controlled by SINA Leju.
+> The parties acknowledge that the transfer of this Agreement to a successor entity in connection with a merger, consolidation, or the sale of all or substantially all of the assets or equity of a party constitutes a continuation of the existing contractual relationship and not an assignment, transfer or delegation for the purposes of this Agreement. The consent requirements set out in this Agreement have no application to any such transaction, and no notice to the other party is required in respect of it.
 
-*Contract text, S022.*
+*Contract text, S021.*
 
 ### Change Of Control
 
 **Present, unqualified**
 
-Licensor has an unqualified right to terminate the agreement upon the occurrence of a Change of Control.
+Section 6.4 gives Licensor an absolute right to terminate the agreement upon the occurrence of a Change of Control.
 
 > Licensor may terminate this Agreement by providing prior written notice to Licensee upon the occurrence of a Change of Control.
 
@@ -290,7 +290,7 @@ Licensor has an unqualified right to terminate the agreement upon the occurrence
 
 **Present, subject to an exception**
 
-The exclusive license grant is qualified by a pre-existing arrangements provision carving out prior products, services, territories, and customer relationships.
+The exclusivity of the license grant is qualified by the Pre-existing Arrangements clause, which carves out pre-existing arrangements from the scope of exclusivity undertakings.
 
 > Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor, an exclusive, non-transferable (except as set forth in Section 10.7) and non-sublicensable (except as provided in Section 2.1(c)) license to use the Licensed Domain Names in connection with the Business during the Term.
 
@@ -308,7 +308,7 @@ The following passage qualifies the clause above:
 
 **Present, subject to an exception**
 
-Section 10.2 restricts assignment of rights or obligations without prior written consent, but qualifies this by allowing assignments to Affiliates or in connection with the sale/transfer of all or substantially all related business/assets.
+Assignment generally requires prior written consent, but either party may assign to an Affiliate or in connection with a sale or transfer of substantially all relevant assets/business without consent, subject to certain conditions.
 
 > Except as otherwise provided herein, a Party shall not have the right to assign any of its rights or obligations under this Agreement (whether through a merger, sale of stock, or otherwise) without the prior written consent of the other Party;
 
@@ -316,7 +316,7 @@ Section 10.2 restricts assignment of rights or obligations without prior written
 
 The following passage qualifies the clause above:
 
-> except that, either Party shall be permitted, without any need for the other Party's consent, to assign this Agreement (a) in whole or in part to an Affiliate (provided, however, that once such Person is no longer an Affiliate of the assigning Party, such former Affiliate shall assign this Agreement back to the assigning Party), provided that the assigning Party provides the other Party notice of any such assignment provided further that failure to provide such notice of such assignment shall not render such assignment void; or (b) to a Third Party in connection with sale or transfer of all or substantially all of the assigning Party's business or assets relating to the subject matter of this Agreement, whether by Change of Control, merger, sale of assets or otherwise
+> except that, either Party shall be permitted, without any need for the other Party's consent, to assign this Agreement (a) in whole or in part to an Affiliate (provided, however, that once such Person is no longer an Affiliate of the assigning Party, such former Affiliate shall assign this Agreement back to the assigning Party), provided that the assigning Party provides the other Party notice of any such assignment provided further that failure to provide such notice of such assignment shall not render such assignment void; or (b) to a Third Party in connection with sale or transfer of all or substantially all of the assigning Party's business or assets relating to the subject matter of this Agreement, whether by Change of Control, merger, sale of assets or otherwise;
 
 *Contract text, S024.*
 
@@ -324,9 +324,9 @@ The following passage qualifies the clause above:
 
 **Present, subject to an exception**
 
-Section 10.2 addresses assignments occurring by Change of Control, and the Continuity of Ownership clause qualifies what constitutes a change of control by exempting transactions where ultimate beneficial ownership remains substantially unchanged.
+Change of control provisions restrict assignment via merger/stock sale without consent (subject to exceptions), but the Continuity of Ownership clause excludes transactions where beneficial ownership remains substantially unchanged.
 
-> Except as otherwise provided herein, a Party shall not have the right to assign any of its rights or obligations under this Agreement (whether through a merger, sale of stock, or otherwise) without the prior written consent of the other Party; except that, either Party shall be permitted, without any need for the other Party's consent, to assign this Agreement (a) in whole or in part to an Affiliate (provided, however, that once such Person is no longer an Affiliate of the assigning Party, such former Affiliate shall assign this Agreement back to the assigning Party), provided that the assigning Party provides the other Party notice of any such assignment provided further that failure to provide such notice of such assignment shall not render such assignment void; or (b) to a Third Party in connection with sale or transfer of all or substantially all of the assigning Party's business or assets relating to the subject matter of this Agreement, whether by Change of Control, merger, sale of assets or otherwise
+> Except as otherwise provided herein, a Party shall not have the right to assign any of its rights or obligations under this Agreement (whether through a merger, sale of stock, or otherwise) without the prior written consent of the other Party; except that, either Party shall be permitted, without any need for the other Party's consent, to assign this Agreement (a) in whole or in part to an Affiliate (provided, however, that once such Person is no longer an Affiliate of the assigning Party, such former Affiliate shall assign this Agreement back to the assigning Party), provided that the assigning Party provides the other Party notice of any such assignment provided further that failure to provide such notice of such assignment shall not render such assignment void; or (b) to a Third Party in connection with sale or transfer of all or substantially all of the assigning Party's business or assets relating to the subject matter of this Agreement, whether by Change of Control, merger, sale of assets or otherwise;
 
 *Contract text, S024.*
 
@@ -340,7 +340,7 @@ The following passage qualifies the clause above:
 
 **Present, subject to an exception**
 
-Section 4.1 restricts Conformis from developing or assisting in developing Patient-Specific Instrumentation for Off-The-Shelf Knee Implants for third parties, but includes explicit carve-outs for its own or its Acquirer's/Affiliates' implants and patent licensing/immunities.
+Conformis is subject to an exclusivity covenant regarding development for third parties, but express exceptions apply for its own/acquirer implants and granting third-party patent immunities outside the Buyer Field.
 
 > Except as specifically provided in the Distribution Agreement, Conformis shall be prohibited from developing or assisting another in developing, or causing another to develop, Patient-Specific Instrumentation for Off-The-Shelf Knee Implants for any Third Party in the field of orthopedics until January 1, 2032 (or earlier, to the extent set forth in Section 2.3.3.4 or Section 2.3.5 of the Distribution Agreement), with the exception that Conformis (including any entity involved in a Change of Control of Conformis, any such entity an "Acquirer"), may develop Patient-Specific Instrumentation for any Off-The- Shelf Implants of Conformis, an Acquirer or any of their Affiliates.
 

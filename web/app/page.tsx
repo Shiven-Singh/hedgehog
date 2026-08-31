@@ -1,5 +1,10 @@
 import Link from 'next/link';
+import RunButton from './RunButton';
 import { getReview, CLAUSE_ORDER, SHORT, type Verdict } from '@/lib/review';
+
+// Read from disk on every request, so the page reflects a re-run rather than a
+// snapshot taken when the server started.
+export const dynamic = 'force-dynamic';
 
 export default function Page() {
   const review = getReview();
@@ -65,6 +70,8 @@ export default function Page() {
           elsewhere in the same agreement, which is the finding a reviewer most needs and the one most
           easily missed on a first reading. {withheld === 0 ? 'No citation was withheld.' : `${withheld} citation${withheld === 1 ? ' was' : 's were'} withheld as unverifiable.`}
         </p>
+
+        <RunButton />
       </section>
 
       <footer className="mt-20 border-t border-rule pt-6">

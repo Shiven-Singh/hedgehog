@@ -83,8 +83,10 @@ fills them in.
 `npm run report` writes the review three ways: `report.md`, a self-contained `report.html`,
 and `report.json` for anything that wants to render it itself. The `web/` directory holds a
 small Next.js front end that does exactly that, with a summary chart across the eight
-agreements and a page for each. It is a static export built from the committed results, so
-it needs no key and no server of its own.
+agreements and a page for each. It reads the committed results, so it needs no key to
+look at, and it carries a button that re-runs the review for anyone who has one. That button
+shells out to the same command the reproduction guide documents rather than reimplementing
+the pipeline behind a form.
 
 ## Running it
 
