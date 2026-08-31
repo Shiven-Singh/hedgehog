@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "name": "search_contract",
+              "args": {
+                "query": "successor"
+              },
+              "id": "call_4814848"
+            },
+            "thoughtSignature": "ErEKCq4KARFNMg+C8iXz2yKtspaN6nJ0Mr9ngv7/IAHFpH1kxEdmF2OLmeinVxZT8SbE1O3cl6ne8KhftF1GWVOIp5bETxe7cLachEl0RlpGYOGgUlnOI6TydeuVga1piMICwnC5kCH4oOwpTPTvms2F6IeHtQNCb+eUMYczHH6FavPZAQqwiBqGuwfcjTBduoBa4bHFQc+6XClqGR3TvylFpOiBTjEaHI55daILfNXi+skw3prOdsfEkYdkMtUgoGrOApzvRpMx3dV/y9jus3T8886SJliRBxk3FxAxSEY2KjKVwkOmjZY/Ad5HRxm2TI3V0JbmOLfq5GQW9E39Tu6KjWkeL9kVRx0tljk7etS35r4KuDWOx+ioNc7K5FC3wn4DORxpBP1yiZMe6fhM91oF4f10UE1OPNzY3bBfc1qJPn16a1ckRiQpiVihPemZ64H0UZ9u4qk9vdXLvcN1gwwnVFRWtffhVgxEEYeLjOXynwuAvylRPUaGaBO6hk2DTgsV2dDXrgPktHQnSyOgRWIoFttIA+DUmZlWHRq9waoN//iIlnLv9+18RqnJ+0ebDd4SiDUfZivjzyHSwoiCEQ8mVYJIalCa3h4i/okmASXBzwdeSqtv2AeKWAZSUIfRw5AHfK7o1KvRkeZDgKHu/UWor1O5iPtipkWuqsH2UzgN8Yip7kIp5Dcbzoa5i5Ui12i+yRLVBDlAPZ3Jvm7ayz3f8vSUh8JjrGnJneDBEpigOJ7MKtTRdb7tCUGoWupH2LSlHePBRQ9dT+781p0kVWYZLi4Z3xsXM8PY1fz7klNgXXxJvJrq3klvRzfDiNVG/O7BlHsRdvKrOqiyOsgJlhkvhB5cH3nHXGyl39SVOT5yhB9lDIXz8mbx4uc+YdfLkeH3nLOON0SfxFAxUYjyE1fSveWcFQqEMHgHAwuetK0yXHge0r2LNTChQPKjAW49im8jJ1EbKWFglM5+18Dlaq6l0D+IMpp4nipWeoUQwwrGQZX9m1oABshEtrSNVR9liGoCqQ4VhmeMqeE+coeBa3MG35NyPdl837HgCKWr9t9eK6PIAGk4qZH5UrGkUWo9s5fixPTL4iM86IEkVpIxOh76OXs4z5gHYLa6GqZQxyDXFDc8MfqLVqWbbsuf308wiWVnSSQtDCMjsaglyc9Hnngwlddt4KMhp1Kh58ucD6vtzq49dMBn5SQXkNZu37teGqtxavNqP4SUx5gPC5p/E+P5MzxzjwRt3NKsDRdXXNvOBuMeGY/yqig65qVMmQrvBJy6WFhrNWaMxfLyC7VRbNktT1WSf9KOPCDL0r5fkE51+9BfyIvzRKOwaNhnBhBZEYR/RW2mvkwWCL3+m84udk1sGG1TIv5O6d1/bl+pTusETeKQuL1ltRfd54aBQEUjC4C6jPj36EZZXxpfNtEOcGqkRwE7MLu+0/T60eNkEOEtjsfPV6etuRYzhtoTqMzTjAJspX7+XATRdxgfS/ezRY4rznQ9dGT9ayQTgVaYecpAkik3+R9Slb72k2we/4ic7MGyHIaAo0CnSUrmA80WnDI3y2s98vQv/+B7k205+7Zp0diG6FAr1MTODxrpqsDH6JIbKvdvslftoQG68Slb09kDClsNVOLaKlbh+g9bzDeaiDyJYKF5PFviffrP2C0Kq8zWy2c4RKbbs1Ku7EQnVI1fWTUQBkzS9F5ZtWSYjsHFlWd1h6ySJ9Sd5VAKODM6w1XZgy1VjppyJSR8mJO5D77k3GoiHNTWwKBJH9BWw914HWwx"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "finishMessage": "Model generated function call(s)."
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3925,
+    "candidatesTokenCount": 16,
+    "totalTokenCount": 4188,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3925
+      }
+    ],
+    "thoughtsTokenCount": 247,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "w3mVaobFKsPW4-EPrNzR2Qc"
+}

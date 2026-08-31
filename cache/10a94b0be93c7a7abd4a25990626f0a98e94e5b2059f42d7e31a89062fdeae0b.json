@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "name": "search_contract",
+              "args": {
+                "query": "successor"
+              },
+              "id": "call_3007156"
+            },
+            "thoughtSignature": "EqgCCqUCARFNMg+mJIhlh5UYfdR0pf1Yw1ALpqStXZu7yc8GGRNYWHYJxo/maUd89mcFSJIpq/xyr98m+LGMJy/Z+GJj7PUOd6YGGWf1bUGxr7AeYB3gBq4wUs+1qrDqsDBU+kQ7nISiG8l0kQ+bi9pr9MobJ0n1rtOWZA5ZYnw3Wja3rFbrZg765wpsmTfsYBLqx91l9LZJoX0h2pLj+VYRce15fFeE6PTdq+chvPnEtFFacKZrvI9Xwx5buQqdkp99GDXgvXG//+1sA2oNRnNxjbdkV2fLPyy3hoUvpW3kINcuR2VYwca8kwE1GgboHF1BZYU0ccf4tigqEdlBzxrDrQuS3bD0U9OHshcA8TWr99dNIOd9KuLO0ATAuVtPzAOAWpCSHxKEzHA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "finishMessage": "Model generated function call(s)."
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1361,
+    "candidatesTokenCount": 16,
+    "totalTokenCount": 1422,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1361
+      }
+    ],
+    "thoughtsTokenCount": 45,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "vHmVaqmlKqy6juMPh7Le-Qc"
+}

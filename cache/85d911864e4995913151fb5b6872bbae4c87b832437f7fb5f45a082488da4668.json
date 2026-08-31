@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"The license hereby granted shall be exclusive as to the products described in subparagraphs 2.(a)(1) and (2) of this Agreement, but nonexclusive as to all other products covered by this Agreement.\",\n  \"overrideQuote\": \"Nothing in this Agreement shall be construed to prevent KI, Inc. from granting any other licenses for the use of KI's name or likeness, or from utilizing KI's name and likeness in any manner whatsoever, except that KI, Inc. agrees that except as provided herein it will grant no other licenses for the territory to which this license extends for the use of KI's name and likeness in connection with the sale of the products described in subparagraphs 2.(a)(1) and (2) of this Agreement effective during the term of this Agreement.\",\n  \"note\": \"The license grant is exclusive only with respect to the specific products listed in subparagraphs 2.(a)(1) and (2), while remaining nonexclusive for all other products covered by the Agreement and reserving the licensor's right to grant other licenses or utilize the name and likeness outside those specific product categories.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 276,
+            "endIndex": 804,
+            "uri": "",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 5270,
+    "candidatesTokenCount": 256,
+    "totalTokenCount": 6018,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 5270
+      }
+    ],
+    "thoughtsTokenCount": 492,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "xXmVaty8DOm2juMP3s7bkAs"
+}

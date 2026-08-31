@@ -1,0 +1,48 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Berkshire may not assign this Agreement, in whole or in part, without Auriemma's written consent. In the case of reorganization, merger, consolidation, or sale of all or substantially all of its assets, any attempt to assign this Agreement other than as permitted above will be null and void.\",\n  \"overrideQuote\": \"The License Rights are exclusive to Berkshire and may not be assigned or in any way conveyed by Berkshire without Auriemma's express written consent, except in the event of a merger by Berkshire with another entity offering Banking Services.\",\n  \"note\": \"Section 22 restricts Berkshire from assigning the agreement without consent, but Section 2(c) creates an exception allowing assignment of the License Rights without consent in the event of a merger with another entity offering Banking Services.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 57,
+            "endIndex": 309,
+            "uri": "https://www.contractscounsel.com/t/us/endorsement-agreement",
+            "license": ""
+          },
+          {
+            "startIndex": 372,
+            "endIndex": 607,
+            "uri": "https://www.contractscounsel.com/t/us/endorsement-agreement",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 6151,
+    "candidatesTokenCount": 187,
+    "totalTokenCount": 7277,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 6151
+      }
+    ],
+    "thoughtsTokenCount": 939,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "3HmVavy1H6DRg8UP3t-vkAs"
+}

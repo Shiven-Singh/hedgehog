@@ -1,0 +1,54 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Except as otherwise provided herein, a Party shall not have the right to assign any of its rights or obligations under this Agreement (whether through a merger, sale of stock, or otherwise) without the prior written consent of the other Party\",\n  \"overrideQuote\": \"except that, either Party shall be permitted, without any need for the other Party's consent, to assign this Agreement (a) in whole or in part to an Affiliate (provided, however, that once such Person is no longer an Affiliate of the assigning Party, such former Affiliate shall assign this Agreement back to the assigning Party), provided that the assigning Party provides the other Party notice of any such assignment provided further that failure to provide such notice of such assignment shall not render such assignment void; or (b) to a Third Party in connection with sale or transfer of all or substantially all of the assigning Party's business or assets relating to the subject matter of this Agreement, whether by Change of Control, merger, sale of assets or otherwise; provided, however, that, with respect to clause (b), (i) any assignment of this Agreement shall be void and have no effect unless and until the assignee assumes the obligations of the assigning Party in a written instrument, a copy of which is provided to the other Party; and (ii) any assignment of this Agreement must be accompanied by a simultaneous assignment of the Other Agreements to the same assignee, and the assigning Party's interest in the Purchased Assets to the same assignee unless otherwise agreed by Conformis in advance, which agreement shall not be unreasonably withheld.\",\n  \"note\": \"Section 10.2 prohibits assignment without prior written consent, but expressly qualifies this prohibition by permitting assignment without consent to an Affiliate or to a Third Party in connection with a sale or transfer of substantially all business or assets relating to the agreement.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 57,
+            "endIndex": 305,
+            "uri": "https://contracts.justia.com/companies/conformis-inc-2710/contract/79953/",
+            "license": ""
+          },
+          {
+            "startIndex": 335,
+            "endIndex": 1024,
+            "uri": "",
+            "license": ""
+          },
+          {
+            "startIndex": 916,
+            "endIndex": 1698,
+            "uri": "https://contracts.justia.com/companies/conformis-inc-2710/contract/79953/",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2974,
+    "candidatesTokenCount": 396,
+    "totalTokenCount": 3789,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2974
+      }
+    ],
+    "thoughtsTokenCount": 419,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "5nmVaoCCD8vijuMPodaAoQs"
+}

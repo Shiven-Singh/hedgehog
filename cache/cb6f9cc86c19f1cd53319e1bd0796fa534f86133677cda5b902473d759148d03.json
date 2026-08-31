@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "name": "search_contract",
+              "args": {
+                "query": "merger"
+              },
+              "id": "call_4420960"
+            },
+            "thoughtSignature": "ErQBCrEBARFNMg9YmSkruclx+8M4mvIEEP7ABb4nLGLCSQ6Bi51NQZBFWR68aoPqqToCWNiGYGMbeMf9DBxnDmKojgz8LiXtNfqe0JKzDN1qjM8zZxr+Tm4PyZLOymnDZdLqZi69G0m+z2SQsUAUclRsqZ3w8QaCHg5N8wVd99FdrsmQz6fIQEwkGwyIQA5u81GPBXE0ELpokoAvLDFq/VqNtqgKikCJ7MbJjz7QuOfFuQIhy/5e"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "finishMessage": "Model generated function call(s)."
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2149,
+    "candidatesTokenCount": 17,
+    "totalTokenCount": 2191,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2149
+      }
+    ],
+    "thoughtsTokenCount": 25,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "wnmVar_GPJ3jjuMP-rTLmAw"
+}

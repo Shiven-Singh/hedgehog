@@ -1,153 +1,149 @@
 # Solution video, script
 
-Five minutes. Screen recording with voiceover, no camera. Word counts are pitched at an
-unhurried speaking pace, so read it slowly rather than trying to fit more in.
+Five minutes. Screen recording with voiceover, no camera. Read it slowly; the word count
+is pitched for an unhurried pace rather than a full five minutes of talking.
+
+Every figure below has been checked against the manifests in `results/`.
 
 ---
 
 ## 0:00 to 0:40 — The problem
 
-**On screen:** a CUAD contract open in an editor. Scroll to the anti-assignment clause,
-pause on it. Then scroll a long way down and pause on a later passage.
+**On screen:** a contract open in an editor. Scroll to an anti-assignment clause and pause.
+Then scroll a long way down and pause on a later passage.
 
-> A contract will tell you here that neither party may assign the agreement without
-> written consent. And then, twenty pages further on, it will tell you that a transfer
-> to a successor in a merger was never an assignment in the first place.
+> A contract will tell you here that neither party may assign the agreement without written
+> consent. And then, twenty pages further on, it will tell you that a transfer to a successor
+> in a merger was never an assignment in the first place.
 >
-> Both sentences are in the document. Only the second one is the answer. A junior
-> associate doing due diligence on an acquisition has forty of these to get through, and
-> the mistake that costs money is not the clause they miss. It is the clause they report
-> without the exception that guts it.
+> Both sentences are in the document. Only the second one is the answer. A junior associate
+> running due diligence has forty of these to get through, and the mistake that costs money
+> is not the clause they miss. It is the clause they report without the exception that guts it.
 >
-> So I built something to catch the exception. And it turned out there was nothing to catch.
+> So I built something to catch the exception. There was nothing to catch.
 
 ---
 
 ## 0:40 to 1:20 — The baseline, and the surprise
 
-**On screen:** `CHANGELOG.md`, top two rows.
+**On screen:** `CHANGELOG.md`, the top two rows.
 
-> The baseline is one prompt with the whole contract in it, no tools, no checking. I hid
-> nine exceptions across eight real contracts, so I knew exactly where the answers were,
-> and it found all nine. Quoted the right passage every time.
+> The baseline is one prompt with the whole contract in it. No tools, no checking. I hid
+> nine exceptions across eight real contracts, so I knew exactly where the answers were.
+>
+> It found all nine. Quoted the right passage every time.
 >
 > I assumed I had made them too obvious, so I rewrote every one to strip out the signal
 > words. No "notwithstanding", no "except". Each one narrows the clause by claiming the
 > transaction was never in scope, which is how you would actually bury one.
 >
-> Nine out of nine again. A model reading a contract that fits in its context does not
-> miss the exception. That premise was dead, and the honest move was to stop defending it
-> and go and look at what the runs were getting wrong instead.
+> Nine out of nine again. A model reading a contract that fits in its context does not miss
+> the exception, and the honest move was to stop defending that and go and look at what the
+> runs were actually getting wrong.
 
 ---
 
-## 1:20 to 2:30 — What was actually broken, and one full run
+## 1:20 to 2:30 — What was broken, and a full run
 
-**On screen:** terminal. Run `npm run solution`, then `npm run report`. Then switch to the
-front end at `localhost:3000`, show the summary chart, and click into the Conformis agreement.
+**On screen:** terminal, `npm run solution` then `npm run report`. Switch to the front end
+on localhost, show the summary chart, click into the Conformis agreement.
 
-> What they were getting wrong was quoting. Three passages in twenty one could not be
-> found in the source document. Not invented outright. Tidied, spliced together, lightly
-> reworded. In a memo whose whole purpose is that somebody can go and check it, a citation
-> you cannot find is worse than no citation, because it reads as diligence.
+> What they were getting wrong was quoting. Three passages in twenty one could not be found
+> in the source document. Not invented outright. Tidied, spliced together, lightly reworded.
+> In a memo whose whole purpose is that somebody can check it, a citation you cannot find is
+> worse than none, because it reads as diligence.
 >
-> So here is a full run. Eight contracts, three clause types each, twenty four questions.
-> Twenty seconds.
+> Here is a full run. Eight agreements, three questions each. Twenty seconds.
 >
-> And this is what comes out. Eight agreements, three questions each, and the one thing a
-> reviewer actually wants to know: which of these clauses does not mean what it appears to
-> mean. Sixteen of the twenty four are qualified by something elsewhere in the same document.
+> And this is what comes out. The one thing a reviewer actually wants to know: which of these
+> clauses does not mean what it appears to mean. Sixteen of the twenty four are qualified by
+> something elsewhere in the same document.
 >
-> Click into one and you get the working. Each clause, whether it stands or is qualified, the
-> passage quoted, and the section it came from so you can go and check it. Here is the
-> restriction, and here is the language further on that undoes it.
->
-> And at the bottom of each one, this. Requires a reader. That is the tool telling you
-> what it could not establish, rather than filling it in.
+> Click into one and you get the working. Each clause, the passage quoted, and the section it
+> came from so you can go and check it. Here is the restriction, and here, further down the
+> same agreement, is the language that undoes it.
 
 ---
 
-## 2:30 to 3:15 — The comparison
+## 2:30 to 3:10 — The comparison
 
-**On screen:** `npm run score`, with the table filling the frame.
+**On screen:** `npm run score`, table filling the frame.
 
 > Two numbers moved.
 >
-> Unlocatable citations printed in the memo: three of twenty one, down to zero of nineteen.
+> The baseline prints twenty one citations and three of them cannot be found in the contract.
+> Hedgehog prints twenty and all twenty can be found.
 >
-> And the reading cost per question: eight thousand eight hundred tokens, down to two
-> thousand nine hundred and fifty. Three times cheaper.
+> And the cost per question goes from eight thousand eight hundred tokens to three thousand
+> eight hundred and sixty eight. Two and a quarter times cheaper.
 >
-> Now, the honest version of that first number. The model does not misquote less. It
-> produced two bad quotes out of twenty one where the baseline produced three, which is
-> the same rate on a sample this size. What changed is that they no longer reach the page.
-> That is why the denominator moves from twenty one to nineteen, and why the table prints
-> quotes attempted, quotes withheld and quotes printed as three separate columns rather
-> than one convenient rate.
+> The honest version of the first number: the model does not misquote less. It goes wrong at
+> about the same rate either way. What changed is that the wrong ones are caught before they
+> reach the page.
 
 ---
 
-## 3:15 to 4:00 — The change that did the most
+## 3:10 to 3:55 — What each change actually bought
 
 **On screen:** `src/solution.ts`, on the verification block.
 
-> Two changes, and they earn their keep for different reasons.
+> Three changes, and they cost very different amounts.
 >
-> Asking all three questions in one call instead of three separate ones is where the
-> threefold cost saving comes from. The baseline was sending the same forty pages three
-> times over.
+> Asking all three questions in one call instead of three is where the saving comes from. The
+> baseline was sending the same forty pages three times over.
 >
-> But the change that matters most is this one. Every quote is looked for in the contract
-> before it is printed. If it is not there, character for character, it does not go in the
-> memo and the memo says it was withheld.
+> Checking every quote against the contract before printing it is free. It is a string search.
+> It always terminates and it never asks the model to assess its own work. That check is why
+> the zero in that table is a fact rather than an impression.
 >
-> It is a string comparison. It always terminates, it cannot be argued with, and it never
-> asks the model to assess its own work.
+> And repairing what fails the check costs a third more in tokens, and on this set it rescued
+> both of the citations that would otherwise have been dropped. That one is a genuine trade,
+> so it is a flag rather than a decision I made for the firm.
 
 ---
 
-## 4:00 to 4:40 — The experiment I removed, and the lesson
+## 3:55 to 4:45 — What I got wrong, and the lesson
 
-**On screen:** `CHANGELOG.md`, the last two rows.
+**On screen:** `CHANGELOG.md`, scrolled to the closing section.
 
-> I built a repair loop for this. Catch the bad quote, hand it back to the model with the
-> offending text attached, ask for the real passage. Up to two rounds.
+> Now the part I would rather not put on camera.
 >
-> It fired six times. It cost a third more in tokens. It corrected nothing. Told exactly
-> which quote was wrong and asked for the right one, the model could not produce it.
+> An earlier version of this changelog said the repair loop fired six times and corrected
+> nothing, and that a sterner prompt cost eight points of accuracy. Both were false. The first
+> was a counting error. The second compared two runs whose prompts had been refactored in
+> between, so what the flag produced was no longer what I had measured.
 >
-> I also tried simply asking more firmly, an instruction to copy character for character
-> and not tidy the spacing. That fixed nothing either, and it made the answers worse
-> elsewhere.
+> I did not find either by reading the code. I found them by regenerating every experiment I
+> had already dismissed and noticing the numbers disagreed with what I had written down.
 >
-> So: detection is cheap and correction is not. Checking output against the source always
-> works. Asking the model to fix what it just got wrong reuses the faculty that produced
-> the error. When a model cannot be trusted to quote, do not ask it again more firmly.
-> Check, withhold what will not verify, and tell the reader you did.
+> Evaluation results drift the moment the code underneath them changes. A changelog written
+> from memory quietly stops describing the repository. The only defence is to re-run the
+> experiments you are most confident about, and I nearly shipped this claiming a feature had
+> failed when it was the one component recovering real citations.
 
 ---
 
-## 4:40 to 5:00 — Close
+## 4:45 to 5:00 — Close
 
-**On screen:** `REPRODUCE.md`, on the offline block.
+**On screen:** `REPRODUCE.md`, the offline section.
 
-> Every model response is cached and committed, so you can clone this, run the scorer with
-> no API key and no spend, and get the same numbers I did.
+> Every model response is cached and committed, so you can clone this, run the scorer with no
+> API key and no spend, and get the same numbers I did.
 >
 > The thing I set out to build did not need building. What the evaluation found instead was
-> smaller and duller and considerably more useful, and I would rather submit that than the
+> smaller and duller and a good deal more useful, and I would rather submit that than the
 > story I planned.
 
 ---
 
 ## Recording notes
 
-- Roughly 780 words. At an unhurried pace that lands near five minutes. If you overrun,
-  cut the second half of section 4:00 (the sterner instruction) rather than anything else.
-- Run `npm run solution` beforehand so the cache is warm and the live run is quick. Say so
-  if it returns instantly, rather than letting it look faster than it is.
-- Start the front end before recording: `cd web && npm run dev`. Have it already on the
-  summary page when you switch to the browser.
-- Keep the terminal font large. Judges will watch this in a small window.
-- The two numbers to land clearly are three of twenty one to zero of nineteen, and 8,800
-  to 2,950. Everything else can wash over.
+- Around 800 words. Read unhurried, that lands near five minutes. If you overrun, cut the
+  second paragraph of 3:10 rather than anything in 3:55, which is the strongest section.
+- Warm the cache first with `npm run solution` so the live run is quick, and say on the
+  recording that it is cached rather than letting it look faster than it is.
+- Start the front end before recording: `cd web && npm run dev`. Have it sitting on the
+  summary page before you switch to the browser.
+- Keep the terminal font large. Judges watch these in a small window.
+- The figures to land clearly: three of twenty one down to zero of twenty, and 8,800 down
+  to 3,868. Everything else can wash over.

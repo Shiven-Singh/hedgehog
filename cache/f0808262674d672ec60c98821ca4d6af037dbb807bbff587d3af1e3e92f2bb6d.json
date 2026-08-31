@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"ABSOLUTE\",\n  \"quote\": \"Licensor may terminate this Agreement by providing prior written notice to Licensee upon the occurrence of a Change of Control.\",\n  \"overrideQuote\": null,\n  \"note\": \"Under Section 6.4, Licensor has the unqualified right to terminate the Agreement by providing prior written notice to Licensee upon the occurrence of a Change of Control.\"\n}\n```",
+            "thoughtSignature": "EtIICs8IARFNMg8LRbRKyetT4VeRRrLrtvPHsysfG7F+PzE+9jIXJjH6Mi/KLoCS9+SQwhAJ7Xkjj7APuZTNjExWHPlaJGVXHQj/NghwdjjW1CTIE3nTl0TSNLRQGpk7R+VOis9/U2uStXtLmaH6iXepjhUgzy1EeH/fi4njFwgk4srlZ9cfSxtau1pwkKmP/JVUnZ8owxOmTprbKnZ42kaUWMGyH/vzYNva3YeZAtFl/lQzOa7YcYqeBwhrYKJ1nq2FmbUBkIrhH8f3cU+ICyNTc4dhF1SpeZnzOg9Wl8TCNmjis9U1HVaccfaMpjDZ/JrZwAFqGwib2Nl5Lz+zNAk0R68vOJD/4TuwIP4vVxr7i95Fak9myRA/+a//6DJRX5uLMW+7u3QO6g/00UNPSvz9WaDULpu2mWtaZui1zp5t8Z/41i+dEXT1isQrNwqOIcG04fc0CUw8kDq9zujMOVUI/VGEG7zeNSaiAdLJYSzBhfADGEFBbYVKD4JcdzlejsHjHfnInQ5rmZlNbwkeRgvsKRwFJm0fsRG/EHS/9vhXesQLTdRpXSEiwnqNjJH2FgA1gp5FkvKnc3xKWibt4gjC9vVASht3SAqg1MqpirnZfhCC0uitS0xO9X0mhcZllRAQUyAFEKe4G0uDNihvI17ukGtpbdzNdIIihshX+TOSfhZwZpECafAj5Ih4GDKK8qPYviFLoqgJe8O/fJ9yAlSiqq9b3cy4rDfRBwONGIVVxnGuJxqEHGpaNTkLZdyYk/J12lbvMHfUDBdsdn00zU1Hy8o5jkaOc31fs3t4Mak5wbZpcXkKLRE+KCjDotYgGZrFpWkKRMT5E53x5rxjTKFJs/69pj1iHLoCOUV5Uj3chSv6sjNctqqTwJpWwVSoKY0PlzxjsY4Dyi+mgtqnuMiD2F5zhc4mu56OhsmC9YzdZ/zkFYY0RpcyfQFcUc6M8H1/cBFJAf0wY/+rQmwA0HEcb+u9xHqclKnIRjpUWj/2CEE8Z/gNzb0rAZKnfe4T6vZe91T5LU8iHS0NSMTfx619m45ZsMiSQsRfEJvbg/viB5NNwjqcTBQcdB2mSP2BqkpbDJxnNF+rFjAdiF1klaGGrHjPWhD9lWbibEMBggRUCWaHHJlje9Vl03fHh1798Y4k+ri7kahBQzrixiQZktiOdmFdknqh9+r4YZfrxK8du/CAbScI0AjgFVN6b+LDgkwSZpo3z2DXEUezp5xaE5pbyLfdvQlcip3KFJcrhEo60JvnkZ1zUsBLK/TsRyHe/HqdfsIkMJWQ76+THlkQ5q37SDQPWi80Ej47ySQhD/vtU8O4UC+ywAzABosBHd9W+nyQ2vzsKJDKLxBs2IJvFuKM0B2nJ2nYQArVlkHW+/odfuUaAM7uvon5NGujqWlT2yJ8YxeYkfZi+Ng90uGBN8YopyenoVVstH6jnfNf5cKybH5ds/JemVqtoBDjemJvfitUsvg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 4057,
+    "candidatesTokenCount": 96,
+    "totalTokenCount": 4375,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 4057
+      }
+    ],
+    "thoughtsTokenCount": 222,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "6XmVatj-Fpat4-EP4rXu8Qc"
+}

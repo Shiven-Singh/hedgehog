@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Except as specifically provided in the Distribution Agreement, Conformis shall be prohibited from developing or assisting another in developing, or causing another to develop, Patient-Specific Instrumentation for Off-The-Shelf Knee Implants for any Third Party in the field of orthopedics until January 1, 2032 (or earlier, to the extent set forth in Section 2.3.3.4 or Section 2.3.5 of the Distribution Agreement)\",\n  \"overrideQuote\": \"with the exception that Conformis (including any entity involved in a Change of Control of Conformis, any such entity an \\\"Acquirer\\\"), may develop Patient-Specific Instrumentation for any Off-The- Shelf Implants of Conformis, an Acquirer or any of their Affiliates.\",\n  \"note\": \"Section 4.1 restricts Conformis from developing patient-specific instrumentation for off-the-shelf knee implants for third parties until 2032, but expressly allows Conformis or an Acquirer to develop such instrumentation for its own or its affiliates' implants, as well as granting third-party patent immunities outside the Buyer Field.\"\n}\n```",
+            "thoughtSignature": "EsEBCr4BARFNMg9vfuS4xEhMybEogfF0u68SHcuJ2nfxuX5t7yYJdgL26z3Ut/G+oOwkV652SqD2afVWGfAmB8msXN/wrdAcDUWETMUHJZ5hTqTU1zBLj2NkboV7/cAUD0t4yx+C9shYqSkdn4FBQkjVSt3RfRjRHfqxfuIpzx0MmduN1sC0CHwjrII+zVN90/LjKNXg1v4N7ZuXj78Med83zXTeAL0Dpcst0ZODcPQxUs75TIW9V1044t3VsPI/bviEBw=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 4810,
+    "candidatesTokenCount": 259,
+    "totalTokenCount": 5087,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 4810
+      }
+    ],
+    "thoughtsTokenCount": 18,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "7nmVapL0LZ2ujuMPuZu68Qc"
+}

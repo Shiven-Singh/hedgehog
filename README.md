@@ -39,27 +39,34 @@ So that became the problem worth solving, and the two numbers this project moves
 
 | | Baseline | Hedgehog |
 |---|---|---|
-| Unlocatable citations printed in the memo | 3 of 21 | **0 of 19** |
-| Prompt tokens per question | 8,800 | **2,950** |
+| Citations printed in the memo | 21 | 20 |
+| Of those, unlocatable in the contract | **3** | **0** |
+| Prompt tokens per question | 8,800 | **3,868** |
 
-The model does not misquote less. It produced two unlocatable quotes out of twenty one
-against the baseline's three, which is the same rate on a sample this size. What changed
-is that they no longer reach the page, which is why the denominator moves from 21 to 19
-and why both figures are printed rather than one.
+The model does not misquote less. It goes wrong at much the same rate either way. What
+changed is that the wrong ones are caught before they reach the page, and most of them are
+then recovered rather than simply dropped.
 
 `CHANGELOG.md` has the full sequence, including the three things that did not work.
 
 ## How it works
 
-Two changes from the baseline, and nothing else.
+Three changes from the baseline.
 
 **One call per contract.** The baseline sends the same forty pages three times over to
 answer three questions about it. Asking all three together costs a third as much.
 
 **Every quote is checked against the source.** A quoted passage is looked for in the
-contract, and if it is not there, character for character, it is withheld and the memo
-says so. That check is a string comparison. It always terminates, it cannot be argued
-with, and it does not ask the model to assess its own work.
+contract, and if it is not there, character for character, it does not get printed. That
+check is a string comparison. It always terminates, it cannot be argued with, and it does
+not ask the model to assess its own work. It costs nothing and it is the reason the
+zero in the table above can be stated as a fact.
+
+**What fails the check goes back.** The offending text is handed to the model with a
+request for the real passage, up to twice. On this set that recovered both citations that
+would otherwise have been dropped, at a third more in tokens. Whether that trade is worth
+paying depends on whether a gap or a bill costs the firm more, so it is a default you can
+turn off with `HEDGEHOG_NO_REPAIR=1`, not a decision baked in.
 
 The memo ends with a section headed "Requires a reader" listing what the review could
 not establish. A tool that admits its gaps is more useful to a lawyer than one that

@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"ABSOLUTE\",\n  \"quote\": \"Detto may not assign any of its rights or delegate any of its obligations hereunder, whether by operation of law or otherwise, without PivX's prior written consent. Subject to the foregoing, this Agreement shall bind and inure to the benefit of the parties, their respective successors and permitted assigns.\",\n  \"overrideQuote\": null,\n  \"note\": \"Detto is prohibited from assigning rights or delegating obligations without PivX's prior written consent, with no contractual carve-outs or exceptions specified elsewhere.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 56,
+            "endIndex": 319,
+            "uri": "https://www.lawinsider.com/contracts/7qwAmokh8ub",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2265,
+    "candidatesTokenCount": 130,
+    "totalTokenCount": 2728,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2265
+      }
+    ],
+    "thoughtsTokenCount": 333,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "s3mVau-2PM_z4-EP9fqAsQg"
+}

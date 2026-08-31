@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "name": "search_contract",
+              "args": {
+                "query": "Sponsorship Rights"
+              },
+              "id": "call_3622166"
+            },
+            "thoughtSignature": "EvkBCvYBARFNMg9+L4fjA0hKlENzEKjsrYw6W6YIacYztocgXQn4RddiEPkbfZCsP8EU2j9K+8kIHbwSODgsE4Gk5c1nA5xIYag/BSeFKUP5Ar1/G00RpBdGr4bNNbYL/k3CJNEKgbiRu6Cqm7UvhNT+xxOaFXozlZpwa/mmRW79YeewdKFSF9tXBalvwW1oCWGvzUle3qfLZX5TVMFqgB4u56shqLB3b5o4a6VRtjeM4wOIwIfIENLRBylT65+lXBwePi12bMjsOq0oC+vvFKp0/cREXBih7I6wXed1yEcirUGRNtkVKigbBf+NCkUT7wVik+eA1D4kXJHP"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "finishMessage": "Model generated function call(s)."
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3036,
+    "candidatesTokenCount": 18,
+    "totalTokenCount": 3109,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3036
+      }
+    ],
+    "thoughtsTokenCount": 55,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "q3mVauXvA_bWjuMP1K-guQw"
+}

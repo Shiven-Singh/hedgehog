@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "name": "search_contract",
+              "args": {
+                "query": "Competitor"
+              },
+              "id": "call_3509603"
+            },
+            "thoughtSignature": "EtcJCtQJARFNMg8AYkPRjeU+aWyId0WY8baUqjT1oP9+z0XHK5Re2gOZ0EwGMdtMZP3Cns5SdySVUc+6XwergO/ZHyN3e6jrPaz2bxm/5dZ8RkiY5eFyFNajVWqeEJM/rwClVKermTYynZRxzB2xPJVJSCGZpf6eZuA9uzlULH7GqDPwhgXP2NzyyxcUKrh0gdDKf5QjyJ6cZOaLUziApZou/gfZopOyjzcSmsKy53PAjQZNHI2V6I+TExsB/R25Krc4V0Qx5H+vnk2vOdwTvZHKqwlILAp/FDdjEsyBVS/ccIEPNLuxajTEmg+/lxJZjBWRMhuzTxYSuGwYhAwdCfB5Dp0taon9MkBrEygatwL6Lz8yMfFo3hNGyLigNvb6znNowRvrLN1x1zS3q9HWof6rAJKxMebddhlDnsXCArIUYZvs5ylch06k4z4hrl0BLWjd+2BFfgFj7RVV3DipTZayenDCZK6y5dfxutnPYmrixhd740/t1i+DqbNx/AA7MvxaD0J7mtQ2e2KrWuadPCSD10pkiuw5Qa2MdGnBNwFIrQ10D6R5aq1P/jabSjs50xWmlu9DFgBX3l73FWll5tXtSsOlz4wSoD3eaSOtsey4rvLAC17Wr5t/XrGSti2QRhIDqYmQvGl4zoL8Nm5IyAKvcO1MzI+3uwIYl2bVP+fimgo3LG9t330xnHubdE2eABiUbuNpkHw2QCBtqqhFXhcfQf5uCFyuRoNAPZMMLvS0eGKoUh/vMaooEQBA454bEvYH8qArwWuHvix3OVFuCgBuh3NTuFN+hLWEJjDNYbiBppJ2KxQ4VsAIdyMyveR86ekogtjbEcTZQYrJkF9QNnboF33eNDf6In/6WX03wsTCROwV+sc5mRpVTWJ07ktF6CoDPVuWXWlqBLbCNoM0zyizDNdNGAQjvQJRov5oSXGLkDVrXdrPSQ+GD+BJI/VIQ/SI/ZCo5ABEoVUQNo9tWcsvbEiquhb/rw+QvbabqNQnVNgbQRhbMiOyuVS3rrH1XyfwjsSnRG3plMSUnmIUL7i648XzpfQ+/+grDnWUkFEFqOwWaGTEvtWo0SVpc0zqX/SSfsxGMVyfZvJEmAuRgw29uR9WwNtzgk2oKIFqHZaLZHJYV1JutLAD9HFB7lMoIwQOwHgd2eFRcOtahr1XPzQ+KjGif0ejNhHJRY/HIcGw1mqX5DAiM8UIlI+0ADBnr3gnmPfuPSySA4V4WZrg4kBSwt0DaQ1Jq5P0XlNlUS/JhcSzfnLfAa9KNKrNuBcUK3WkiMpdYJm2FAJZCYjNNLv7RBuBEnlvztr/65ETtK/nyEbyZibg0eeJbOnYx/DKHF41SPs+go18A9ON5hmI95VMvC/ljD59sjk/LNCjjm8S7yK0k0RTL/8YsSH2lDfXenVw2wMl6c/lR+QamInExIFCv9D3U0GRuFMg9gKDcmlyAfkQrrDOSbbiqA2A5t0/AL6hYhZeruia6u59Zhzf0gwoXwqzI3Iv834OlWZcISHMP7CK5SnQkETbZJgJAWiw8++jahNHULmEX6kR1tKjUc6GkVUYhk5MAkWnE5KRPub8giciTw0/UX0QQM3WuB604zTnl8A0HQMYsH+LUIB6MJyt95ATicQ6XDXhxNpHn+2XQ5SePJCj+x3o"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "finishMessage": "Model generated function call(s)."
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1647,
+    "candidatesTokenCount": 17,
+    "totalTokenCount": 1890,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1647
+      }
+    ],
+    "thoughtsTokenCount": 226,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "z3mVar-qFLTZjuMP1ZvA0QU"
+}

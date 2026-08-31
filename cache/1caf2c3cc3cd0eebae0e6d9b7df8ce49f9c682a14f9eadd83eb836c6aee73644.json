@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "name": "search_contract",
+              "args": {
+                "query": "Change of Control"
+              },
+              "id": "call_3670806"
+            },
+            "thoughtSignature": "EsMBCsABARFNMg/gVsEMcqFbmYm73kz1xqI9F3QviEyMefQsF+E7HwPGMuTd1JJkF5iPeCAOEhG6PR8vfr9+TRE/Lph5kSV0gMJUN2A5tEKA6bk7mGYV+vdbDbgdLaM+9urTYPvBMvAVgcnBnfrd3cBkHKx/G2YI5SiNdRFsBsl89t0CZ48qtjBtMgGwFVLEjXH31c+ETRUwQNGGHUP+nHAsRmGqwMufY7rCtFgQtNDxB6+MwHSezHLFd11SCXC0X4SrUvq1"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "finishMessage": "Model generated function call(s)."
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 539,
+    "candidatesTokenCount": 18,
+    "totalTokenCount": 584,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 539
+      }
+    ],
+    "thoughtsTokenCount": 27,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "4HmVaoj8AY3Lg8UP-KK2sQY"
+}

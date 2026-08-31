@@ -6,9 +6,11 @@
 
 **Present, subject to an exception**
 
-Section 6.5 restricts transfer and assignment of rights granted under the agreement, but explicitly allows third-party web hosting and certain sublicensing by 2TheMart.
+Section 6.5 prohibits the transfer, assignment, or sublicensing of rights granted under the agreement, but creates exceptions permitting third-party web hosting and certain sublicensing by 2TheMart to business partners.
 
-!! Quote withheld: could not be located in the contract.
+> All rights (under any applicable intellectual property right) granted herein are not sublicenseable, Source: 2THEMART COM INC, 10-12G, 8/26/1999 transferable or assignable.
+
+*Contract text, S008.*
 
 The following passage qualifies the clause above:
 
@@ -20,7 +22,7 @@ The following passage qualifies the clause above:
 
 **Present, subject to an exception**
 
-Section 8.3 grants either party the right to terminate upon an acquisition of a majority of equity securities, but carves out specific internal transfers involving i-Escrow and i-Escrow.com.
+Section 8.3 allows either party to terminate upon a change of control of the other party, but carves out specific internal equity transfers by i-Escrow and i-Escrow.com.
 
 > If a majority of the equity securities of either 2TheMart or i-Escrow, Inc. (except that i-Escrow may sell all or a majority of its equity securities or voting interests to i-Escrow.com, and i-Escrow.com may sell all or a majority of its equity securities or voting interests to i-Escrow's existing shareholders, without triggering the foregoing) are acquired by another company during the term of this Agreement either company may terminate this Agreement, without liability, by giving a thirty (30) days written notice to the other party.
 
@@ -36,13 +38,11 @@ The following passage qualifies the clause above:
 
 **Not found**
 
-The agreement does not contain an exclusivity clause; intellectual property and content rights are granted on an express non-exclusive basis.
+The contract does not contain an exclusivity clause; the licenses granted are expressly non-exclusive.
 
 ### Requires a reader
 
 **No clause located:** Exclusivity. The review did not find this clause, which is not the same as the contract being silent on the point.
-
-**Citation withheld:** Anti-Assignment. A passage was identified but could not be matched to the contract word for word, so it has not been quoted. The finding stands; the supporting text needs locating by hand.
 
 ## Adianutrition Inc: D2 Reseller Agreement
 
@@ -308,7 +308,7 @@ The following passage qualifies the clause above:
 
 **Present, subject to an exception**
 
-Section 10.2 restricts assignment without prior written consent, but permits assignments to Affiliates or in connection with the sale of substantially all relevant assets/business subject to certain conditions.
+Section 10.2 restricts assignment of rights or obligations without prior written consent, but qualifies this by allowing assignments to Affiliates or in connection with the sale/transfer of all or substantially all related business/assets.
 
 > Except as otherwise provided herein, a Party shall not have the right to assign any of its rights or obligations under this Agreement (whether through a merger, sale of stock, or otherwise) without the prior written consent of the other Party;
 
@@ -324,15 +324,15 @@ The following passage qualifies the clause above:
 
 **Present, subject to an exception**
 
-Section 10.2 addresses assignments by Change of Control, but the Continuity of Ownership clause excludes internal reorganizations, recapitalizations, and changes of jurisdiction where beneficial ownership remains substantially unchanged.
+Section 10.2 addresses assignments occurring by Change of Control, and the Continuity of Ownership clause qualifies what constitutes a change of control by exempting transactions where ultimate beneficial ownership remains substantially unchanged.
 
-> Except as otherwise provided herein, a Party shall not have the right to assign any of its rights or obligations under this Agreement (whether through a merger, sale of stock, or otherwise) without the prior written consent of the other Party; except that, either Party shall be permitted, without any need for the other Party's consent, to assign this Agreement (a) in whole or in part to an Affiliate (provided, however, that once such Person is no longer an Affiliate of the assigning Party, such former Affiliate shall assign this Agreement back to the assigning Party), provided that the assigning Party provides the other Party notice of any such assignment provided further that failure to provide such notice of such assignment shall not render such assignment void; or (b) to a Third Party in connection with sale or transfer of all or substantially all of the assigning Party's business or assets relating to the subject matter of this Agreement, whether by Change of Control, merger, sale of assets or otherwise;
+> Except as otherwise provided herein, a Party shall not have the right to assign any of its rights or obligations under this Agreement (whether through a merger, sale of stock, or otherwise) without the prior written consent of the other Party; except that, either Party shall be permitted, without any need for the other Party's consent, to assign this Agreement (a) in whole or in part to an Affiliate (provided, however, that once such Person is no longer an Affiliate of the assigning Party, such former Affiliate shall assign this Agreement back to the assigning Party), provided that the assigning Party provides the other Party notice of any such assignment provided further that failure to provide such notice of such assignment shall not render such assignment void; or (b) to a Third Party in connection with sale or transfer of all or substantially all of the assigning Party's business or assets relating to the subject matter of this Agreement, whether by Change of Control, merger, sale of assets or otherwise
 
 *Contract text, S024.*
 
 The following passage qualifies the clause above:
 
-> Continuity of Ownership. For the purposes of this Agreement, a transaction in which the ultimate beneficial ownership of a party remains substantially unchanged, including any internal reorganisation, recapitalisation, or transaction effected solely to alter the jurisdiction of incorporation of that party, does not constitute a change of control, an acquisition, or a transfer of control of that party. The rights and obligations arising under this Agreement upon a change of control have no application to any such transaction.
+> For the purposes of this Agreement, a transaction in which the ultimate beneficial ownership of a party remains substantially unchanged, including any internal reorganisation, recapitalisation, or transaction effected solely to alter the jurisdiction of incorporation of that party, does not constitute a change of control, an acquisition, or a transfer of control of that party. The rights and obligations arising under this Agreement upon a change of control have no application to any such transaction.
 
 *Contract text, S024.*
 
@@ -340,14 +340,14 @@ The following passage qualifies the clause above:
 
 **Present, subject to an exception**
 
-Section 4.1 restricts Conformis from developing certain instrumentation for third parties, but includes explicit carve-outs for products of Conformis/its acquirer/affiliates and patent licensing/immunities outside the Buyer Field.
+Section 4.1 restricts Conformis from developing or assisting in developing Patient-Specific Instrumentation for Off-The-Shelf Knee Implants for third parties, but includes explicit carve-outs for its own or its Acquirer's/Affiliates' implants and patent licensing/immunities.
 
-!! Override quote withheld: could not be located in the contract.
-
-> Except as specifically provided in the Distribution Agreement, Conformis shall be prohibited from developing or assisting another in developing, or causing another to develop, Patient-Specific Instrumentation for Off-The-Shelf Knee Implants for any Third Party in the field of orthopedics until January 1, 2032 (or earlier, to the extent set forth in Section 2.3.3.4 or Section 2.3.5 of the Distribution Agreement)
+> Except as specifically provided in the Distribution Agreement, Conformis shall be prohibited from developing or assisting another in developing, or causing another to develop, Patient-Specific Instrumentation for Off-The-Shelf Knee Implants for any Third Party in the field of orthopedics until January 1, 2032 (or earlier, to the extent set forth in Section 2.3.3.4 or Section 2.3.5 of the Distribution Agreement), with the exception that Conformis (including any entity involved in a Change of Control of Conformis, any such entity an "Acquirer"), may develop Patient-Specific Instrumentation for any Off-The- Shelf Implants of Conformis, an Acquirer or any of their Affiliates.
 
 *Contract text, S010.*
 
-### Requires a reader
+The following passage qualifies the clause above:
 
-**Citation withheld:** Exclusivity. A passage was identified but could not be matched to the contract word for word, so it has not been quoted. The finding stands; the supporting text needs locating by hand.
+> with the exception that Conformis (including any entity involved in a Change of Control of Conformis, any such entity an "Acquirer"), may develop Patient-Specific Instrumentation for any Off-The- Shelf Implants of Conformis, an Acquirer or any of their Affiliates. For purposes of clarity, the foregoing does not prevent Conformis from granting any license, release, covenant not to sue or other immunity to any third party under any Patents, including any such immunity that would authorize manufacture, use or sale of Patient-Specific Instrumentation for Off-The-Shelf Knee Implants outside the Buyer Field.
+
+*Contract text, S010.*

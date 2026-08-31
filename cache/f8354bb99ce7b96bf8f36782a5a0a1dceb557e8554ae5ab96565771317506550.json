@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "name": "search_contract",
+              "args": {
+                "query": "control"
+              },
+              "id": "call_34880"
+            },
+            "thoughtSignature": "EpABCo0BARFNMg/kFaVb76dFyqj+HYhSx8BgnxD/mpng7EhdrXHUK9eggqTFOxNx2583+8k18FsbJ4MbZwKv5rBmHjjikQ8p9LFaUVNSkM5EeWSD51r3qsp+2R6l3267NYd8/S6JzV14isXye9UTUMcu2CByBpjfhBHeFR2IT8jRSWjtLEL/Y6uxMAYEsixKnXmX"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "finishMessage": "Model generated function call(s)."
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 668,
+    "candidatesTokenCount": 16,
+    "totalTokenCount": 696,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 668
+      }
+    ],
+    "thoughtsTokenCount": 12,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "z3mVasOLFIOtjuMPjOy8iQY"
+}

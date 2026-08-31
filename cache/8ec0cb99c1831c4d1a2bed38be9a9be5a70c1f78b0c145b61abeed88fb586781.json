@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "name": "search_contract",
+              "args": {
+                "query": "reorganization"
+              },
+              "id": "call_3023584"
+            },
+            "thoughtSignature": "EpACCo0CARFNMg8RLfVB5/yngUBDsp4uTUVaBDev5MDYq0ASewPdjdzVagxPmbQHcxiBlbGjXZDDD8tmFWqxhVFiawQN2+8uMK7swZ0lmke+lw+7+uh55sTxfw/RWDW0scKqTyQPorttc5hK9z76piWo9F1dFYjlE8muFW//o+bfgMhwH/pHGvm8tCZcMPWl4lkyIlg+wIwqudbtMivvTp32MVmPCv57QezNQhE1A1ObMGXIHCinw/dfgXM3yjg7dSRdAbp1E7yPjEdH7SuMtT5XRA3nquiSH2Ebvr179sI9p6mLm42BUBUcFMlHEyKzXXnD5Uuw+OlgM02m3+KmgyZUv3VS1PdBoB92QqTVa2RGvJg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "finishMessage": "Model generated function call(s)."
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3277,
+    "candidatesTokenCount": 17,
+    "totalTokenCount": 3336,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3277
+      }
+    ],
+    "thoughtsTokenCount": 42,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "2nmVasjsFeP54-EPqvfZ4A8"
+}

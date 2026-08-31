@@ -1,0 +1,48 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Auriemma expressly agrees and undertakes that: a) The right to use the Auriemma Identification has not been previously granted nor will it be granted to anyone other than Berkshire for use during the Contract Period within the Contract Territory in connection with the advertisement, promotion and sale of products and services which are the same as or similar to any of the Financial Services; b) Auriemma will not enter into any arrangement or agreement, which enables any Berkshire Competitor to be endorsed by Auriemma (whether by using the Auriemma Identification, Auriemma providing services similar to the Endorsement Services, or otherwise) during the Contract Period within the Contract Territory.\",\n  \"overrideQuote\": \"Notwithstanding the foregoing, it is understood that Auriemma has no control or influence over any decisions by the University of Connecticut to enter into any arrangement or agreement with any Berkshire Competitor.\",\n  \"note\": \"Section 3 establishes exclusivity prohibiting Auriemma from granting endorsement rights or endorsing any Berkshire Competitor during the Contract Period in the Contract Territory, but qualifies this restriction by acknowledging that Auriemma has no control or influence over decisions by the University of Connecticut to enter into arrangements with Berkshire Competitors.\"\n}\n```",
+            "thoughtSignature": "ErYBCrMBARFNMg+LL2VhGYcHm9zw60kdqukP4t+Ry8AOe3+TTyFmq8v+F90XfN+p8CQ9InYNwSd7DAFkjmtNj9cL1kkTJt+q2CpU/7O3DMhVCufGPg57sPP7fJuVC8vhsEZxlTtZAjBpI5z3sTRmxhv6TvxI3srBtSAgG6asUfAEYawF9cxTaFmxyBR+H8GlYzzpvv0buyTb0PjYGNyGbEreUWzJQ36XQSgj6wIFcnkIq7jJI2xMt7s="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 57,
+            "endIndex": 758,
+            "uri": "",
+            "license": ""
+          },
+          {
+            "startIndex": 786,
+            "endIndex": 1007,
+            "uri": "https://www.contractscounsel.com/t/us/endorsement-agreement",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 5055,
+    "candidatesTokenCount": 266,
+    "totalTokenCount": 5338,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 5055
+      }
+    ],
+    "thoughtsTokenCount": 17,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "23mVaqfbDJ3jjuMP-rTLmAw"
+}

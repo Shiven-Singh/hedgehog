@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "name": "read_section",
+              "args": {
+                "id": "S002"
+              },
+              "id": "call_3454302"
+            },
+            "thoughtSignature": "EpcHCpQHARFNMg+xgqVNApBfUWIG7yhIXHsH2KRXa4T39u1lHcOH4suTE9vfadTJ0jQtDMV/MlgXs6pmTGGVDNApr/UmizWl2GPb5HJ6jV0bnh9FQ1Jzz35C9sNYqThXJklc5Ab+48G3DwlZ4GyLrlwjeCXSllkwMbrD9Nz0t+Sb64/IPxY3PYBhNu6KvQ/1y7TxUnnyChrxAJqkK/8u2TCLEGAvxTN8YOcWe8BA6tMMst0V4TQMSIn5wG/ggPW3sZ901vYHXH2PYnxFk1ae+DqESRkrYKuqweGlxHL0tAF07ho7k8hAoATIjk9A74GFbI9NRaiSSYpIkzGAMwaT9qpRf4I+MK1aoY9ZPlbmAe0or5UJ8oIz5p8myQDLmMk7kuKXTWN9hEZA0Brsw5YluIAqqTTn6ZGOVPu3+QXXbXchQ7okPjpScycYdLyPrglEGadgUiDBxZdfIkWilRptVXP0QKdEreu1aGGmH0DAoTyp8UBHj8JGTmL3uSGUNR5yPy7LBAfKYlF+ohDhJYCgA/ZX0knDdoUu6LTep890BicFkGGpr3G9MJn7pudtP8+2TCEalcN6IhQILio6APZiD12HPW1rDWEy6k2gahO96i5vA+FkorfQFRiycSbNMN4A/2N5d9+U8XKkxcIhJ4IwnatWSrNi5Jh0XCW6eChshDbXUaT/HJOAbwLqmWwFzapId6APLt8GQx65NVI5VFomcMvnH7TxdN+xTMzedRRz3evEnO3OUPCgP0CoPWwuGrnIdYX6gdk7I8fZygIvgfUXifSpwM0SF3eF+HwXTqXqQ4HCFa1FM3JGtrirz7t7v9I2+xGc5A2+JoLvY9IEqDHbRnmFAJ+xDfnlxo3rMB2AwPRCFvJJQ8bUhUtBZmuYs4KhsazqxFMO6HMDNtP98g3Uw/7gdUEtnCkT9m4Yc12v1aZd4/qZAoto6f7b8h+b0eqUd3UjANrjAvFaBdSHmRGqx7CJNBEYTkScYuSPFr0Huhil+Na+9eOlzPjEg3DqUTViRZowD1Ee2Yu8JGrFy2f1/bRNNWY+DpwICU/QE0j5/397krjkVv+Wel3Z8qPGc6KENuaqy/Aeq7+4rVh8nGaJuvbQTaA271D+Dk93IKfkq8BoXmMXFD8JJPvooZV1d7qaMvITIrWF8SwTQmEbDZB/6T3l33NOetbhWoWPEAvFVZmwV2Y49VWpmDGnuu29EbEiQrpXr2KY4SSaVQ=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "finishMessage": "Model generated function call(s)."
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 5158,
+    "candidatesTokenCount": 19,
+    "totalTokenCount": 5337,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 5158
+      }
+    ],
+    "thoughtsTokenCount": 160,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "sHmVauL8OsWLjuMP-b_XiAs"
+}

@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Neither Newegg nor Allied shall have the right or power to assign or transfer any part of its rights or obligations under this Agreement without the prior consent in writing of the other Party.\",\n  \"overrideQuote\": \"The parties acknowledge that the transfer of this Agreement to a successor entity in connection with a merger, consolidation, or the sale of all or substantially all of the assets or equity of a party constitutes a continuation of the existing contractual relationship and not an assignment, transfer or delegation for the purposes of this Agreement. The consent requirements set out in this Agreement have no application to any such transaction, and no notice to the other party is required in respect of it.\",\n  \"note\": \"Section 15.4 restricts assignment or transfer without prior written consent, but a separate Corporate Reorganisations provision exempts transfers to a successor entity resulting from a merger, consolidation, or sale of all or substantially all assets or equity from consent and notice requirements.\"\n}\n```",
+            "thoughtSignature": "Er8OCrwOARFNMg/6ua9cZsKrj9ayZ3E7R6T5UfXH45o2aG/PcykxBZXns5dj+YM/W9XtINprmc6qC08p+DLNsJ9wMAlaFGL0PIVj1ghvK514uuY7Rcgba3IsnUIjU4cckv4HBrekiyPgg0+si40FhOSI+JEBUYSJAm3qxoGPXPnuh+zjbtSvPzRTtGxZ4DayOpM9mFgBxzBWgIzkzE7XeJl7Ok4PFiRYiDR9h6CK6iLfUVWLUgbnhztsy9HfYhS89Z5mei/xPE0IZR0IEGnRWU9eqPsV0YZx37Z48opX0eilelCioMjc2LRAANYoTg1k1WVpGhHT8hE8O85pooVy4imo8iHEpAUEUbPFAQxZ1Mofyru7LaLlaGTqHr5LRQkU1YJTzasiiUoi4qZL6rprn5HqyLsCzbTf/3GhAapjr6QciJo8ZpHxDUN6Oad1g+zzIWFAJmo5LJvnHSqKnIjCnlSq/BNQMLXbN0H3cl13gTCWCPoLwQUqN2TpOSoMAgavGWifUzaNNTnHHk5hEgDZPSpX2dsUyuK0XoymN17vFMRdRNgMOUkB1863Hxzu6K+Oe+NrronUq8KLt/t9+Nys/+UtvWZtfhaKucUn5HzaCHCTT3yqFE9Pp9KfwOgRFq8UafZdegElaYjh58VW6hQKlmDmEqCf1/Udsg8zI2QKEFGW/qArK8xnGhOCUaOtW7mYLigZYpuu5udp1PIRTv/7mYxU3QAzFryXb/ECOwCwnUIyn/WXUD0sNVpgly0yz7GGBpFl8m0Gh9yN8zSYDGFHi0vLVJZui4eGwxZ7cVGclfX1plv09pZZe+PDV1dD2umE34y4smKTyBzeVjhnKLwP4BKZANRD8Wt0pWfotZU4RIVtiJmI8V+ddNf7lDyoSjMgfY3fpHIRN+G34j+BpbIM5oujBFgjOCEMpesy2Vy2lTsaZsdSEGbHuFx+8RhsGALtc6GUi6QMpth91Qf6niKUNTivvMxg4vbpvHatyHDHtM/TYY0RWPnVJsVfM0CwRrpjWc7+sMgiZq9cLfJd0mIEesKngHlLxs+m8ji+tw7mSa5I5HqqSk1C+ucGd2pLttksA7URehF9ImhbBAYrYSEPGxV9Ce0D56/ksOqjGqXzkmdiNYZ6F1z2fd4BaBrb9lu4dFiBTRsYO4nnrAtkr5UUg87tLBJH/I7S70MYX0X1hbifbaia+CVe2gxl3D/sCXoVvc8nj+PKhTA9PyGdetQ91h7Qji2apVJ699IwXMg6kfsk8xnnJRkZ1KtitOXQIXIjdrSoBUHG8fKovf4dKmaL8ZFnaSY1KVpfJQ3gg8u/rhW24SSpVmum4VRYPFZzMlT9e7qByd0gXMWeCL0jcZVQAsEt+FOTnzVgfFKTl4bgUi7ZhOrF5o+MRECEvu5JidCXGnvVAeeMA+xyJv/2mpHLo6Dh1FYb9NcltKREgvuX7EIQSQGo6Z79DGgFs0lBDu+wkIH6jjI0RGrY7ZLl097wbEf0rmknfYty84msKjx+HoTri1fni5mqmrcPw88SRbvTCIawwoJ/yoeegoH2uiyZZEGs65ZoM7x/T1uuw/TKgUROmAHf7l40Dfk0ORa+YdlwN6jOwwBnGlaCjQPzPvuzUagqxWmqAGgaRPXuK5SkhzHm0T6fJLKlflEy2S7zA6aiVS3FKHRJvsWh/sDPBkQgLyyMbY8YuLj8uhEFsYuFKdD2CE8ev7BQoW8MYcFE44gtu9kpo1mB6TV13Pmi6XBWkZM3qoiBxWbknHz1oHHMbrhdtQ/ztaFcSt2dZ9VJ+xvKEAaMcCaUkLSGYF4mwWlHZCF2IohUBd4zLf7WF7Phi33ZGuzKZM0Ptua/Zh351n8XNoJv845pNKUruWrYwZwvASfRiNx0BDsRk0U7YNu2/zx9mM3omMQiaqnX3sW8EN90JyRicaPfxF34sEoibIcULXqdH8sLIwJ87RuGR1NSqC1+XxSrrFwJQ2HusGodBr+Vw8G2D2hIxneLPabgh7fjzUWgidBmK9lsTTkYOjNf+s0yHgraBu0avJNCZwY1iypUdCd1LcM3trq6AsXqaLccnxWbiOTxpZ7cjme//9ZbYMQ+8KifYUskEqfOajE/kTNq5TV2BLcj94z75VP6HJXhTvWTxAnzJ0sia0Ks+8dEx2C/Wx8Iu6nua05m3rtQSuKtFZw4LI81cOvqmuF4yvXAODxmtYBSyJnolgumPMJKE6h9Xnr7BwDNl0BH9wvA2CjVzjkNQ3F/HheMXSBaL7+GKlJkNw2D9T581Bw2R8PqwOH06AnlrBkizFrENi1q5w+iavif1ckGWUH8ufdk31EDopUKmqWM/t1TANdGxH5mMfGp0uANXWbMatsTtI2QrWpydunGMwQ1EgoUYzv9xti+kAV1G97lYy201pWzT8Oiimw94ZQfU3eU9s8t9fy4YzlaW98Kz93UY5ZT9zBg/RnRe1MRfjJj0yAXHoRMnyn8XRUgbQ=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3203,
+    "candidatesTokenCount": 216,
+    "totalTokenCount": 3768,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3203
+      }
+    ],
+    "thoughtsTokenCount": 349,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "rHmVavHWIY3Lg8UP-KK2sQY"
+}

@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "name": "search_contract",
+              "args": {
+                "query": "Restrictive Covenant"
+              },
+              "id": "call_1457068"
+            },
+            "thoughtSignature": "EosBCogBARFNMg+4szdQc0jezujoy4b6Kd4RU0SkRCTjyhJUbfqs1RyLfx38pWMYdgF33Q5/nVbxe8GN/0K44Iq+so5PqovTgf77A7U5zOh1m+x2epARmb+SblitdQi0DkHOByHzPZq6dCBkyusKHHpLlPlTcErN8EVEmZ2O0m4ZponYIPakDNB/RooPbA=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "finishMessage": "Model generated function call(s)."
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2567,
+    "candidatesTokenCount": 18,
+    "totalTokenCount": 2595,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2567
+      }
+    ],
+    "thoughtsTokenCount": 10,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "5nmVao_DNKKejuMP892gqQc"
+}

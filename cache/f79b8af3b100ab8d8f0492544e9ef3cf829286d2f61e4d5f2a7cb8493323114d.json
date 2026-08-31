@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "name": "search_contract",
+              "args": {
+                "query": "Patient-Specific Instrumentation"
+              },
+              "id": "call_3794032"
+            },
+            "thoughtSignature": "EvUBCvIBARFNMg8SxuVfKIFABogiFUPQXnwWIqITNP1eaQYY6MdYcX60AzV2q9rnH2G9EaNh+WW3/HHO57Sdcij4q/8qzwbnIRY730kGkQqF1tgMwFTMiYP1sbwbEH7QkHU1UHVqxLp5LVO29Auok+07TR11ZrsR4bLCM+g5sgTHMvSSu/WTFZyMkin5MO0NgaGFtAZ1QCTuy8g5D3dHzwa2cTOwsvPQfINkk6ixL7NZIUmBSwfcLjZA8M2mdfqq2Xpxq601JJNXmk/SZAAnJpvoLBcQ8qLytxj33HOT9LHRMJiAVZCBOoLHmVeRqPSYWBujfCtNdIo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "finishMessage": "Model generated function call(s)."
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2687,
+    "candidatesTokenCount": 19,
+    "totalTokenCount": 2732,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2687
+      }
+    ],
+    "thoughtsTokenCount": 26,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "6XmVapneFY3Lg8UP-KK2sQY"
+}

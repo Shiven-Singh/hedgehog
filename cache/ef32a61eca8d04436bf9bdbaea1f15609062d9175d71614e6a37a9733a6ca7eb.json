@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "name": "search_contract",
+              "args": {
+                "query": "merger"
+              },
+              "id": "call_49409"
+            },
+            "thoughtSignature": "EpsDCpgDARFNMg+kwIySlObXWKBG1zTVTdUaTxkp+z0od174Nj3JH2fHPoPrx8aJSY08iWfTdktttHn9s/Hu6AbeJ9G73/adZbHo6QjWYS+DYGe7qLhTGsySyMBcM3hOHuGjyXO/kKD/JBkdTsFzhiX5QUky4FLHmS18bDnIftVF3SzZGwptYS7ZpOHOE0+kGyQHvPCILmbuST1H6yXbLYDI+b5rFHnO05JN/qjiAUT5l4bKdcWCs1x/s5XSNMf2yJwWuAy5oJY+uYeI5UhM9mkMqUZ/hU9Qm48PpINxGGTIvFvFtNQvR6cy5zomrtSGov7xRpvO1KS0b4nX4ShgOPDYNMdy2P8A/OxWZk50xNHF8bX0RQ3u2NIqlLLl37PAFFoeSXtntL6X5eV7Lgo11c62auRqX005+jsR9iGOWEgMkOYcS0rKrom4aFuFkxv3m6sWHTdg9kC2tVhbKMrM0ybMPp0k+3fhQOltz6Gc/e3Lv1Fzs5zYZ8upeZleVKoW+n3rnE9ZcMvPaDBDz6gOg7zug7sZ0lB61zQohqXI"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "finishMessage": "Model generated function call(s)."
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1882,
+    "candidatesTokenCount": 17,
+    "totalTokenCount": 1974,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1882
+      }
+    ],
+    "thoughtsTokenCount": 75,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "1XmVapyzHcakqfkPp4uU4Ag"
+}

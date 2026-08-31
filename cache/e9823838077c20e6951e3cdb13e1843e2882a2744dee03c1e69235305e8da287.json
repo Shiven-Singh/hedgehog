@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "name": "search_contract",
+              "args": {
+                "query": "sale"
+              },
+              "id": "call_2875140"
+            },
+            "thoughtSignature": "EnoKeAERTTIP2cErzKiuoqobIPM6Ww6kOs/Zju2Kykx0rZyYuB0hFX/vf3V28LVgRRnVA3/rQJ9Bx6n+kCDKSPK9E0pX7RZ/rEFpxg3q4FN3ElWxPCMwU7qZG1ELDxIQ6pN/bNAC+qJsQXVfnJXqGWmc59wLrjdgba6SjA=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "finishMessage": "Model generated function call(s)."
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2809,
+    "candidatesTokenCount": 16,
+    "totalTokenCount": 2833,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2809
+      }
+    ],
+    "thoughtsTokenCount": 8,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "tHmVata9Dc_z4-EP9fqAsQg"
+}

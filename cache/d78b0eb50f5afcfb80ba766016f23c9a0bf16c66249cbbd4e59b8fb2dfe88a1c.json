@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "name": "search_contract",
+              "args": {
+                "query": "compete"
+              },
+              "id": "call_2602796"
+            },
+            "thoughtSignature": "EtkBCtYBARFNMg8ct8ZJvjcT/vH7rWtshwKUVjvUVtlZADDs0StMXGK3f0eshsLU9sRg9CdDewCkQ9NwE6c/S0aoCZFY7ETAchpWwge1imFff8Qzdt77QN5CgL8IAljWupY5zURb43XC0D61ge8vZpTma51YNLLLZH6+iXyc2MYCMNmTXH2+2Lnf/DREKGOEmym8UPAkbW8RYUYZ6j9dIzJHchwwLxXplJ2lzetWyNd4WFPi73T0JMsFR+sftTYk/3EMrH9PJREiR2FsvQ8iF+kKFC4X56AF7QaR7Q=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "finishMessage": "Model generated function call(s)."
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3164,
+    "candidatesTokenCount": 17,
+    "totalTokenCount": 3214,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3164
+      }
+    ],
+    "thoughtsTokenCount": 33,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "3nmVarzoIsakqfkPp4uU4Ag"
+}

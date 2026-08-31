@@ -11,15 +11,15 @@ import { extractJson } from './parse.js';
 // misquoting rate from three in twenty one to zero, which was not the point of it
 // and is the most useful thing this project found. See CHANGELOG.md.
 //
-// Two further changes were tried and are kept here behind flags because both made
-// things worse. HEDGEHOG_STRICT=1 adds a sterner instruction about copying quotes
-// exactly; it fixed nothing and cost accuracy. HEDGEHOG_REPAIR=1 sends unverifiable
-// quotes back to be corrected; it fired six times, added a third to the token bill
-// and changed no measure at all.
+// Every quote is then checked against the contract. Anything that cannot be found
+// goes back to the model with the offending text attached, and anything still
+// unlocatable after two rounds is withheld rather than printed. The check costs
+// nothing and the repair costs about a third more in tokens; on this set it rescued
+// both of the citations that would otherwise have been dropped.
 //
-// Quotes are still checked against the contract, and anything that cannot be found
-// is withheld rather than shown. That check costs nothing and it is what lets the
-// number above be stated as a fact rather than an impression.
+// Set HEDGEHOG_NO_REPAIR=1 to check without repairing, which is the cheaper trade.
+// HEDGEHOG_STRICT=1 adds a sterner instruction about copying quotes exactly; it made
+// no measurable difference and is kept only because the changelog cites it.
 
 const SYSTEM = `You are helping a junior associate with due diligence on an acquisition.
 
@@ -54,7 +54,7 @@ the spacing, do not join two passages together, and do not paraphrase. If you ca
 reproduce a passage exactly, leave the quote null and say so in the note.`;
 
 const PROMPT = process.env.HEDGEHOG_STRICT === '1' ? SYSTEM + STRICT_TAIL : SYSTEM;
-const REPAIRS_ON = process.env.HEDGEHOG_REPAIR === '1';
+const REPAIRS_ON = process.env.HEDGEHOG_NO_REPAIR !== '1';
 
 const MAX_REPAIR_ROUNDS = 2;
 

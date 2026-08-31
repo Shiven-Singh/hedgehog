@@ -52,7 +52,7 @@
     "outputTokens": 21852
   },
   {
-    "label": "solution",
+    "label": "experiment-check-only",
     "model": "gemini-3.7-flash",
     "cases": 24,
     "accuracy": 0.7083333333333334,
@@ -76,5 +76,83 @@
     },
     "promptTokens": 70788,
     "outputTokens": 19110
+  },
+  {
+    "label": "experiment-retrieval",
+    "model": "gemini-3.7-flash",
+    "cases": 24,
+    "accuracy": 0.625,
+    "falseAbsolute": {
+      "n": 0,
+      "of": 9
+    },
+    "inventedClause": {
+      "n": 0,
+      "of": 4
+    },
+    "missedClause": {
+      "n": 3,
+      "of": 20
+    },
+    "quotesAttempted": 17,
+    "quotesSuppressed": 0,
+    "unverifiedShown": {
+      "n": 0,
+      "of": 17
+    },
+    "promptTokens": 461445,
+    "outputTokens": 31901
+  },
+  {
+    "label": "experiment-strict-prompt",
+    "model": "gemini-3.7-flash",
+    "cases": 24,
+    "accuracy": 0.7083333333333334,
+    "falseAbsolute": {
+      "n": 0,
+      "of": 9
+    },
+    "inventedClause": {
+      "n": 0,
+      "of": 4
+    },
+    "missedClause": {
+      "n": 0,
+      "of": 20
+    },
+    "quotesAttempted": 21,
+    "quotesSuppressed": 1,
+    "unverifiedShown": {
+      "n": 0,
+      "of": 20
+    },
+    "promptTokens": 71220,
+    "outputTokens": 23787
+  },
+  {
+    "label": "solution",
+    "model": "gemini-3.7-flash",
+    "cases": 24,
+    "accuracy": 0.7083333333333334,
+    "falseAbsolute": {
+      "n": 0,
+      "of": 9
+    },
+    "inventedClause": {
+      "n": 0,
+      "of": 4
+    },
+    "missedClause": {
+      "n": 0,
+      "of": 20
+    },
+    "quotesAttempted": 20,
+    "quotesSuppressed": 0,
+    "unverifiedShown": {
+      "n": 0,
+      "of": 20
+    },
+    "promptTokens": 92835,
+    "outputTokens": 23799
   }
 ]

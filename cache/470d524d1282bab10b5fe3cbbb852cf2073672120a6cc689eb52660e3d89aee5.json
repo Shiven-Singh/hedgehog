@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "name": "search_contract",
+              "args": {
+                "query": "sale"
+              },
+              "id": "call_2375557"
+            },
+            "thoughtSignature": "Et0CCtoCARFNMg8D7OST0dqbs165uRJuW+a5evbXdXb6Te0wnNdp7Pmg3Zr4wbZJ6MQdByDQMVpTbpPlOJ/nE7O95jlPMAO3WPdb+1KKFbqHYpVxsUbdL8LO2iV/DIg7bQnpkmWmt+i5t9f4F1AfbMvJNwsWIvfiCd3zRPl+bjJssYroRQ98+nVPnW9KAl9EZh3nnW7yvoRMvj6JnucQJj8aHuPZRPRunBuTr6EjRUW7NSwlLf8l8CIAUkWGuCqeLs+iWkrNF1HmFlGGf9Aahp6ZRxnFUbo9RtBYDHsOvQ8ZegCA0Ps7/jqX2PMbFPB1QqsLFh/ncWtDbDoBpk7GNC6GQzDJgKIJE94selMzcErrq5z/9Z8lrpAhsyxibOepI7Tz+7E/ZPlRzXmD7r8QwXaJLr3UPHoSl5JXKy0nD7eltQBC5p13P+AxsJ6gOdmS2mSS1jyNeuUIpweO/P8sag=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "finishMessage": "Model generated function call(s)."
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 4575,
+    "candidatesTokenCount": 16,
+    "totalTokenCount": 4679,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 4575
+      }
+    ],
+    "thoughtsTokenCount": 88,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "sHmVas_lJY3z4-EPzLHWyAs"
+}
