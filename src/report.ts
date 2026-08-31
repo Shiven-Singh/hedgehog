@@ -205,5 +205,36 @@ export function buildReport(label: string): void {
   const md = `# ${title}\n\n` + parts.join('\n');
   fs.writeFileSync(`results/${label}/report.md`, md);
   fs.writeFileSync(`results/${label}/report.html`, toHtml(title, parts.join('\n')));
-  console.log(`wrote results/${label}/report.md and report.html (${contracts.length} contracts)`);
+
+  // Structured form of the same review, for anything that wants to render it
+  // itself rather than parse the markdown.
+  const data = contracts.map((c) => {
+    const text = fs.readFileSync(c.path, 'utf8');
+    return {
+      id: c.id,
+      title: readableTitle(c.title),
+      sourceTitle: c.title,
+      chars: c.chars,
+      findings: cases
+        .filter((cs) => cs.contractId === c.id)
+        .map((cs) => {
+          const f = byCase.get(cs.id)!.finding;
+          const withheld = /withheld/.test(f.note);
+          return {
+            clauseType: cs.clauseType,
+            verdict: f.characterization,
+            verdictLabel: VERDICT[f.characterization] ?? f.characterization,
+            note: f.note.replace(/\s*\[[^\]]*withheld[^\]]*\]/g, '').trim(),
+            quote: f.quote,
+            quoteAt: f.quote ? locate(f.quote, text) : null,
+            overrideQuote: f.overrideQuote,
+            overrideAt: f.overrideQuote ? locate(f.overrideQuote, text) : null,
+            citationWithheld: withheld,
+          };
+        }),
+    };
+  });
+  fs.writeFileSync(`results/${label}/report.json`, JSON.stringify({ label, model: manifest.model, contracts: data }, null, 2));
+
+  console.log(`wrote results/${label}/report.{md,html,json} (${contracts.length} contracts)`);
 }

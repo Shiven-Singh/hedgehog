@@ -6,3 +6,6 @@ node_modules/
 *.log
 # the raw CUAD download is 100MB; the vendored subset in cases/ is what ships
 data/raw/
+web/node_modules/
+web/.next/
+web/out/

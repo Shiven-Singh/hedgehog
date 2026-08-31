@@ -21,6 +21,22 @@ dependencies; TypeScript and `tsx` are the only packages and both are dev only.
 
 Open `results/solution/report.html` in a browser to see the memo as a reviewer would.
 
+### The review as a site
+
+There is also a small Next.js front end that renders the same review, with a summary chart
+across all eight agreements and a page for each one. It reads the committed results at
+build time, so like everything else here it needs no key and makes no network calls.
+
+```bash
+cd web
+npm install
+npm run build     # static export into web/out
+npx serve out     # or any static server
+```
+
+`npm run dev` works too if you would rather poke at it. The root project has no dependency
+on `web/`, so you can ignore it entirely and every number still reproduces.
+
 ## Regenerating everything from the model
 
 ```bash

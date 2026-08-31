@@ -65,6 +65,14 @@ The memo ends with a section headed "Requires a reader" listing what the review 
 not establish. A tool that admits its gaps is more useful to a lawyer than one that
 fills them in.
 
+## The review
+
+`npm run report` writes the review three ways: `report.md`, a self-contained `report.html`,
+and `report.json` for anything that wants to render it itself. The `web/` directory holds a
+small Next.js front end that does exactly that, with a summary chart across the eight
+agreements and a page for each. It is a static export built from the committed results, so
+it needs no key and no server of its own.
+
 ## Running it
 
 `REPRODUCE.md` has the commands. The short version is that every model response is

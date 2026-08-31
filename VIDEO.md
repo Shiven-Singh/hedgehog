@@ -43,8 +43,8 @@ pause on it. Then scroll a long way down and pause on a later passage.
 
 ## 1:20 to 2:30 — What was actually broken, and one full run
 
-**On screen:** terminal. Run `npm run solution`, then `npm run report`, then open
-`results/solution/report.html` and scroll through a memo.
+**On screen:** terminal. Run `npm run solution`, then `npm run report`. Then switch to the
+front end at `localhost:3000`, show the summary chart, and click into the Conformis agreement.
 
 > What they were getting wrong was quoting. Three passages in twenty one could not be
 > found in the source document. Not invented outright. Tidied, spliced together, lightly
@@ -54,9 +54,13 @@ pause on it. Then scroll a long way down and pause on a later passage.
 > So here is a full run. Eight contracts, three clause types each, twenty four questions.
 > Twenty seconds.
 >
-> And this is what comes out. Each clause, whether it stands or is qualified, the passage
-> quoted, and the section it came from so you can go and look. Here the tool found the
-> restriction and the exception that undoes it, side by side.
+> And this is what comes out. Eight agreements, three questions each, and the one thing a
+> reviewer actually wants to know: which of these clauses does not mean what it appears to
+> mean. Sixteen of the twenty four are qualified by something elsewhere in the same document.
+>
+> Click into one and you get the working. Each clause, whether it stands or is qualified, the
+> passage quoted, and the section it came from so you can go and check it. Here is the
+> restriction, and here is the language further on that undoes it.
 >
 > And at the bottom of each one, this. Requires a reader. That is the tool telling you
 > what it could not establish, rather than filling it in.
@@ -142,6 +146,8 @@ pause on it. Then scroll a long way down and pause on a later passage.
   cut the second half of section 4:00 (the sterner instruction) rather than anything else.
 - Run `npm run solution` beforehand so the cache is warm and the live run is quick. Say so
   if it returns instantly, rather than letting it look faster than it is.
+- Start the front end before recording: `cd web && npm run dev`. Have it already on the
+  summary page when you switch to the browser.
 - Keep the terminal font large. Judges will watch this in a small window.
 - The two numbers to land clearly are three of twenty one to zero of nineteen, and 8,800
   to 2,950. Everything else can wash over.
