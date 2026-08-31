@@ -10,7 +10,13 @@
   --color-ink-faint: #86806f;
   --color-rule: #ddd8cc;
   --color-rule-strong: #16150f;
-  --color-flag: #7a4a2f;
+  /* Semantic, not decorative. Red marks a clause that does not mean what it
+     appears to mean, which is the only thing on this page needing attention.
+     Green marks one that stands as written. */
+  --color-flag: #a3352b;
+  --color-flag-bg: #fbeceb;
+  --color-clear: #2c6a4a;
+  --color-clear-bg: #e9f2ec;
 }
 
 html {
@@ -42,6 +48,19 @@ h1, h2, h3 { font-family: var(--font-heading); }
   line-height: 1.8;
   color: var(--color-ink-soft);
 }
+
+/* Verdict chips in the summary table. */
+.chip {
+  display: inline-block;
+  font-size: 0.6875rem;
+  letter-spacing: 0.04em;
+  padding: 0.22em 0.6em;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+.chip-flag { color: var(--color-flag); background: var(--color-flag-bg); }
+.chip-clear { color: var(--color-clear); background: var(--color-clear-bg); }
+.chip-none { color: var(--color-ink-faint); border: 1px solid var(--color-rule); }
 
 @media print {
   html { background: #fff; }

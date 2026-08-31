@@ -11,9 +11,11 @@ export default function Page() {
   const total = review.contracts.length;
   const qualified = review.contracts.flatMap((c) => c.findings).filter((f) => f.verdict === 'QUALIFIED').length;
   const withheld = review.contracts.flatMap((c) => c.findings).filter((f) => f.citationWithheld).length;
+  const absolute = review.contracts.flatMap((c) => c.findings).filter((f) => f.verdict === 'ABSOLUTE').length;
+  const notFound = review.contracts.flatMap((c) => c.findings).filter((f) => f.verdict === 'NOT_FOUND').length;
 
   return (
-    <main className="max-w-4xl px-8 py-20 md:px-16 md:py-24">
+    <main className="max-w-6xl px-8 py-20 md:px-16 md:py-24">
       <header className="border-b border-rule-strong pb-8">
         <p className="label">Due diligence</p>
         <h1 className="mt-3 text-4xl font-semibold tracking-tight md:text-5xl">Clause review</h1>
@@ -25,7 +27,8 @@ export default function Page() {
         </p>
       </header>
 
-      <section className="mt-14">
+      <section className="mt-14 grid gap-12 lg:grid-cols-[1fr_16rem]">
+        <div>
         <h2 className="label">Summary</h2>
         <table className="mt-5 w-full border-collapse text-left">
           <thead>
@@ -53,8 +56,12 @@ export default function Page() {
                   const f = contract.findings.find((x) => x.clauseType === clause);
                   const v = (f?.verdict ?? 'NOT_FOUND') as Verdict;
                   return (
-                    <td key={clause} className="py-4 pr-4 text-[0.9375rem] whitespace-nowrap">
-                      <span className={v === 'QUALIFIED' ? 'text-flag' : v === 'NOT_FOUND' ? 'text-ink-faint' : ''}>
+                    <td key={clause} className="py-4 pr-4 whitespace-nowrap">
+                      <span
+                        className={
+                          v === 'QUALIFIED' ? 'chip chip-flag' : v === 'NOT_FOUND' ? 'chip chip-none' : 'chip chip-clear'
+                        }
+                      >
                         {SHORT[v]}
                       </span>
                     </td>
@@ -65,13 +72,48 @@ export default function Page() {
           </tbody>
         </table>
 
-        <p className="mt-6 text-[0.9375rem] leading-relaxed text-ink-soft">
+        <p className="mt-6 max-w-2xl text-[0.9375rem] leading-relaxed text-ink-soft">
           {qualified} of the {total * CLAUSE_ORDER.length} clauses examined are qualified by language
           elsewhere in the same agreement, which is the finding a reviewer most needs and the one most
-          easily missed on a first reading. {withheld === 0 ? 'No citation was withheld.' : `${withheld} citation${withheld === 1 ? ' was' : 's were'} withheld as unverifiable.`}
+          easily missed on a first reading.
         </p>
 
         <RunButton />
+        </div>
+
+        <aside className="lg:sticky lg:top-12 lg:self-start">
+          <h2 className="label">What the review found</h2>
+          <dl className="mt-5 grid gap-4">
+            <div className="border-t border-rule pt-3">
+              <dt className="label">Needs attention</dt>
+              <dd className="mt-1 text-2xl text-flag">{qualified}</dd>
+              <dd className="mt-0.5 text-[0.8125rem] leading-snug text-ink-faint">
+                clauses qualified by language elsewhere in the same agreement
+              </dd>
+            </div>
+            <div className="border-t border-rule pt-3">
+              <dt className="label">Stands as written</dt>
+              <dd className="mt-1 text-2xl text-clear">{absolute}</dd>
+              <dd className="mt-0.5 text-[0.8125rem] leading-snug text-ink-faint">
+                clauses with nothing limiting them
+              </dd>
+            </div>
+            <div className="border-t border-rule pt-3">
+              <dt className="label">Not located</dt>
+              <dd className="mt-1 text-2xl text-ink-faint">{notFound}</dd>
+              <dd className="mt-0.5 text-[0.8125rem] leading-snug text-ink-faint">
+                read these by hand; absence here is not proof of absence
+              </dd>
+            </div>
+            <div className="border-t border-rule pt-3">
+              <dt className="label">Citations withheld</dt>
+              <dd className="mt-1 text-2xl">{withheld}</dd>
+              <dd className="mt-0.5 text-[0.8125rem] leading-snug text-ink-faint">
+                quotes that could not be matched to the contract word for word, so were not printed
+              </dd>
+            </div>
+          </dl>
+        </aside>
       </section>
 
       <footer className="mt-20 border-t border-rule pt-6">
