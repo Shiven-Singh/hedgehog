@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"NOT_FOUND\",\n  \"quote\": null,\n  \"overrideQuote\": null,\n  \"note\": \"The agreement does not contain an exclusivity clause; both parties grant non-exclusive licenses and neither party is restricted to an exclusive relationship.\"\n}\n```",
+            "thoughtSignature": "EqkLCqYLARFNMg9nMm0FxoV+nTvX3G1yYQhDMOshFEZAzKiNe9yYgufQbQIaRgKYSOJ2yVBaNmLYbMthUcbOjcM3D7YX+V3aVc9Dvt3i3ab0ubG2IfhWNEvKLpisH8QLfAHAXkEHVHN2XTVatxYimJO++gtJs2kCAqKaxEcXq8syEwIa9wTgR5oU8tqwlLzxt0UsfDDfVyWUhLf8Jhp6ymnURmYStLP3qvfenZnN6DwV2nJoVHd4keQUSYTxD8vRX9jgL8W++5BxDihLHKrcVmB3nYYLmCClY8Y2VWBekzfWfFiAzwi40PqsaBvTVLp2PF1Wax97EOWj607g60N4lG2eZLFODRibbEWFHvBSkNUlEk+RYawyAIAnwOjqwM5Gm1NkcQkmRZPLk8EzpgtfWPzuKEzP0DtKjo60O0HlB4Et+xhAjQxO2Ydr8czRag5hfs4CCVa5RSwE8g2q3ri16eKcBOzRySc8yx5xZe6I/DmHEfVL2Zd7tAKszCPLF8YV9aDRWeKpo80/DVnz/LBY4zEf5/8+vWLJFbkQ6pzG0USa3WIBpLxD/SQjY5vqk6OUoDzEom51OCVtGA/3rYE8gePjnpunmgD1h2nfPRPXfLspI0BidZMXslfYUnoSS1gLi7Rj40QxQHcRnkExgmjpdv3ck0b/3708h3OCJMz/jDLtLbR3C5vVsvgMD/y83bxAx6jxUFvN3/uIHBdf2dnM5jGvLjFFdPhP4MuZGTDbvNey7rK4/tVaaogQQTcYA8B8tYxQDGAP2NlfabN+br6pNC+H7qFIz5kX/MOdgr7yCNxeOHPjmqRVipJM7nLGmUGc1Yu9PXkrhncurYn1QtMlQLEZ0+xn8gg5YrPm7rFINJlvpSewvb30v0Kv0+ZTst9Cv7FE84f1pCQe0GlPlM/PvlF7lfsOaGyfAsaQsbk/5iUQxSQcdFj46Rz5scc/BGp5Nwq3tsybabU99bAaS0r6DEjAYj5uLbvBPKaTSi0YoSx5dYDMWuJRv8xL+7yoalPX1cqg24ENgmdemX9FWuX8cWjG6s0YFFME2+gPdSdfCxOqUclUlj9Nmf2eYQvkE9gGXBkXdduo0r9IW0dYwAGpbqp81rXQO6bVNeUSBzkQ48GbDLgKtMmtChTXzzEeIs/uSI0q1Q/8xRd5Za10XvlAmi/TxIFEiSB6UmNDXiruBenqY5wErZaruMcNtw4yl2Y3+NFN1Ue/cs6WGVu2rjSMk9SSjv1QuVr9Mhel9LzbeyJhCRrcLjzz2vXTUwq4YvbzNJxnS8vNt1b/vvxcCkNA/awxusGq1pDozCj9b+HJ6JQEQUxec/7IZeEAnI8Jng5BP3tpcuqC/DfG6Ld1X9efl2yXrCjq/c8skAw8pQhek89E/tFyU6JY2YOVojvMk0uS7wbjyuDmbsoxoP2RQziOPllXDhlpmVO5Y+lDtd+vHHetUsO8tuA05PGs3A8XNkPBAnLzGI395IT9yiS36Ow/B7TlCfsZetg5S5bwvvW+3c7TUJ2Pzhd2WyABRLNI+9Drsi7tuoooaC+a5cbrvy6FdF8Erjbxwt/wWlFaBJji9PqJ4owGaQaEK5WVrbdi95ggMFvid2InAxay2Js4UWp37dFmRJ24ZU0H/Q3l5wdQLqZuDihTc6HrpLiDH5Kcsrpw/0NnrLLlcQiZP+Wv3Od3qeEQYZirzNjSdvSjIvBTqBnWZAyF9Z621cl+WlKY8xn92dujn0GDUX3lieDzezOpaZh8w4xC3ii+MIxE+qG+16UaPLxsUJhxmCejlL2h7uu61hwtdGDnm/tL46yldEsb8/DF24Lg6ANHL4Z4aro0OWYbsZNq5YllSVjTweWxwEvW/6AOEuq7pIBY0qr4g80ntyVGsFg78EvBMrw/djRyYgJpjPNnfHaKW5Bk4kImcaBsgtc/wNr0xcJxnWlB"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 6830,
+    "candidatesTokenCount": 66,
+    "totalTokenCount": 7234,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 6830
+      }
+    ],
+    "thoughtsTokenCount": 338,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "KCCVapi1O6Xcg8UPjsyNiQo"
+}

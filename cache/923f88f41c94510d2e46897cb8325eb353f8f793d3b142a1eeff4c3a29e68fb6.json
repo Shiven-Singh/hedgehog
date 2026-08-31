@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"ABSOLUTE\",\n  \"quote\": \"Detto may not assign any of its rights or delegate any of its obligations hereunder, whether by operation of law or otherwise, without PivX's prior written consent.\",\n  \"overrideQuote\": null,\n  \"note\": \"Section 6.4 restricts Detto from assigning any rights or delegating any obligations without PivX's prior written consent, with no exceptions or carveouts provided.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 5770,
+    "candidatesTokenCount": 107,
+    "totalTokenCount": 6408,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 5770
+      }
+    ],
+    "thoughtsTokenCount": 531,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "KCCVatm_Lu3ag8UPufXZIA"
+}

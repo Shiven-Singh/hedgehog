@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"If a majority of the equity securities of either 2TheMart or i-Escrow, Inc. (except that i-Escrow may sell all or a majority of its equity securities or voting interests to i-Escrow.com, and i-Escrow.com may sell all or a majority of its equity securities or voting interests to i-Escrow's existing shareholders, without triggering the foregoing) are acquired by another company during the term of this Agreement either company may terminate this Agreement, without liability, by giving a thirty (30) days written notice to the other party.\",\n  \"overrideQuote\": \"except that i-Escrow may sell all or a majority of its equity securities or voting interests to i-Escrow.com, and i-Escrow.com may sell all or a majority of its equity securities or voting interests to i-Escrow's existing shareholders, without triggering the foregoing\",\n  \"note\": \"Either party may terminate upon an acquisition of a majority of equity securities, but sales between i-Escrow, i-Escrow.com, and existing shareholders are expressly exempted.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 261,
+            "endIndex": 594,
+            "uri": "https://github.com/juberrahman/NLP-for-Business",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 6830,
+    "candidatesTokenCount": 256,
+    "totalTokenCount": 8058,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 6830
+      }
+    ],
+    "thoughtsTokenCount": 972,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "KCCVar3nIeuHjuMPwuTWyQ8"
+}

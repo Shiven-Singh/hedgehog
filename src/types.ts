@@ -50,7 +50,7 @@ export interface RunResult {
   /** Verbatim-verification outcome for the quotes above. */
   quoteVerified: boolean;
   overrideQuoteVerified: boolean;
-  usage: { inputTokens: number; outputTokens: number; costUsd: number };
+  usage: { promptTokens: number; outputTokens: number; thoughtTokens: number };
   wallMs: number;
   toolCalls: number;
 }
@@ -60,5 +60,5 @@ export interface RunManifest {
   model: string;
   startedAt: string;
   results: RunResult[];
-  totals: { costUsd: number; wallMs: number; cases: number };
+  totals: { promptTokens: number; outputTokens: number; wallMs: number; cases: number };
 }

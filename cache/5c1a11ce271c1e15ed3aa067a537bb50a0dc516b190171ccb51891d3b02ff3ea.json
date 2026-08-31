@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"All rights (under any applicable intellectual property right) granted herein are not sublicenseable, transferable or assignable.\",\n  \"overrideQuote\": \"Permitted Transfers. Notwithstanding any provision of this Agreement restricting assignment, delegation or transfer, either party may assign this Agreement in its entirety, without the prior written consent of the other party, to an Affiliate or in connection with a merger, consolidation, corporate reorganization, or the sale of all or substantially all of its assets or equity to which this Agreement relates, provided that the assigning party gives written notice of such assignment within thirty (30) days following its effective date.\",\n  \"note\": \"Section 6.5 restricts transfer and assignment of granted rights, but an unnumbered Permitted Transfers provision allows assignment without consent to an affiliate or in connection with certain mergers, reorganizations, or asset/equity sales, subject to 30 days' post-closing written notice.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 6830,
+    "candidatesTokenCount": 210,
+    "totalTokenCount": 7492,
+    "cachedContentTokenCount": 4073,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 6830
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 4073
+      }
+    ],
+    "thoughtsTokenCount": 452,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "bCCVavPYPO__4-EPnq-ruA0"
+}

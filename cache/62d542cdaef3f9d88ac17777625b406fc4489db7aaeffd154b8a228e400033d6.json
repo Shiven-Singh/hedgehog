@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Allied shall not endorse, or permit the marketing of any other company whose principal business is as an e-commerce provider at or in connection with the Arena.\",\n  \"overrideQuote\": \"Notwithstanding any exclusivity, minimum commitment or restrictive covenant set forth in this Agreement, nothing herein shall prevent either party from continuing to market, sell, license or distribute any product or service that it offered prior to the Effective Date, or from engaging any counterparty in a territory in which the other party does not maintain an active commercial presence as of the date of such engagement.\",\n  \"note\": \"Section 7.2 grants Newegg exclusivity regarding e-commerce providers at the Arena, but the standalone 'Scope of Exclusivity' clause limits this restriction by allowing pre-existing product/service offerings and engagements in certain territories.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 8258,
+    "candidatesTokenCount": 189,
+    "totalTokenCount": 9152,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 8258
+      }
+    ],
+    "thoughtsTokenCount": 705,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "lSCVaszPGeK5g8UPyOjByAc"
+}

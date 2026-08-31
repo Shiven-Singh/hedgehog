@@ -1,5 +1,7 @@
 import { prepareData } from './data.js';
 import { runBaseline } from './baseline.js';
+import { scoreAll } from './score.js';
+import { runAgent } from './agent.js';
 
 const cmd = process.argv[2];
 
@@ -10,6 +12,12 @@ const main = async () => {
       break;
     case 'baseline':
       await runBaseline();
+      break;
+    case 'agent':
+      await runAgent(process.argv[3] ?? 'agent');
+      break;
+    case 'score':
+      scoreAll();
       break;
     default:
       console.error(`unknown command: ${cmd ?? '(none)'}`);

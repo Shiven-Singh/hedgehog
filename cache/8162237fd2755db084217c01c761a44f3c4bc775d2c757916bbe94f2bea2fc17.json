@@ -1,0 +1,48 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Subject to the terms and conditions of this Agreement, PivX hereby grants to Detto a non-transferable, exclusive license to distribute PivX's Qwik-Fix Pro and any documentation supporting Qwik-Fix Pro provided from time to time by PivX (the \\\"Documentation\\\") within North America, solely to third parties to whom Detto licenses Qwik-Fix Pro (\\\"Third Parties\\\"), and as governed by the terms set forth in Exhibit A (PivX/Detto Reseller Agreement Addendum).\",\n  \"overrideQuote\": \"PivX also hereby grants to Detto a non-transferable, non-exclusive license to distribute PivX's Qwik-Fix Pro and the Documentation outside of North America, solely to Third Parties and as governed by the terms in Exhibit A.\",\n  \"note\": \"The distribution license granted to Detto is exclusive solely within North America, whereas distribution rights outside North America are expressly non-exclusive.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 57,
+            "endIndex": 505,
+            "uri": "https://www.lawinsider.com/contracts/7qwAmokh8ub",
+            "license": ""
+          },
+          {
+            "startIndex": 536,
+            "endIndex": 758,
+            "uri": "https://www.lawinsider.com/contracts/7qwAmokh8ub",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 5770,
+    "candidatesTokenCount": 220,
+    "totalTokenCount": 6537,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 5770
+      }
+    ],
+    "thoughtsTokenCount": 547,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "bCCVatzoMvGvg8UPrdvNEQ"
+}

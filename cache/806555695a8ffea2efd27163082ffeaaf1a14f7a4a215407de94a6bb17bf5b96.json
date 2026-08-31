@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"NOT_FOUND\",\n  \"quote\": null,\n  \"overrideQuote\": null,\n  \"note\": \"The contract does not contain a change of control clause.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 8203,
+    "candidatesTokenCount": 51,
+    "totalTokenCount": 8640,
+    "cachedContentTokenCount": 4077,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 8203
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 4077
+      }
+    ],
+    "thoughtsTokenCount": 386,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "2yCVaoyXLcuqg8UPj-K_-QE"
+}

@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"Neither Newegg nor Allied shall have the right or power to assign or transfer any part of its rights or obligations under this Agreement without the prior consent in writing of the other Party.\",\n  \"overrideQuote\": \"Notwithstanding any provision of this Agreement restricting assignment, delegation or transfer, either party may assign this Agreement in its entirety, without the prior written consent of the other party, to an Affiliate or in connection with a merger, consolidation, corporate reorganization, or the sale of all or substantially all of its assets or equity to which this Agreement relates, provided that the assigning party gives written notice of such assignment within thirty (30) days following its effective date.\",\n  \"note\": \"Section 15.4 prohibits assignment or transfer without prior written consent, but the Permitted Transfers clause qualifies this by allowing assignments without consent to affiliates or in connection with mergers, reorganizations, or sales of substantially all assets/equity, subject to 30 days' post-effective notice.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 8258,
+    "candidatesTokenCount": 222,
+    "totalTokenCount": 8852,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 8258
+      }
+    ],
+    "thoughtsTokenCount": 372,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "eCCVaoLPMoajqfkPlNqI0Qg"
+}

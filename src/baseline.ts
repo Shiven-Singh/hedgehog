@@ -1,39 +1,36 @@
 import fs from 'node:fs';
-import path from 'node:path';
 import type { Case, Characterization, Contract, Finding, RunManifest, RunResult } from './types.js';
-import { callClaude, textOf, MODEL } from './llm.js';
+import { call, mapLimit, MODEL } from './llm.js';
 import { appearsVerbatim } from './sections.js';
 import { extractJson } from './parse.js';
 
-/**
- * The simple baseline: one direct prompt, the whole contract in context, no tools,
- * no verification, no second pass. This is what a competent person builds first and
- * it is the comparison the agent has to beat. It is deliberately not a straw man:
- * same model, same effort, same output schema, same 24 cases.
- */
+// The simple baseline: one direct prompt with the whole contract in context, no
+// tools, no second pass, no verification of any kind. It is what most people
+// would build first, and it is deliberately not a straw man. Same model, same
+// output schema, same twenty four cases as the agent gets.
 
-const SYSTEM_INSTRUCTIONS = `You are assisting a junior associate with M&A due diligence.
+const SYSTEM = `You are assisting a junior associate with due diligence on an acquisition.
 
-For the requested clause type, decide which of these is true and reply with JSON only:
+For the clause type you are asked about, decide which of these is true:
 
-  ABSOLUTE  - the clause is present and nothing else in the contract limits it
-  QUALIFIED - the clause is present but another passage creates an exception to it
-  NOT_FOUND - the contract does not contain this clause
+  ABSOLUTE  the clause is present and nothing else in the contract limits it
+  QUALIFIED the clause is present but another passage creates an exception to it
+  NOT_FOUND the contract does not contain this clause
 
-Reply with exactly this JSON shape and nothing else:
+Reply with this JSON and nothing else:
 
 {
   "characterization": "ABSOLUTE" | "QUALIFIED" | "NOT_FOUND",
-  "quote": "<verbatim text of the operative clause, or null>",
-  "overrideQuote": "<verbatim text of the passage that creates the exception, or null>",
-  "note": "<one or two sentences for the reviewer>"
+  "quote": "verbatim text of the operative clause, or null",
+  "overrideQuote": "verbatim text of the passage creating the exception, or null",
+  "note": "one or two sentences for the reviewer"
 }
 
-Quotes must be copied verbatim from the contract. Do not paraphrase them.`;
+Quotes must be copied from the contract word for word. Do not paraphrase them.`;
 
-function coerceFinding(raw: unknown, clauseType: Case['clauseType']): Finding {
+function coerce(raw: unknown, clauseType: Case['clauseType']): Finding {
   const o = (raw ?? {}) as Record<string, unknown>;
-  const c = String(o['characterization'] ?? 'NOT_FOUND').toUpperCase();
+  const c = String(o['characterization'] ?? '').toUpperCase();
   const characterization: Characterization =
     c === 'ABSOLUTE' || c === 'QUALIFIED' || c === 'NOT_FOUND' ? c : 'NOT_FOUND';
   const str = (v: unknown) => (typeof v === 'string' && v.trim() ? v.trim() : null);
@@ -52,39 +49,33 @@ export async function runBaseline(): Promise<void> {
     cases: Case[];
   };
   const byId = new Map(contracts.map((c) => [c.id, c]));
+  const texts = new Map(contracts.map((c) => [c.id, fs.readFileSync(c.path, 'utf8')]));
 
-  const results: RunResult[] = [];
-  let totalCost = 0;
-  let totalWall = 0;
-
-  for (const cs of cases) {
-    const contract = byId.get(cs.contractId)!;
-    const text = fs.readFileSync(contract.path, 'utf8');
-
-    const r = await callClaude('baseline', {
-      system: [
-        { type: 'text', text: SYSTEM_INSTRUCTIONS },
-        // Cached: the same contract is asked about once per clause type.
-        { type: 'text', text: `CONTRACT:\n\n${text}`, cache_control: { type: 'ephemeral' } },
+  const results = await mapLimit(cases, 3, async (cs): Promise<RunResult> => {
+    const text = texts.get(cs.contractId)!;
+    const r = await call('baseline', {
+      system: SYSTEM,
+      contents: [
+        { role: 'user', parts: [{ text: `CONTRACT:\n\n${text}\n\nClause type: ${cs.clauseType}` }] },
       ],
-      messages: [{ role: 'user', content: `Clause type: ${cs.clauseType}` }],
       maxTokens: 4000,
     });
 
     let finding: Finding;
     try {
-      finding = coerceFinding(extractJson(textOf(r.message)), cs.clauseType);
+      finding = coerce(extractJson(r.text), cs.clauseType);
     } catch {
       finding = {
         clauseType: cs.clauseType,
         characterization: 'NOT_FOUND',
         quote: null,
         overrideQuote: null,
-        note: 'response could not be parsed',
+        note: 'the response could not be parsed',
       };
     }
 
-    results.push({
+    process.stdout.write(r.cached ? 'c' : '.');
+    return {
       caseId: cs.id,
       finding,
       quoteVerified: finding.quote ? appearsVerbatim(finding.quote, text) : true,
@@ -92,11 +83,8 @@ export async function runBaseline(): Promise<void> {
       usage: r.usage,
       wallMs: r.wallMs,
       toolCalls: 0,
-    });
-    totalCost += r.usage.costUsd;
-    totalWall += r.wallMs;
-    process.stdout.write(`${r.cached ? 'c' : '.'}`);
-  }
+    };
+  });
   process.stdout.write('\n');
 
   const manifest: RunManifest = {
@@ -104,9 +92,18 @@ export async function runBaseline(): Promise<void> {
     model: MODEL,
     startedAt: new Date().toISOString(),
     results,
-    totals: { costUsd: totalCost, wallMs: totalWall, cases: results.length },
+    totals: {
+      promptTokens: results.reduce((a, r) => a + r.usage.promptTokens, 0),
+      outputTokens: results.reduce((a, r) => a + r.usage.outputTokens + r.usage.thoughtTokens, 0),
+      wallMs: Math.max(...results.map((r) => r.wallMs)),
+      cases: results.length,
+    },
   };
   fs.mkdirSync('results/baseline', { recursive: true });
   fs.writeFileSync('results/baseline/manifest.json', JSON.stringify(manifest, null, 2));
-  console.log(`baseline: ${results.length} cases, $${totalCost.toFixed(4)}, ${(totalWall / 1000).toFixed(1)}s`);
+  console.log(
+    `baseline: ${results.length} cases, ` +
+      `${manifest.totals.promptTokens.toLocaleString()} prompt tokens, ` +
+      `${manifest.totals.outputTokens.toLocaleString()} output tokens`,
+  );
 }

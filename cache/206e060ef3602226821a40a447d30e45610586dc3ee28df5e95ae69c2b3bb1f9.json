@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"characterization\": \"QUALIFIED\",\n  \"quote\": \"This Agreement and all rights and duties hereunder are personal to Diplomat and shall not, without the written consent of KI, Inc., be assigned, mortgaged, sublicensed or otherwise encumbered by Diplomat or by operation of law.\",\n  \"overrideQuote\": \"KI, Inc. may assign its rights hereunder, but shall furnish written notice of such assignment to Diplomat.\",\n  \"note\": \"Diplomat is prohibited from assigning or sublicensing the agreement without KI, Inc.'s prior written consent, but KI, Inc. is expressly permitted to assign its rights upon providing written notice to Diplomat.\"\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 57,
+            "endIndex": 281,
+            "uri": "https://capedge.com/filing/s3-content/0001047469-97-005091/7",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 8203,
+    "candidatesTokenCount": 148,
+    "totalTokenCount": 8975,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 8203
+      }
+    ],
+    "thoughtsTokenCount": 624,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "iSCVasOJHZbQg8UPuriWsAk"
+}
