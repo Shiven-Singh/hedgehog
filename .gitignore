@@ -9,3 +9,6 @@ data/raw/
 web/node_modules/
 web/.next/
 web/out/
+# written by `next dev` on every start
+web/AGENTS.md
+web/CLAUDE.md
