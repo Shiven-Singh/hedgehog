@@ -13,7 +13,7 @@ explains the design.
 | **One call per contract** | Ask all three clause types together rather than sending the same forty pages three times over. | 2,950 tokens per case, down from 8,800. | **Kept.** |
 | **Check every quote** | Look for each quoted passage in the contract and withhold anything that cannot be found, rather than printing it. | Caught 2 of 21. Unlocatable citations printed fell from 3 of 21 to 0 of 19, at no token cost. | **Kept.** |
 | **Repair what fails** | Send the unlocatable passages back with the offending text attached and ask for the real one, up to two rounds. | Fires on one or two of the eight contracts depending on the run, and recovers the withheld citations rather than dropping them. Costs 2,950 to roughly 3,300–3,900 tokens per case, about a third more. | **Kept.** A trade rather than a free win; see below. |
-| Repeat the whole thing four times | These models take no temperature parameter, so nothing can be pinned. Ran the final configuration four times with the cache bypassed to see how much moves. | Tokens per case 3,259 to 3,870. Characterisation 63% to 71%. Overrides caught 8 or 9 of 9. **Unlocatable citations printed: zero in all four.** | Kept as evidence. Every soft measure wobbles; the one backed by a string comparison does not. |
+| Repeat the whole thing four times | These models take no temperature parameter, so nothing can be pinned. Ran the final configuration four times with the cache bypassed to see how much moves. | Tokens per case 3,866 to 3,870, since the bill is dominated by the contract text rather than by anything the model decides. Characterisation 63% to 71%. Overrides caught 8 or 9 of 9. **Unlocatable citations printed: zero in all four.** | Kept as evidence. Every soft measure wobbles; the one backed by a string comparison does not. |
 | Sterner quote instruction | An explicit instruction to copy quotes character for character, not to tidy the spacing, and to leave a quote null rather than approximate it. | No measurable difference. 71% characterisation either way, 2,968 tokens per case against 2,950, one citation withheld against two. | Removed. Behind `HEDGEHOG_STRICT=1`. It added words to the prompt and earned nothing. |
 
 ## Result
@@ -22,11 +22,11 @@ explains the design.
 |---|---|---|
 | Citations printed in the memo | 21 | 20 to 21 |
 | Of those, unlocatable in the contract | **3** | **0, in all four runs** |
-| Prompt tokens per case | 8,800 | **3,259 to 3,870** |
+| Prompt tokens per case | 8,800 | **3,866 to 3,870** |
 | Overrides missed | 0 of 9 | 0 or 1 of 9 |
 | Characterisation | 63% | 63% to 71% |
 
-Between two and a quarter and two and three quarter times cheaper, with no citation printed
+Two and a quarter times cheaper, with no citation printed
 that a reviewer cannot follow.
 
 Ranges rather than single figures, because four runs of the identical configuration produced

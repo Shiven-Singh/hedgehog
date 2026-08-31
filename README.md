@@ -41,7 +41,7 @@ So that became the problem worth solving, and the two numbers this project moves
 |---|---|---|
 | Citations printed in the memo | 21 | 20 to 21 |
 | Of those, unlocatable in the contract | **3** | **0, in all four runs** |
-| Prompt tokens per question | 8,800 | **3,259 to 3,870** |
+| Prompt tokens per question | 8,800 | **3,866 to 3,870** |
 
 The model does not misquote less. It goes wrong at much the same rate either way. What
 changed is that the wrong ones are caught before they reach the page, and then recovered

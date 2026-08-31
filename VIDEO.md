@@ -74,11 +74,8 @@ on localhost, show the summary chart, click into the Conformis agreement.
 > The baseline prints twenty one citations and three of them cannot be found in the contract.
 > Hedgehog prints twenty, and all twenty can be found. Zero, in four separate runs.
 >
-> And the cost per question drops from eight thousand eight hundred tokens to somewhere
-> around three and a half thousand. Between two and a quarter and two and three quarter
-> times cheaper.
->
-> Ranges rather than exact figures, and that is deliberate. I will come back to it.
+> And the cost per question drops from eight thousand eight hundred tokens to just under
+> four thousand. Two and a quarter times cheaper.
 >
 > The honest version of the first number: the model does not misquote less. It goes wrong at
 > about the same rate either way. What changed is that the wrong ones are caught before they
@@ -119,7 +116,7 @@ on localhost, show the summary chart, click into the Conformis agreement.
 > numbers disagreed with what I had written down.
 >
 > And then I ran the final configuration four more times. Characterisation came out at
-> sixty three per cent, sixty seven, sixty seven, and seventy one. Same inputs, same prompt,
+> sixty three per cent, sixty seven, seventy one, and seventy one. Same inputs, same prompt,
 > same model. These models take no temperature parameter, so nothing can be pinned, and every
 > single-run accuracy figure I had quoted all day was noise wearing a decimal point.
 >
@@ -153,7 +150,7 @@ on localhost, show the summary chart, click into the Conformis agreement.
 - Start the front end before recording: `cd web && npm run dev`. Have it sitting on the
   summary page before you switch to the browser.
 - Keep the terminal font large. Judges watch these in a small window.
-- The figures to land clearly: three of twenty one down to zero, and 8,800 down to about
-  3,500. Everything else can wash over.
+- The figures to land clearly: three of twenty one down to zero, and 8,800 down to just
+  under 4,000. Everything else can wash over.
 - Do not quote a single accuracy figure anywhere. It moves between 63 and 71 per cent across
   identical runs and quoting one of them would be the exact mistake the video is about.
