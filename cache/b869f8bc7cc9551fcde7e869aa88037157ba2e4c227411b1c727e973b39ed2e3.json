@@ -1,0 +1,48 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"findings\": [\n    {\n      \"clauseType\": \"Anti-Assignment\",\n      \"characterization\": \"QUALIFIED\",\n      \"quote\": \"All rights (under any applicable intellectual property right) granted herein are not sublicenseable,\\n\\nSource: 2THEMART COM INC, 10-12G, 8/26/1999\\n\\n\\n\\n\\n\\ntransferable or assignable.\",\n      \"overrideQuote\": \"Notwithstanding the foregoing, either party may use a third party web host, but all actions or failures to act of the web host that would be a breach of this Agreement, were the actions or failures to act taken by the applicable party, shall be deemed a breach of this Agreement.  In addition, 2TheMart may grant sublicenses to companies that 2TheMart has a business relationship with to the extent that 2TheMart Content is visible from such company's web-site through a link or other means.\",\n      \"note\": \"Section 6.5 prohibits the sublicensing, transfer, or assignment of intellectual property rights granted under the agreement, but explicitly allows third-party web hosting and certain sublicensing by 2TheMart to business affiliates.\"\n    },\n    {\n      \"clauseType\": \"Change Of Control\",\n      \"characterization\": \"QUALIFIED\",\n      \"quote\": \"If a majority of the equity securities of either 2TheMart or i-Escrow, Inc. (except that i-Escrow may sell all or a majority of its equity securities or voting interests to i-Escrow.com, and i-Escrow.com may sell all or a majority of its equity securities or voting interests to i-Escrow's existing shareholders, without triggering the foregoing) are acquired by another company during the term of this Agreement either company may terminate this Agreement, without liability, by giving a thirty (30) days written notice to the other party.\",\n      \"overrideQuote\": \"except that i-Escrow may sell all or a majority of its equity securities or voting interests to i-Escrow.com, and i-Escrow.com may sell all or a majority of its equity securities or voting interests to i-Escrow's existing shareholders, without triggering the foregoing\",\n      \"note\": \"Section 8.3 grants either party the right to terminate upon a change of control (acquisition of a majority of equity securities by another company), subject to an express carve-out for certain internal transactions involving i-Escrow, i-Escrow.com, and existing shareholders.\"\n    },\n    {\n      \"clauseType\": \"Exclusivity\",\n      \"characterization\": \"QUALIFIED\",\n      \"quote\": \"i-Escrow shall not run banner advertisements on the Co-Branded Site for any of 2TheMart's competitors.\",\n      \"overrideQuote\": \"2TheMart shall provide in writing, a list of companies they would like to exclude, including every time they wish to change this list.\",\n      \"note\": \"Section 2.4 restricts i-Escrow from running banner ads for competitors on the Co-Branded Site, qualified by the requirement that 2TheMart provide a written exclusion list identifying those competitors.\"\n    }\n  ]\n}\n```",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "citationMetadata": {
+        "citationSources": [
+          {
+            "startIndex": 339,
+            "endIndex": 555,
+            "uri": "https://bizcontracts.clubjuris.com/ecentives/zdnet.mkt.1999.05.13.php",
+            "license": ""
+          },
+          {
+            "startIndex": 1394,
+            "endIndex": 1727,
+            "uri": "https://github.com/juberrahman/NLP-for-Business",
+            "license": ""
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 7424,
+    "candidatesTokenCount": 709,
+    "totalTokenCount": 8899,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 7424
+      }
+    ],
+    "thoughtsTokenCount": 766,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.7-flash",
+  "responseId": "pqqVarO3Kq34juMP7ba4kAs"
+}

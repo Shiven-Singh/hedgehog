@@ -51,6 +51,8 @@ export async function POST() {
     const started = Date.now();
     const { stdout } = await run('npm', ['run', 'solution', '--silent'], {
       cwd: ROOT,
+      // HEDGEHOG_NO_CACHE passes through, so starting the server with it set
+      // makes the button do real work instead of replaying the recorded run.
       env: { ...process.env, GEMINI_API_KEY: key, HEDGEHOG_MIN_INTERVAL_MS: '0' },
       timeout: 10 * 60 * 1000,
       maxBuffer: 8 * 1024 * 1024,
