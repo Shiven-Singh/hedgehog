@@ -1,12 +1,14 @@
 # Clause review
 
-## 2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement
+## 2 Themart Com Inc: Agency Agreement
 
 ### Anti-Assignment
 
 **Present, subject to an exception**
 
-Section 6.5 restricts transfer and assignment of rights granted under the agreement, but explicitly allows third-party web hosting and certain sublicensing by 2TheMart. [quote withheld: could not be located in the contract]
+Section 6.5 restricts transfer and assignment of rights granted under the agreement, but explicitly allows third-party web hosting and certain sublicensing by 2TheMart.
+
+!! Quote withheld: could not be located in the contract.
 
 The following passage qualifies the clause above:
 
@@ -38,9 +40,11 @@ The agreement does not contain an exclusivity clause; intellectual property and 
 
 ### Requires a reader
 
-No finding is recorded for Anti-Assignment, Exclusivity. That means the review did not locate the clause, not that the contract is silent on the point. These should be read by hand.
+**No clause located:** Exclusivity. The review did not find this clause, which is not the same as the contract being silent on the point.
 
-## ADIANUTRITION,INC_04_01_2005-EX-10.D2-RESELLER AGREEMENT
+**Citation withheld:** Anti-Assignment. A passage was identified but could not be matched to the contract word for word, so it has not been quoted. The finding stands; the supporting text needs locating by hand.
+
+## Adianutrition Inc: D2 Reseller Agreement
 
 ### Anti-Assignment
 
@@ -70,9 +74,9 @@ PivX grants Detto an exclusive distribution license within North America (distri
 
 ### Requires a reader
 
-No finding is recorded for Change Of Control. That means the review did not locate the clause, not that the contract is silent on the point. These should be read by hand.
+**No clause located:** Change Of Control. The review did not find this clause, which is not the same as the contract being silent on the point.
 
-## AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.34_11788308_EX-10.34_Sponsorship Agreement
+## Allied Esports Entertainment Inc: Sponsorship Agreement
 
 ### Anti-Assignment
 
@@ -114,9 +118,9 @@ The following passage qualifies the clause above:
 
 ### Requires a reader
 
-No finding is recorded for Change Of Control. That means the review did not locate the clause, not that the contract is silent on the point. These should be read by hand.
+**No clause located:** Change Of Control. The review did not find this clause, which is not the same as the contract being silent on the point.
 
-## AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT AGREEMENT
+## Ambassadoreyeweargroupinc: Endorsement Agreement
 
 ### Anti-Assignment
 
@@ -158,9 +162,9 @@ The following passage qualifies the clause above:
 
 ### Requires a reader
 
-No finding is recorded for Change Of Control. That means the review did not locate the clause, not that the contract is silent on the point. These should be read by hand.
+**No clause located:** Change Of Control. The review did not find this clause, which is not the same as the contract being silent on the point.
 
-## AURASYSTEMSINC_06_16_2010-EX-10.25-STRATEGIC ALLIANCE AGREEMENT
+## Aurasystemsinc: Strategic Alliance Agreement
 
 ### Anti-Assignment
 
@@ -204,7 +208,7 @@ The following passage qualifies the clause above:
 
 *Contract text, S012.*
 
-## BerkshireHillsBancorpInc_20120809_10-Q_EX-10.16_7708169_EX-10.16_Endorsement Agreement
+## Berkshire Hills Bancorp Inc: Endorsement Agreement
 
 ### Anti-Assignment
 
@@ -254,7 +258,7 @@ The following passage qualifies the clause above:
 
 *Contract text, S003.*
 
-## ChinaRealEstateInformationCorp_20090929_F-1_EX-10.32_4771615_EX-10.32_Content License Agreement
+## China Real Estate Information Corp: Content License Agreement
 
 ### Anti-Assignment
 
@@ -298,7 +302,7 @@ The following passage qualifies the clause above:
 
 *Contract text, S022.*
 
-## ConformisInc_20191101_10-Q_EX-10.6_11861402_EX-10.6_Development Agreement
+## Conformis Inc: Development Agreement
 
 ### Anti-Assignment
 
@@ -336,7 +340,9 @@ The following passage qualifies the clause above:
 
 **Present, subject to an exception**
 
-Section 4.1 restricts Conformis from developing certain instrumentation for third parties, but includes explicit carve-outs for products of Conformis/its acquirer/affiliates and patent licensing/immunities outside the Buyer Field. [override quote withheld: could not be located in the contract]
+Section 4.1 restricts Conformis from developing certain instrumentation for third parties, but includes explicit carve-outs for products of Conformis/its acquirer/affiliates and patent licensing/immunities outside the Buyer Field.
+
+!! Override quote withheld: could not be located in the contract.
 
 > Except as specifically provided in the Distribution Agreement, Conformis shall be prohibited from developing or assisting another in developing, or causing another to develop, Patient-Specific Instrumentation for Off-The-Shelf Knee Implants for any Third Party in the field of orthopedics until January 1, 2032 (or earlier, to the extent set forth in Section 2.3.3.4 or Section 2.3.5 of the Distribution Agreement)
 
@@ -344,4 +350,4 @@ Section 4.1 restricts Conformis from developing certain instrumentation for thir
 
 ### Requires a reader
 
-No finding is recorded for Exclusivity. That means the review did not locate the clause, not that the contract is silent on the point. These should be read by hand.
+**Citation withheld:** Exclusivity. A passage was identified but could not be matched to the contract word for word, so it has not been quoted. The finding stands; the supporting text needs locating by hand.

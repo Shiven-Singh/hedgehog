@@ -6,6 +6,47 @@ import { normalize, splitSections } from './sections.js';
 // followed by the section it came from, so the reviewer can go and check it, which
 // is the entire point of quoting rather than summarising.
 
+/** CUAD titles are EDGAR filenames. Turn them into something a person would read. */
+function readableTitle(raw: string): string {
+  const titleCase = (w: string) =>
+    /^[A-Z0-9,.&-]+$/.test(w) && w.length > 3 ? w.charAt(0) + w.slice(1).toLowerCase() : w;
+
+  const parts = raw.split('_').filter(Boolean);
+
+  const company = (parts[0] ?? raw)
+    .replace(/,/g, ' ')
+    .replace(/([a-z0-9])([A-Z])/g, '$1 $2')
+    .split(/\s+/)
+    .map(titleCase)
+    .join(' ')
+    .replace(/\b(inc|corp|ltd|llc|co|holdings|group|plc)\b/gi, (m) => m.toUpperCase().slice(0, 1) + m.slice(1).toLowerCase())
+    .trim();
+
+  // The agreement type is the last fragment that names one, with the exhibit
+  // and date noise stripped off the front of it.
+  const kind = parts
+    .filter((p) => /agreement|licen[cs]e/i.test(p))
+    .map((p) =>
+      p
+        .replace(/[-.]/g, ' ')
+        .replace(/\b(ex|10|8|k|q|f|s|sb|a|drs|on)\b/gi, ' ')
+        .replace(/\b\d+\b/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim(),
+    )
+    .filter(Boolean)
+    .pop();
+
+  const pretty = kind
+    ? kind
+        .split(' ')
+        .map((w) => titleCase(w.charAt(0).toUpperCase() + w.slice(1)))
+        .join(' ')
+    : '';
+
+  return pretty ? `${company}: ${pretty}` : company;
+}
+
 const VERDICT: Record<string, string> = {
   ABSOLUTE: 'Present, unqualified',
   QUALIFIED: 'Present, subject to an exception',
@@ -22,10 +63,11 @@ function locate(quote: string, text: string): string {
 
 function memoFor(contract: Contract, rows: { cs: Case; r: RunResult }[], text: string): string {
   const lines: string[] = [];
-  lines.push(`## ${contract.title}`);
+  lines.push(`## ${readableTitle(contract.title)}`);
   lines.push('');
 
-  const undetermined: string[] = [];
+  const notFound: string[] = [];
+  const withheld: string[] = [];
 
   for (const { cs, r } of rows) {
     const f = r.finding;
@@ -33,8 +75,14 @@ function memoFor(contract: Contract, rows: { cs: Case; r: RunResult }[], text: s
     lines.push('');
     lines.push(`**${VERDICT[f.characterization] ?? f.characterization}**`);
     lines.push('');
-    if (f.note) {
-      lines.push(f.note);
+    const withheldMarks = [...f.note.matchAll(/\[([^\]]*withheld[^\]]*)\]/g)].map((m) => m[1]!);
+    const prose = f.note.replace(/\s*\[[^\]]*withheld[^\]]*\]/g, '').trim();
+    if (prose) {
+      lines.push(prose);
+      lines.push('');
+    }
+    for (const w of withheldMarks) {
+      lines.push(`!! ${w.charAt(0).toUpperCase()}${w.slice(1)}.`);
       lines.push('');
     }
     if (f.quote) {
@@ -51,19 +99,28 @@ function memoFor(contract: Contract, rows: { cs: Case; r: RunResult }[], text: s
       lines.push(`*Contract text, ${locate(f.overrideQuote, text)}.*`);
       lines.push('');
     }
-    if (f.characterization === 'NOT_FOUND' || /withheld/.test(f.note)) {
-      undetermined.push(cs.clauseType);
-    }
+    if (f.characterization === 'NOT_FOUND') notFound.push(cs.clauseType);
+    if (withheldMarks.length > 0) withheld.push(cs.clauseType);
   }
 
-  if (undetermined.length > 0) {
+  if (notFound.length > 0 || withheld.length > 0) {
     lines.push('### Requires a reader');
     lines.push('');
-    lines.push(
-      `No finding is recorded for ${undetermined.join(', ')}. That means the review did not ` +
-        `locate the clause, not that the contract is silent on the point. These should be read by hand.`,
-    );
-    lines.push('');
+    if (notFound.length > 0) {
+      lines.push(
+        `**No clause located:** ${notFound.join(', ')}. The review did not find this clause, ` +
+          `which is not the same as the contract being silent on the point.`,
+      );
+      lines.push('');
+    }
+    if (withheld.length > 0) {
+      lines.push(
+        `**Citation withheld:** ${withheld.join(', ')}. A passage was identified but could not be ` +
+          `matched to the contract word for word, so it has not been quoted. The finding stands; the ` +
+          `supporting text needs locating by hand.`,
+      );
+      lines.push('');
+    }
   }
 
   return lines.join('\n');
@@ -87,6 +144,9 @@ em { color: #857c70; font-size: .85rem; font-style: normal;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
 strong { font-weight: 600; }
 .lede { color: #5c554b; margin-bottom: 2.5rem; }
+.withheld { color: #8a4b3c; font-size: .9rem; padding-left: 1.1rem;
+  border-left: 2px solid #c9a99c;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
 .caveat { margin-top: 4rem; padding: 1.1rem 1.3rem; background: #f2efe9;
   border-left: 3px solid #b8a888; font-size: .9rem; color: #4a443c; }
 @media print { body { background: #fff; } main { padding: 0; } }
@@ -103,6 +163,7 @@ function toHtml(title: string, md: string): string {
     .map((line) => {
       if (line.startsWith('### ')) return `<h3>${inline(line.slice(4))}</h3>`;
       if (line.startsWith('## ')) return `<h2>${inline(line.slice(3))}</h2>`;
+      if (line.startsWith('!! ')) return `<p class="withheld">${inline(line.slice(3))}</p>`;
       if (line.startsWith('> ')) return `<blockquote>${inline(line.slice(2))}</blockquote>`;
       if (line.trim() === '') return '';
       return `<p>${inline(line)}</p>`;
