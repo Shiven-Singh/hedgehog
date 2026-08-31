@@ -72,10 +72,13 @@ on localhost, show the summary chart, click into the Conformis agreement.
 > Two numbers moved.
 >
 > The baseline prints twenty one citations and three of them cannot be found in the contract.
-> Hedgehog prints twenty and all twenty can be found.
+> Hedgehog prints twenty, and all twenty can be found. Zero, in four separate runs.
 >
-> And the cost per question goes from eight thousand eight hundred tokens to three thousand
-> eight hundred and sixty eight. Two and a quarter times cheaper.
+> And the cost per question drops from eight thousand eight hundred tokens to somewhere
+> around three and a half thousand. Between two and a quarter and two and three quarter
+> times cheaper.
+>
+> Ranges rather than exact figures, and that is deliberate. I will come back to it.
 >
 > The honest version of the first number: the model does not misquote less. It goes wrong at
 > about the same rate either way. What changed is that the wrong ones are caught before they
@@ -104,22 +107,27 @@ on localhost, show the summary chart, click into the Conformis agreement.
 
 ## 3:55 to 4:45 — What I got wrong, and the lesson
 
-**On screen:** `CHANGELOG.md`, scrolled to the closing section.
+**On screen:** `CHANGELOG.md`, scrolled to the closing section, then the four variance rows.
 
 > Now the part I would rather not put on camera.
 >
 > An earlier version of this changelog said the repair loop fired six times and corrected
-> nothing, and that a sterner prompt cost eight points of accuracy. Both were false. The first
-> was a counting error. The second compared two runs whose prompts had been refactored in
-> between, so what the flag produced was no longer what I had measured.
+> nothing. It fires twice, and it recovers both of the citations that would otherwise have been
+> dropped. I nearly deleted the one component that was doing the job.
 >
-> I did not find either by reading the code. I found them by regenerating every experiment I
-> had already dismissed and noticing the numbers disagreed with what I had written down.
+> I found that by regenerating every experiment I had already dismissed, and noticing the
+> numbers disagreed with what I had written down.
 >
-> Evaluation results drift the moment the code underneath them changes. A changelog written
-> from memory quietly stops describing the repository. The only defence is to re-run the
-> experiments you are most confident about, and I nearly shipped this claiming a feature had
-> failed when it was the one component recovering real citations.
+> And then I ran the final configuration four more times. Characterisation came out at
+> sixty three per cent, sixty seven, sixty seven, and seventy one. Same inputs, same prompt,
+> same model. These models take no temperature parameter, so nothing can be pinned, and every
+> single-run accuracy figure I had quoted all day was noise wearing a decimal point.
+>
+> One number did not move. Unlocatable citations printed: zero, zero, zero and zero. Because
+> that one is decided by a string comparison and not by the model.
+>
+> So: if you want a number you can put in front of somebody, measure something a machine can
+> check, and run it more than once.
 
 ---
 
@@ -145,5 +153,7 @@ on localhost, show the summary chart, click into the Conformis agreement.
 - Start the front end before recording: `cd web && npm run dev`. Have it sitting on the
   summary page before you switch to the browser.
 - Keep the terminal font large. Judges watch these in a small window.
-- The figures to land clearly: three of twenty one down to zero of twenty, and 8,800 down
-  to 3,868. Everything else can wash over.
+- The figures to land clearly: three of twenty one down to zero, and 8,800 down to about
+  3,500. Everything else can wash over.
+- Do not quote a single accuracy figure anywhere. It moves between 63 and 71 per cent across
+  identical runs and quoting one of them would be the exact mistake the video is about.
